@@ -1,5 +1,6 @@
-import { Monitor, Globe, Network, ShieldCheck, CheckCircle2, type LucideProps } from "lucide-react";
+import { Monitor, Globe, Network, ShieldCheck, CheckCircle2, ArrowRight, type LucideProps } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import { Reveal } from "@/components/ui/Reveal";
 import { SERVICES } from "@/lib/constants/services";
 
@@ -15,7 +16,7 @@ export function ServicesGrid() {
     <section className="bg-white py-24">
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex flex-col gap-24">
-          {SERVICES.map(({ id, title, description, features, icon, image }, i) => {
+          {SERVICES.map(({ id, title, description, features, icon, image, href }, i) => {
             const Icon = ICON_MAP[icon] ?? Monitor;
             const isEven = i % 2 === 0;
 
@@ -64,6 +65,13 @@ export function ServicesGrid() {
                         </li>
                       ))}
                     </ul>
+                    <Link
+                      href={href}
+                      className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-blue hover:text-blue-bright transition-colors"
+                    >
+                      Ver mas detalles
+                      <ArrowRight size={16} />
+                    </Link>
                   </div>
                 </div>
               </Reveal>

@@ -11,6 +11,28 @@ export interface Service {
   icon: string;
   href: string;
   image?: string;
+  heroImage?: string;
+  longDescription?: string;
+  benefits?: ServiceBenefit[];
+  technologies?: string[];
+  useCases?: ServiceUseCase[];
+  faq?: ServiceFAQ[];
+}
+
+export interface ServiceBenefit {
+  title: string;
+  description: string;
+  icon: string;
+}
+
+export interface ServiceUseCase {
+  title: string;
+  description: string;
+}
+
+export interface ServiceFAQ {
+  question: string;
+  answer: string;
 }
 
 export interface ValueBlock {
@@ -25,6 +47,13 @@ export interface TeamMember {
   bio: string;
 }
 
+export interface BlogSection {
+  heading?: string;
+  body: string;
+  image?: string;
+  imageAlt?: string;
+}
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -32,6 +61,9 @@ export interface BlogPost {
   date: string;
   category: string;
   coverImage: string;
+  content?: BlogSection[];
+  author?: string;
+  readTime?: string;
 }
 
 export interface ContactInfo {

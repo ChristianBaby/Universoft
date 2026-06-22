@@ -17,40 +17,50 @@ const spaceGrotesk = Space_Grotesk({
   weight: ["400", "500", "600", "700"],
 });
 
+const siteUrl = "https://universoftsystems.com";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
     default: "Universoft Systems | Desarrollo de Software a Medida",
     template: "%s | Universoft Systems",
   },
   description:
-    "Desarrollamos software a medida, plataformas virtuales, sitios informativos, telecomunicaciones y ciberseguridad para empresas en Perú.",
+    "Desarrollamos software a medida, plataformas virtuales, sitios informativos, telecomunicaciones y ciberseguridad para empresas en Peru.",
   keywords: [
     "desarrollo de software",
+    "software a medida",
     "plataformas virtuales",
+    "paginas web",
     "ciberseguridad",
     "telecomunicaciones",
     "Cusco",
-    "Perú",
+    "Peru",
+    "Universoft Systems",
   ],
   authors: [{ name: "Universoft Systems" }],
   creator: "Universoft Systems",
   openGraph: {
     type: "website",
     locale: "es_PE",
+    url: siteUrl,
     siteName: "Universoft Systems",
     title: "Universoft Systems | Desarrollo de Software a Medida",
     description:
-      "Soluciones tecnológicas confiables para empresas: plataformas, web, telecomunicaciones y ciberseguridad.",
+      "Soluciones tecnologicas confiables para empresas: plataformas, web, telecomunicaciones y ciberseguridad.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Universoft Systems | Desarrollo de Software a Medida",
     description:
-      "Soluciones tecnológicas confiables para empresas: plataformas, web, telecomunicaciones y ciberseguridad.",
+      "Soluciones tecnologicas confiables para empresas: plataformas, web, telecomunicaciones y ciberseguridad.",
   },
   robots: {
     index: true,
     follow: true,
+  },
+  alternates: {
+    canonical: siteUrl,
   },
 };
 

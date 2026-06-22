@@ -6,7 +6,10 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "images.unsplash.com" },
       { protocol: "https", hostname: "images.pexels.com" },
     ],
+    formats: ["image/avif", "image/webp"],
   },
+  poweredByHeader: false,
+  reactStrictMode: true,
 };
 
 export default nextConfig;

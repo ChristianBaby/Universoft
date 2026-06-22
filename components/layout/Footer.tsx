@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
+import { Phone, Mail, MapPin, MessageCircle, ArrowRight } from "lucide-react";
 import { NAV_LINKS } from "@/lib/constants/navigation";
 import { CONTACT } from "@/lib/constants/contact";
 
@@ -34,41 +34,84 @@ export function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="relative bg-gradient-to-b from-navy to-navy-900 text-white">
-      {/* Top gradient line */}
-      <div className="h-px bg-gradient-to-r from-transparent via-blue/20 to-transparent" />
+    <footer className="relative overflow-hidden bg-gradient-to-b from-[#08152f] via-[#0a1a3c] to-[#060e1f] text-white">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(37,99,235,0.08),transparent_22%)]" />
+      <div className="absolute -left-10 top-24 h-40 w-40 rounded-full bg-blue/10 blur-3xl" />
+      <div className="absolute -right-10 top-0 h-48 w-48 rounded-full bg-blue-bright/5 blur-3xl" />
 
-      <div className="mx-auto max-w-7xl px-6 py-16">
-        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
+      <div className="relative mx-auto max-w-7xl px-6 pb-16 pt-20">
+        <div className="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-2xl shadow-black/10 backdrop-blur-xl sm:p-8">
+          <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
+            <div>
+              <p className="text-sm font-medium uppercase tracking-[0.3em] text-blue-bright/80">
+                ¿Listo para crecer?
+              </p>
+              <h3 className="mt-2 text-2xl font-semibold text-white sm:text-3xl">
+                Hablemos sobre tu próximo proyecto
+              </h3>
+            </div>
+            <div className="flex flex-col gap-3 sm:flex-row">
+              <a
+                href={CONTACT.whatsapp}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-blue px-5 py-3 text-sm font-semibold text-white transition-all hover:bg-blue-bright"
+              >
+                Escríbenos por WhatsApp
+                <MessageCircle size={16} />
+              </a>
+              <Link
+                href="/contacto"
+                className="inline-flex items-center justify-center gap-2 rounded-full border border-white/10 bg-white/5 px-5 py-3 text-sm font-semibold text-white/90 transition-all hover:bg-white/10"
+              >
+                Solicita una cotización
+                <ArrowRight size={16} />
+              </Link>
+            </div>
+          </div>
+        </div>
 
-          {/* Brand */}
-          <div className="flex flex-col gap-4">
+        <div className="mt-12 grid gap-10 md:grid-cols-2 lg:grid-cols-5">
+          <div className="flex flex-col gap-4 lg:col-span-2">
             <Link href="/">
               <Image
-                src="/images/logo-color.png"
+                src="/images/isotipo-transparent.png"
                 alt="Universoft Systems"
-                width={220}
-                height={60}
-                className="h-[60px] w-auto brightness-0 invert"
+                width={200}
+                height={56}
+                className="h-14 w-auto brightness-0 invert"
               />
             </Link>
-            <p className="text-sm leading-relaxed text-white/50">
+            <p className="max-w-md text-sm leading-6 text-white/65">
               Desarrollamos software a medida, plataformas virtuales y soluciones
-              tecnologicas para impulsar tu empresa.
+              tecnológicas para impulsar tu empresa.
             </p>
+            <div className="flex gap-3">
+              {Object.entries(CONTACT.social).map(([name, href]) => (
+                <a
+                  key={name}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-white/65 transition-all hover:border-blue/40 hover:bg-blue/10 hover:text-white"
+                  aria-label={name}
+                >
+                  <SocialIcon name={name} />
+                </a>
+              ))}
+            </div>
           </div>
 
-          {/* Navigation */}
           <div>
-            <h3 className="font-display mb-4 text-sm font-semibold uppercase tracking-widest text-white/40">
-              Navegacion
+            <h3 className="font-display mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-white/35">
+              Navegación
             </h3>
-            <ul className="flex flex-col gap-2">
+            <ul className="flex flex-col gap-3">
               {NAV_LINKS.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-white/60 transition-colors hover:text-white"
+                    className="text-sm text-white/65 transition-colors hover:text-white"
                   >
                     {link.label}
                   </Link>
@@ -77,7 +120,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/contacto"
-                  className="text-sm text-white/60 transition-colors hover:text-white"
+                  className="text-sm text-white/65 transition-colors hover:text-white"
                 >
                   Contacto
                 </Link>
@@ -85,9 +128,36 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
           <div>
-            <h3 className="font-display mb-4 text-sm font-semibold uppercase tracking-widest text-white/40">
+            <h3 className="font-display mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-white/35">
+              Servicios
+            </h3>
+            <ul className="flex flex-col gap-3">
+              <li>
+                <Link href="/servicios" className="text-sm text-white/65 transition-colors hover:text-white">
+                  Plataformas virtuales
+                </Link>
+              </li>
+              <li>
+                <Link href="/servicios" className="text-sm text-white/65 transition-colors hover:text-white">
+                  Páginas web informativas
+                </Link>
+              </li>
+              <li>
+                <Link href="/servicios" className="text-sm text-white/65 transition-colors hover:text-white">
+                  Telecomunicaciones
+                </Link>
+              </li>
+              <li>
+                <Link href="/servicios" className="text-sm text-white/65 transition-colors hover:text-white">
+                  Ciberseguridad
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-display mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-white/35">
               Contacto
             </h3>
             <ul className="flex flex-col gap-3">
@@ -96,7 +166,7 @@ export function Footer() {
                   href={CONTACT.whatsapp}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-sm text-white/60 transition-colors hover:text-white"
+                  className="flex items-center gap-2 text-sm text-white/65 transition-colors hover:text-white"
                 >
                   <MessageCircle size={15} />
                   {CONTACT.phone}
@@ -105,7 +175,7 @@ export function Footer() {
               <li>
                 <a
                   href={`tel:${CONTACT.phone}`}
-                  className="flex items-center gap-2 text-sm text-white/60 transition-colors hover:text-white"
+                  className="flex items-center gap-2 text-sm text-white/65 transition-colors hover:text-white"
                 >
                   <Phone size={15} />
                   {CONTACT.phone}
@@ -114,7 +184,7 @@ export function Footer() {
               <li>
                 <a
                   href={`mailto:${CONTACT.email}`}
-                  className="flex items-center gap-2 text-sm text-white/60 transition-colors hover:text-white"
+                  className="flex items-center gap-2 text-sm text-white/65 transition-colors hover:text-white"
                 >
                   <Mail size={15} />
                   {CONTACT.email}
@@ -126,32 +196,11 @@ export function Footer() {
               </li>
             </ul>
           </div>
-
-          {/* Social */}
-          <div>
-            <h3 className="font-display mb-4 text-sm font-semibold uppercase tracking-widest text-white/40">
-              Redes sociales
-            </h3>
-            <div className="flex gap-3">
-              {Object.entries(CONTACT.social).map(([name, href]) => (
-                <a
-                  key={name}
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 text-white/50 transition-all hover:border-blue/40 hover:text-white hover:shadow-[0_0_15px_rgba(37,99,235,0.2)]"
-                  aria-label={name}
-                >
-                  <SocialIcon name={name} />
-                </a>
-              ))}
-            </div>
-          </div>
         </div>
 
-        {/* Bottom bar */}
-        <div className="mt-12 border-t border-white/5 pt-8 text-center text-xs text-white/30">
-          © {year} Universoft Systems. Todos los derechos reservados.
+        <div className="mt-10 flex flex-col gap-3 border-t border-white/5 pt-6 text-sm text-white/35 sm:flex-row sm:items-center sm:justify-between">
+          <p>© {year} Universoft Systems. Todos los derechos reservados.</p>
+          <p>Hecho para impulsar negocios con tecnología.</p>
         </div>
       </div>
     </footer>

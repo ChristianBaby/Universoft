@@ -47,6 +47,18 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
+@keyframes twinkle {
+  0%, 100% { opacity: 0.2; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+@keyframes comet-fly {
+  0% { transform: translateX(0); opacity: 0; }
+  2% { opacity: 1; }
+  70% { opacity: 0.8; }
+  100% { transform: translateX(130vw); opacity: 0; }
+}
+
 /* ─── Utility classes ────────────────────────────────────────────────────────── */
 .glass {
   backdrop-filter: blur(24px);
