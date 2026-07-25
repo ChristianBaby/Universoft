@@ -46,9 +46,9 @@ function Starfield() {
     return () => window.removeEventListener("mousemove", handler);
   }, [mouseX, mouseY]);
 
-  const layer1 = useMemo(() => generateStars(250, 42), []);
-  const layer2 = useMemo(() => generateStars(150, 137), []);
-  const layer3 = useMemo(() => generateStars(80, 313), []);
+  const layer1 = useMemo(() => generateStars(90, 42), []);
+  const layer2 = useMemo(() => generateStars(55, 137), []);
+  const layer3 = useMemo(() => generateStars(30, 313), []);
 
   const layer3X = useTransform(mouseX, [-1, 1], [-50, 50]);
   const layer3Y = useTransform(mouseY, [-1, 1], [-50, 50]);
@@ -304,14 +304,21 @@ export function Hero() {
       {/* Comets */}
       <Comets />
 
-      {/* Solar system — desktop (bigger container) */}
+      {/* Solar system — solo desktop, se omite en mobile por rendimiento */}
       <div className="pointer-events-none absolute right-[-2%] top-1/2 -translate-y-1/2 hidden lg:block w-[780px] h-[780px]">
         <SolarSystem />
       </div>
 
-      {/* Solar system — mobile */}
-      <div className="pointer-events-none absolute right-[-15%] top-[10%] lg:hidden w-[380px] h-[380px] opacity-35">
-        <SolarSystem />
+      {/* Isotipo simple — mobile (sin orbitas ni blur pesado) */}
+      <div className="pointer-events-none absolute right-[-8%] top-[8%] lg:hidden opacity-40">
+        <Image
+          src="/images/isotipo-transparent.png"
+          alt=""
+          width={140}
+          height={124}
+          className="select-none"
+          draggable={false}
+        />
       </div>
 
       {/* Content */}
