@@ -6,6 +6,7 @@ interface SectionHeaderProps {
   description?: string;
   centered?: boolean;
   light?: boolean;
+  as?: "h1" | "h2";
 }
 
 export function SectionHeader({
@@ -14,6 +15,7 @@ export function SectionHeader({
   description,
   centered = true,
   light = false,
+  as: Heading = "h2",
 }: SectionHeaderProps) {
   const align = centered ? "text-center items-center" : "text-left items-start";
   const textColor = light ? "text-white" : "text-navy";
@@ -30,9 +32,9 @@ export function SectionHeader({
           <div className="h-0.5 w-10 rounded-full bg-gradient-to-r from-blue to-blue-bright" />
         </div>
       )}
-      <h2 className={`font-display text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl ${textColor}`}>
+      <Heading className={`font-display text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl ${textColor}`}>
         {title}
-      </h2>
+      </Heading>
       {description && (
         <p className={`max-w-2xl text-base leading-relaxed lg:text-lg ${descColor}`}>
           {description}

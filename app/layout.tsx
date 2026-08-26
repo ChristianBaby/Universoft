@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { organizationJsonLd } from "@/lib/seo/structuredData";
+import { SITE_URL } from "@/lib/constants/site";
 import "./globals.css";
 
 const inter = Inter({
@@ -17,10 +20,8 @@ const spaceGrotesk = Space_Grotesk({
   weight: ["400", "500", "600", "700"],
 });
 
-const siteUrl = "https://universoftsystems.com";
-
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "Universoft Systems | Desarrollo de Software a Medida",
     template: "%s | Universoft Systems",
@@ -43,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "es_PE",
-    url: siteUrl,
+    url: SITE_URL,
     siteName: "Universoft Systems",
     title: "Universoft Systems | Desarrollo de Software a Medida",
     description:
@@ -60,7 +61,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: siteUrl,
+    canonical: SITE_URL,
   },
 };
 
@@ -70,6 +71,7 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${inter.variable} ${spaceGrotesk.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col">
+        <JsonLd data={organizationJsonLd()} />
         <Navbar />
         {children}
         <Footer />

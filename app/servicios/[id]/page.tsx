@@ -16,6 +16,9 @@ import { Button } from "@/components/ui/Button";
 import { BackgroundOrbitals } from "@/components/ui/BackgroundOrbitals";
 import { GradientBlob } from "@/components/ui/GradientBlob";
 import { CtaFinal } from "@/components/sections/home/CtaFinal";
+import { SITE_URL } from "@/lib/constants/site";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { faqPageJsonLd, breadcrumbJsonLd } from "@/lib/seo/structuredData";
 
 const iconMap: Record<string, React.ComponentType<LucideProps>> = {
   Monitor, Globe, Network, ShieldCheck,
@@ -37,9 +40,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id } = await params;
   const service = SERVICES.find((s) => s.id === id);
   if (!service) return {};
+
+  const description = service.longDescription ?? service.description;
+  const canonical = `${SITE_URL}${service.href}`;
+
   return {
     title: service.title,
-    description: service.longDescription ?? service.description,
+    description,
+    alternates: {
+      canonical,
+    },
+    openGraph: {
+      title: service.title,
+      description,
+      url: canonical,
+      ...(service.heroImage ? { images: [service.heroImage] } : {}),
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: service.title,
+      description,
+      ...(service.heroImage ? { images: [service.heroImage] } : {}),
+    },
   };
 }
 
@@ -53,6 +75,17 @@ export default async function ServiceDetailPage({ params }: Props) {
 
   return (
     <main className="pt-16">
+      {service.faq && service.faq.length > 0 && (
+        <JsonLd data={faqPageJsonLd(service.faq)} />
+      )}
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: "Inicio", url: SITE_URL },
+          { name: "Servicios", url: `${SITE_URL}/servicios` },
+          { name: service.title, url: `${SITE_URL}${service.href}` },
+        ])}
+      />
+
       {/* Hero */}
       <section className="relative overflow-hidden bg-navy py-24 lg:py-32">
         <BackgroundOrbitals variant="dark" />

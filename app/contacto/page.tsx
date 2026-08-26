@@ -5,11 +5,15 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 import { CONTACT } from "@/lib/constants/contact";
 import { BackgroundOrbitals } from "@/components/ui/BackgroundOrbitals";
 import { GradientBlob } from "@/components/ui/GradientBlob";
+import { SITE_URL } from "@/lib/constants/site";
 
 export const metadata: Metadata = {
   title: "Contacto",
   description:
     "Cuentanos tu proyecto y te enviaremos una propuesta personalizada sin compromiso.",
+  alternates: {
+    canonical: `${SITE_URL}/contacto`,
+  },
 };
 
 export default function ContactoPage() {
@@ -21,6 +25,7 @@ export default function ContactoPage() {
         <GradientBlob color="blue" size="md" className="-bottom-20 -right-20 opacity-30" />
         <div className="relative z-10 mx-auto max-w-7xl px-6">
           <SectionHeader
+            as="h1"
             label="Contacto"
             title="Cuentanos tu proyecto"
             description="Te enviaremos una propuesta a tu medida, sin compromiso. Respondemos en menos de 24 horas."

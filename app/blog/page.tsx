@@ -6,11 +6,15 @@ import Link from "next/link";
 import { BLOG_POSTS } from "@/lib/constants/blog";
 import { BackgroundOrbitals } from "@/components/ui/BackgroundOrbitals";
 import { GradientBlob } from "@/components/ui/GradientBlob";
+import { SITE_URL } from "@/lib/constants/site";
 
 export const metadata: Metadata = {
   title: "Blog",
   description:
     "Articulos sobre desarrollo de software, ciberseguridad, telecomunicaciones y tendencias tecnologicas.",
+  alternates: {
+    canonical: `${SITE_URL}/blog`,
+  },
 };
 
 export default function BlogPage() {
@@ -22,6 +26,7 @@ export default function BlogPage() {
         <GradientBlob color="blue" size="md" className="-top-20 -left-20 opacity-25" />
         <div className="relative z-10 mx-auto max-w-7xl px-6">
           <SectionHeader
+            as="h1"
             label="Blog"
             title="Ideas y conocimiento para tu empresa"
             description="Articulos sobre tecnologia, software y buenas practicas para ayudarte a tomar mejores decisiones."

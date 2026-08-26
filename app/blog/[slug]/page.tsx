@@ -4,6 +4,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowLeft, Clock, User } from "lucide-react";
 import { BLOG_POSTS } from "@/lib/constants/blog";
+import { SITE_URL } from "@/lib/constants/site";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { articleJsonLd, breadcrumbJsonLd } from "@/lib/seo/structuredData";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -17,9 +20,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const post = BLOG_POSTS.find((p) => p.slug === slug);
   if (!post) return {};
+
+  const canonical = `${SITE_URL}/blog/${post.slug}`;
+
   return {
     title: post.title,
     description: post.excerpt,
+    alternates: {
+      canonical,
+    },
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      url: canonical,
+      type: "article",
+      images: [post.coverImage],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.excerpt,
+      images: [post.coverImage],
+    },
   };
 }
 
@@ -29,8 +51,18 @@ export default async function BlogPostPage({ params }: Props) {
 
   if (!post) notFound();
 
+  const canonical = `${SITE_URL}/blog/${post.slug}`;
+
   return (
     <main className="pt-24">
+      <JsonLd data={articleJsonLd(post, canonical)} />
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: "Inicio", url: SITE_URL },
+          { name: "Blog", url: `${SITE_URL}/blog` },
+          { name: post.title, url: canonical },
+        ])}
+      />
       <article className="mx-auto max-w-3xl px-6 py-16">
         <Link
           href="/blog"

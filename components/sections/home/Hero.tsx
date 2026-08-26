@@ -298,11 +298,11 @@ export function Hero() {
       {/* Vignette */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_40%,rgba(0,0,0,0.35)_100%)]" />
 
-      {/* Starfield with parallax */}
-      <Starfield />
-
-      {/* Comets */}
-      <Comets />
+      {/* Starfield y comets — solo desktop, se omiten en mobile por rendimiento */}
+      <div className="hidden lg:block">
+        <Starfield />
+        <Comets />
+      </div>
 
       {/* Solar system — solo desktop, se omite en mobile por rendimiento */}
       <div className="pointer-events-none absolute right-[-2%] top-1/2 -translate-y-1/2 hidden lg:block w-[780px] h-[780px]">
