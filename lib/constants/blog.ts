@@ -8,8 +8,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Digitalizar tus procesos ya no es una opción, es una necesidad. Descubre cómo una plataforma virtual puede transformar la eficiencia de tu negocio.",
     date: "15 de mayo, 2025",
     category: "Plataformas",
-    coverImage:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop&q=80",
+    coverImage: "/images/stock/plataformas-virtuales.jpg",
     author: "Universoft Systems",
     readTime: "8 min de lectura",
     content: [
@@ -20,9 +19,8 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: "Beneficios concretos de una plataforma virtual",
         body: "Una plataforma virtual bien implementada transforma la manera en que tu empresa opera dia a dia. Estos son los beneficios mas importantes:\n\n**Eficiencia operativa:** La automatizacion de tareas rutinarias como facturacion, gestion de inventarios y seguimiento de pedidos libera tiempo valioso para que tu equipo se enfoque en actividades estrategicas. Lo que antes tomaba horas de trabajo manual ahora se resuelve en segundos.\n\n**Mejor toma de decisiones:** Con datos centralizados en tiempo real, puedes identificar tendencias, detectar problemas antes de que escalen y tomar decisiones informadas. Ya no dependes de reportes desactualizados o de la intuicion.\n\n**Reduccion de costos:** Menos papel, menos errores humanos, menos tiempo perdido en procesos ineficientes. Una plataforma digital reduce gastos operativos de forma sostenida, generando un retorno de inversion visible en los primeros meses.\n\n**Acceso remoto:** Tu equipo puede trabajar desde cualquier lugar con conexion a internet, accediendo a los mismos datos y herramientas que tendrian en la oficina.",
-        image:
-          "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=450&fit=crop&q=80",
-        imageAlt: "Equipo de trabajo colaborando con herramientas digitales",
+        image: "/images/stock/trabajo-colaborativo.jpg",
+        imageAlt: "Vista aerea de un escritorio compartido con varias laptops y telefonos, equipo trabajando con herramientas digitales",
       },
       {
         heading: "Tipos de plataformas para cada necesidad",
@@ -31,9 +29,8 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: "Impacto real en las empresas",
         body: "Los numeros hablan por si solos. Empresas que han implementado plataformas virtuales reportan resultados significativos:\n\nLas organizaciones que digitalizan sus procesos de atencion al cliente reducen los tiempos de respuesta en un 60% en promedio. Los sistemas de gestion de inventario automatizados disminuyen los errores de stock hasta en un 40%. Las plataformas de colaboracion interna mejoran la productividad de los equipos remotos en un 35%.\n\nEn el contexto peruano, las PYMES que adoptan herramientas digitales tienen el doble de probabilidades de expandir su mercado a nivel nacional e internacional. La digitalizacion no solo optimiza lo que ya haces: abre puertas a oportunidades que antes eran inaccesibles.",
-        image:
-          "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=450&fit=crop&q=80",
-        imageAlt: "Transformacion digital en empresas",
+        image: "/images/stock/transformacion-digital.jpg",
+        imageAlt: "Dos personas señalando y revisando datos en la pantalla de una laptop",
       },
       {
         heading: "Como elegir la plataforma adecuada",
@@ -52,8 +49,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Un sitio web desactualizado puede ahuyentar clientes potenciales. Aprende a identificar cuándo es momento de renovar tu presencia digital.",
     date: "3 de abril, 2025",
     category: "Web",
-    coverImage:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop&q=80",
+    coverImage: "/images/stock/paginas-web.jpg",
     author: "Universoft Systems",
     readTime: "6 min de lectura",
     content: [
@@ -64,9 +60,8 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: "1. Tu web tarda mas de 3 segundos en cargar",
         body: "La velocidad de carga es uno de los factores mas criticos para la experiencia del usuario y el SEO. Los datos son contundentes: el 53% de los visitantes moviles abandonan un sitio que tarda mas de 3 segundos en cargar. Google penaliza activamente los sitios lentos en sus resultados de busqueda.\n\nLas causas mas comunes de lentitud incluyen imagenes sin optimizar, codigo obsoleto, plugins innecesarios y un hosting de baja calidad. Herramientas como Google PageSpeed Insights o GTmetrix te permiten medir la velocidad de tu sitio y diagnosticar los problemas especificos.\n\nSi tu web obtiene una puntuacion inferior a 50 en PageSpeed, es una senal clara de que necesita atencion urgente.",
-        image:
-          "https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&h=450&fit=crop&q=80",
-        imageAlt: "Diseno web responsive en multiples dispositivos",
+        image: "/images/stock/diseno-responsive.jpg",
+        imageAlt: "Un mismo sitio web visualizado en monitor, tablet y smartphone, ejemplo de diseno web responsive",
       },
       {
         heading: "2. No se adapta a dispositivos moviles",
@@ -79,9 +74,8 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: "4. Alta tasa de rebote y baja conversion",
         body: "Si los visitantes llegan a tu sitio y se van rapidamente sin interactuar, tu tasa de rebote es alta. Esto indica que tu web no esta cumpliendo con las expectativas de los usuarios.\n\nUna tasa de rebote superior al 70% en paginas principales es una senal de alerta. Las causas tipicas incluyen contenido que no coincide con lo que el usuario buscaba, falta de llamadas a la accion claras, formularios demasiado largos o complicados, informacion desactualizada o incompleta y un embudo de conversion mal disenado.\n\nAnalizar estos datos con herramientas como Google Analytics te permite identificar exactamente donde pierdes visitantes y que paginas necesitan mejoras urgentes.",
-        image:
-          "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=450&fit=crop&q=80",
-        imageAlt: "Analisis y desarrollo web profesional",
+        image: "/images/stock/analisis-desarrollo-web.jpg",
+        imageAlt: "Laptop con codigo de un sitio web junto a un monitor mostrando la vista previa de la pagina",
       },
       {
         heading: "5. Problemas de seguridad y SEO deficiente",
@@ -100,8 +94,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Proteger la información de tu empresa no requiere ser experto en tecnología. Conoce las medidas básicas que toda organización debería implementar.",
     date: "20 de marzo, 2025",
     category: "Ciberseguridad",
-    coverImage:
-      "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=500&fit=crop&q=80",
+    coverImage: "/images/stock/ciberseguridad.jpg",
     author: "Universoft Systems",
     readTime: "9 min de lectura",
     content: [
@@ -112,9 +105,8 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: "Control de acceso: quien ve que informacion",
         body: "El primer pilar de la ciberseguridad es controlar quien tiene acceso a que informacion. No todos los empleados necesitan acceder a todos los datos de la empresa.\n\nImplementa el principio de minimo privilegio: cada persona solo debe tener acceso a la informacion que necesita para realizar su trabajo. Esto limita el dano potencial si una cuenta es comprometida.\n\nAcciones concretas que debes tomar: clasifica tu informacion por nivel de sensibilidad, asigna permisos de acceso por roles y no por personas individuales, revisa y actualiza los permisos periodicamente, revoca inmediatamente el acceso de empleados que dejan la empresa y registra quien accede a datos criticos para poder auditar en caso de incidentes.",
-        image:
-          "https://images.unsplash.com/photo-1563986768609-322da13575f2?w=800&h=450&fit=crop&q=80",
-        imageAlt: "Concepto de ciberseguridad y proteccion de datos",
+        image: "/images/stock/proteccion-datos.jpg",
+        imageAlt: "Candado de seguridad sobre el teclado de una laptop, simbolo de control de acceso y proteccion de datos",
       },
       {
         heading: "Contrasenas robustas y autenticacion multifactor",
@@ -127,9 +119,8 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: "Seguridad del correo electronico",
         body: "El correo electronico es el vector de ataque mas utilizado por los ciberdelincuentes. El 90% de los ataques exitosos comienzan con un email de phishing: un mensaje que aparenta ser legitimo pero contiene enlaces maliciosos o archivos infectados.\n\nMedidas esenciales para proteger tu correo corporativo: implementa filtros antispam y antimalware robustos; configura protocolos de autenticacion (SPF, DKIM, DMARC) para evitar que suplanten tu dominio; cifra los correos que contengan informacion confidencial; y establece politicas claras sobre que tipo de archivos adjuntos se pueden abrir.\n\nEnsena a tu equipo a identificar correos sospechosos: remitentes desconocidos, errores ortograficos, urgencia injustificada y enlaces que no coinciden con el dominio visible son senales de alerta clasicas.",
-        image:
-          "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=450&fit=crop&q=80",
-        imageAlt: "Equipo de trabajo implementando medidas de seguridad",
+        image: "/images/stock/equipo-seguridad.jpg",
+        imageAlt: "Dos colaboradores revisando informacion en sus laptops en una oficina",
       },
       {
         heading: "Capacitacion: el factor humano es clave",
@@ -148,8 +139,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "¿Comprar un software estándar o desarrollar uno propio? Te explicamos los pros y contras de cada opción para que tomes la mejor decisión.",
     date: "8 de febrero, 2025",
     category: "Software",
-    coverImage:
-      "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=500&fit=crop&q=80",
+    coverImage: "/images/stock/software-medida.jpg",
     author: "Universoft Systems",
     readTime: "7 min de lectura",
     content: [
@@ -160,9 +150,8 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: "Que es el software a medida",
         body: "El software a medida es una solucion diseñada y construida especificamente para las necesidades de una empresa. Se adapta a tus procesos tal como son, en lugar de obligarte a modificar tu forma de trabajar para encajar en una herramienta predefinida.\n\nEl proceso tipico incluye un analisis detallado de tus necesidades y flujos de trabajo, diseno de la arquitectura y la interfaz adaptada a tu equipo, desarrollo iterativo con retroalimentacion constante, pruebas exhaustivas con tus datos reales, despliegue y capacitacion personalizada, asi como soporte y evolucion continua.\n\nEl resultado es una herramienta que funciona exactamente como tu empresa necesita, con la flexibilidad de crecer y adaptarse a medida que tu negocio evoluciona.",
-        image:
-          "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=450&fit=crop&q=80",
-        imageAlt: "Equipo de desarrollo de software trabajando",
+        image: "/images/stock/desarrollo-software.jpg",
+        imageAlt: "Desarrollador programando en su laptop en una oficina, con otro programador al fondo",
       },
       {
         heading: "Que son las soluciones genericas",
@@ -171,9 +160,8 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: "Comparacion directa: ventajas y desventajas",
         body: "**Software a medida — Ventajas:**\nSe adapta exactamente a tus procesos sin forzar cambios en tu operacion. Ofrece escalabilidad total, ya que crece contigo sin limites impuestos por un proveedor. Proporciona integracion fluida con todos tus sistemas existentes. Genera ventaja competitiva porque tu herramienta refleja tu forma unica de operar. Los estudios demuestran un retorno de inversion aproximadamente 25% superior a largo plazo.\n\n**Software a medida — Desventajas:**\nRequiere una mayor inversion inicial de tiempo y presupuesto. El ciclo de desarrollo puede tomar semanas o meses segun la complejidad. Necesitas un proveedor confiable para mantenimiento y actualizaciones.\n\n**Soluciones genericas — Ventajas:**\nCosto inicial mas bajo y accesible. Implementacion rapida, en dias o semanas. Actualizaciones y soporte incluidos en la licencia. Amplia comunidad de usuarios y documentacion.\n\n**Soluciones genericas — Desventajas:**\nFuncionalidades limitadas a lo que el fabricante ofrece. Puede obligarte a cambiar tus procesos internos. La evolucion del software depende de decisiones comerciales del proveedor, no de tus necesidades. Costos de licencia recurrentes que se acumulan con el tiempo.",
-        image:
-          "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=450&fit=crop&q=80",
-        imageAlt: "Programacion y desarrollo de software",
+        image: "/images/stock/programacion.jpg",
+        imageAlt: "Primer plano de codigo de programacion en la pantalla de una computadora",
       },
       {
         heading: "Cuando elegir cada opcion",

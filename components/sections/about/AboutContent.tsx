@@ -44,8 +44,8 @@ export function AboutContent() {
             <Reveal delay={0.2} direction="right">
               <div className="relative overflow-hidden rounded-3xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop&q=80"
-                  alt="Equipo de trabajo tecnologico"
+                  src="/images/stock/equipo-tecnologico.jpg"
+                  alt="Equipo de profesionales de tecnologia trabajando en laptops alrededor de una mesa"
                   width={800}
                   height={600}
                   className="rounded-3xl object-cover"

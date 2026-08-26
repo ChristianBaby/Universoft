@@ -15,8 +15,8 @@ export const SERVICES: Service[] = [
     ],
     icon: "Monitor",
     href: "/servicios/plataformas",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop&q=80",
-    heroImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=600&fit=crop&q=80",
+    image: "/images/stock/plataformas-virtuales.jpg",
+    heroImage: "/images/stock/plataformas-virtuales.jpg",
     longDescription:
       "Diseñamos y desarrollamos plataformas digitales a medida que centralizan la operación de tu empresa en un solo lugar. Desde portales de clientes y sistemas ERP hasta marketplaces e intranets corporativas, creamos soluciones que automatizan tareas, mejoran la colaboración entre equipos y te permiten tomar decisiones basadas en datos en tiempo real. Nuestras plataformas se integran con pasarelas de pago, APIs de terceros y servicios en la nube para ofrecer una experiencia completa y escalable.",
     benefits: [
@@ -104,8 +104,8 @@ export const SERVICES: Service[] = [
     ],
     icon: "Globe",
     href: "/servicios/web",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop&q=80",
-    heroImage: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=600&fit=crop&q=80",
+    image: "/images/stock/paginas-web.jpg",
+    heroImage: "/images/stock/paginas-web.jpg",
     longDescription:
       "Tu sitio web es la cara digital de tu empresa y en muchos casos la primera impresión que un cliente potencial tiene de tu negocio. Diseñamos y desarrollamos páginas web informativas que combinan un diseño visual moderno con rendimiento técnico de primer nivel. Cada sitio está optimizado para motores de búsqueda (SEO), cumple con las métricas Core Web Vitals de Google y se adapta perfectamente a cualquier dispositivo, desde un smartphone hasta una pantalla de escritorio.",
     benefits: [
@@ -192,8 +192,8 @@ export const SERVICES: Service[] = [
     ],
     icon: "Network",
     href: "/servicios/telecomunicaciones",
-    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop&q=80",
-    heroImage: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=600&fit=crop&q=80",
+    image: "/images/stock/telecomunicaciones.jpg",
+    heroImage: "/images/stock/telecomunicaciones.jpg",
     longDescription:
       "La conectividad es el sistema nervioso de cualquier empresa moderna. Diseñamos, implementamos y mantenemos soluciones de telecomunicaciones que garantizan una comunicación estable, rápida y segura para tu organización. Desde el cableado estructurado y la configuración de redes hasta sistemas de comunicación unificada y monitoreo de infraestructura, nos encargamos de que tu empresa esté siempre conectada sin interrupciones.",
     benefits: [
@@ -281,8 +281,8 @@ export const SERVICES: Service[] = [
     ],
     icon: "ShieldCheck",
     href: "/servicios/ciberseguridad",
-    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=400&fit=crop&q=80",
-    heroImage: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&h=600&fit=crop&q=80",
+    image: "/images/stock/ciberseguridad.jpg",
+    heroImage: "/images/stock/ciberseguridad.jpg",
     longDescription:
       "En un mundo donde los ciberataques son cada vez más sofisticados y frecuentes, proteger la información de tu empresa no es opcional, es una necesidad estratégica. Ofrecemos servicios integrales de ciberseguridad que van desde la prevención hasta la respuesta a incidentes: auditorías de vulnerabilidades, protección de datos, monitoreo continuo y capacitación a tu equipo. Nuestro enfoque va más allá de la defensa reactiva para construir verdadera resiliencia digital en tu organización.",
     benefits: [

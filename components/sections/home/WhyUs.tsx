@@ -77,7 +77,7 @@ export function WhyUs() {
     <section className="relative overflow-hidden bg-navy py-24">
       {/* Background image */}
       <Image
-        src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1920&h=1080&fit=crop&q=60"
+        src="/images/stock/equipo-tecnologico.jpg"
         alt=""
         fill
         className="object-cover opacity-10"
