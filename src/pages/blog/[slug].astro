@@ -1,0 +1,72 @@
+---
+import { render } from "astro:content";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Icon from "@/components/ui/Icon.astro";
+import { getPublishedPosts, formatDate } from "@/lib/blog";
+import { SITE_URL } from "@/lib/constants/site";
+import { articleJsonLd, breadcrumbJsonLd } from "@/lib/seo/structuredData";
+
+export async function getStaticPaths() {
+  const posts = await getPublishedPosts();
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+
+const url = `${SITE_URL}/blog/${post.id}`;
+const published = post.data.publishedAt.toISOString();
+const jsonLd = [
+  articleJsonLd({
+    url,
+    title: post.data.title,
+    description: post.data.description,
+    image: post.data.cover,
+    publishedAt: post.data.publishedAt,
+    updatedAt: post.data.updatedAt ?? post.data.publishedAt,
+    author: post.data.author,
+  }),
+  breadcrumbJsonLd([
+    { name: "Inicio", url: SITE_URL },
+    { name: "Blog", url: `${SITE_URL}/blog` },
+    { name: post.data.title, url },
+  ]),
+];
+---
+
+<BaseLayout
+  title={post.data.title}
+  description={post.data.description}
+  path={`/blog/${post.id}`}
+  image={post.data.cover}
+  type="article"
+  jsonLd={jsonLd}
+>
+  <main>
+    <article class="mx-auto max-w-3xl px-6 pb-16 pt-32">
+      <a href="/blog" class="mb-8 inline-flex items-center gap-2 text-sm font-medium text-navy/60 transition-colors hover:text-navy">
+        <Icon name="arrow-left" size={16} /> Volver al blog
+      </a>
+      <span class="inline-block rounded-full bg-blue/10 px-3 py-1 text-xs font-semibold text-blue">{post.data.category}</span>
+      <h1 class="font-display mt-4 text-3xl font-bold leading-tight text-navy sm:text-4xl lg:text-5xl">{post.data.title}</h1>
+      <div class="mt-3 flex flex-wrap items-center gap-4 text-sm text-navy/50">
+        <time datetime={published.slice(0, 10)}>{formatDate(post.data.publishedAt)}</time>
+        <span class="flex items-center gap-1.5"><Icon name="user" size={14} />{post.data.author}</span>
+        {post.data.readTime && (
+          <span class="flex items-center gap-1.5"><Icon name="clock" size={14} />{post.data.readTime}</span>
+        )}
+      </div>
+      <div class="relative mt-8 h-64 w-full overflow-hidden rounded-3xl bg-navy sm:h-80 lg:h-96">
+        <img src={post.data.cover} alt={post.data.coverAlt} width="800" height="500" fetchpriority="high" class="h-full w-full object-cover" />
+      </div>
+      <div class="prose-universoft mt-12">
+        <Content />
+      </div>
+      <div class="mt-16 border-t border-navy/10 pt-8">
+        <a href="/blog" class="inline-flex items-center gap-2 text-sm font-medium text-blue transition-colors hover:text-blue-dark">
+          <Icon name="arrow-left" size={16} /> Ver todos los artículos
+        </a>
+      </div>
+    </article>
+  </main>
+</BaseLayout>

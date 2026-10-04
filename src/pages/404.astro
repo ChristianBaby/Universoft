@@ -1,0 +1,16 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Button from "@/components/ui/Button.astro";
+---
+
+<BaseLayout title="Página no encontrada" description="La página que buscas no existe en Universoft Systems." path="/404" noindex>
+  <main class="flex min-h-[70vh] flex-col items-center justify-center px-6 pb-24 pt-32 text-center">
+    <p class="font-display text-sm font-semibold uppercase tracking-widest text-blue">Error 404</p>
+    <h1 class="font-display mt-4 text-4xl font-bold text-navy sm:text-5xl">Esta página no existe</h1>
+    <p class="mt-4 max-w-md text-navy/60">Quizá el enlace cambió o se escribió mal. Puedes volver al inicio o revisar nuestros servicios.</p>
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
+      <Button href="/">Volver al inicio</Button>
+      <Button href="/servicios" variant="outline">Ver servicios</Button>
+    </div>
+  </main>
+</BaseLayout>

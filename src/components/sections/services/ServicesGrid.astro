@@ -1,0 +1,44 @@
+---
+import Icon from "@/components/ui/Icon.astro";
+import { SERVICES } from "@/lib/constants/services";
+import { iconSlug } from "@/lib/utils/icons";
+---
+
+<section class="bg-white py-24">
+  <div class="mx-auto flex max-w-7xl flex-col gap-24 px-6">
+    {SERVICES.map((service, i) => (
+      <article id={service.id} class="reveal grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
+        <div class={`relative h-64 w-full overflow-hidden rounded-3xl shadow-xl lg:h-80 ${i % 2 === 1 ? "lg:order-last" : ""}`}>
+          {service.image ? (
+            <>
+              <img src={service.image} alt={service.title} width="600" height="400" loading="lazy" decoding="async" class="h-full w-full object-cover" />
+              <div class="absolute inset-0 bg-gradient-to-t from-navy/30 to-transparent"></div>
+            </>
+          ) : (
+            <div class="flex h-full w-full items-center justify-center bg-navy">
+              <Icon name={iconSlug(service.icon)} size={72} class="text-blue-bright" />
+            </div>
+          )}
+        </div>
+        <div>
+          <div class="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-blue to-blue-bright text-white shadow-md shadow-blue/20">
+            <Icon name={iconSlug(service.icon)} size={20} />
+          </div>
+          <h2 class="font-display text-2xl font-bold text-navy sm:text-3xl">{service.title}</h2>
+          <p class="mt-3 text-base leading-relaxed text-navy/60">{service.description}</p>
+          <ul class="mt-6 flex flex-col gap-3">
+            {service.features.map((feature) => (
+              <li class="flex items-start gap-3">
+                <Icon name="circle-check" size={18} class="mt-0.5 text-blue" />
+                <span class="text-sm text-navy/70">{feature}</span>
+              </li>
+            ))}
+          </ul>
+          <a href={service.href} class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-blue transition-colors hover:text-blue-bright">
+            Ver más detalles <Icon name="arrow-right" size={16} />
+          </a>
+        </div>
+      </article>
+    ))}
+  </div>
+</section>

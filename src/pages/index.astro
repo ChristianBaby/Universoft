@@ -1,0 +1,22 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Hero from "@/components/sections/home/Hero.astro";
+import ValueProposition from "@/components/sections/home/ValueProposition.astro";
+import ServicesSummary from "@/components/sections/home/ServicesSummary.astro";
+import WhyUs from "@/components/sections/home/WhyUs.astro";
+import CtaFinal from "@/components/sections/home/CtaFinal.astro";
+---
+
+<BaseLayout
+  title="Universoft Systems | Desarrollo de Software a Medida en Cusco"
+  description="Desarrollamos software a medida, plataformas virtuales, páginas web, telecomunicaciones y ciberseguridad para empresas en Perú."
+  path="/"
+>
+  <main>
+    <Hero />
+    <ValueProposition />
+    <ServicesSummary />
+    <WhyUs />
+    <CtaFinal />
+  </main>
+</BaseLayout>

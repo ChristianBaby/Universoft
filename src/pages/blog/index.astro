@@ -1,0 +1,40 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import SectionHeader from "@/components/ui/SectionHeader.astro";
+import PostCard from "@/components/blog/PostCard.astro";
+import { getPublishedPosts } from "@/lib/blog";
+
+const posts = await getPublishedPosts();
+---
+
+<BaseLayout
+  title="Blog de tecnología, software y ciberseguridad"
+  description="Artículos sobre desarrollo de software, ciberseguridad, telecomunicaciones y tendencias tecnológicas para empresas en Perú."
+  path="/blog"
+>
+  <main>
+    <section class="bg-white pb-16 pt-32">
+      <div class="mx-auto max-w-7xl px-6">
+        <SectionHeader
+          as="h1"
+          label="Blog"
+          title="Ideas y conocimiento para tu empresa"
+          description="Artículos sobre tecnología, software y buenas prácticas para ayudarte a tomar mejores decisiones."
+          centered={false}
+        />
+      </div>
+    </section>
+
+    <section class="bg-cream py-24">
+      <div class="mx-auto max-w-7xl px-6">
+        <ul class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          {posts.map((post, i) => (
+            <li class="reveal" style={`transition-delay:${(i % 3) * 80}ms`}>
+              <PostCard post={post} />
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  </main>
+</BaseLayout>

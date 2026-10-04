@@ -1,0 +1,48 @@
+---
+import Button from "@/components/ui/Button.astro";
+import Icon from "@/components/ui/Icon.astro";
+import { NAV_LINKS, CTA_LINK } from "@/lib/constants/navigation";
+---
+
+<header class="fixed top-0 z-50 w-full border-b border-navy/5 bg-white/95 backdrop-blur">
+  <nav class="mx-auto flex max-w-7xl items-center justify-between px-6 py-3" aria-label="Principal">
+    <a href="/" class="flex shrink-0 items-center gap-2.5" aria-label="Universoft Systems, inicio">
+      <img src="/images/isotipo-transparent.png" alt="" width="36" height="32" class="h-8 w-auto" />
+      <span class="flex flex-col leading-none gap-0.5">
+        <span class="font-display text-[13px] font-bold uppercase tracking-[0.12em] text-navy">Universoft</span>
+        <span class="font-display text-[10px] font-medium uppercase tracking-[0.22em] text-navy/70">Systems</span>
+      </span>
+    </a>
+
+    <ul class="hidden items-center gap-6 md:flex">
+      {NAV_LINKS.map((link) => (
+        <li>
+          <a href={link.href} class="text-sm font-medium text-navy/70 transition-colors hover:text-navy">
+            {link.label}
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <div class="hidden shrink-0 md:block">
+      <Button href={CTA_LINK.href} class="px-4 py-2 text-xs">{CTA_LINK.label}</Button>
+    </div>
+
+    <details class="group md:hidden">
+      <summary class="flex h-10 w-10 cursor-pointer list-none items-center justify-center rounded-lg text-navy [&::-webkit-details-marker]:hidden" aria-label="Abrir menú">
+        <span class="group-open:hidden"><Icon name="menu" size={22} /></span>
+        <span class="hidden group-open:inline"><Icon name="x" size={22} /></span>
+      </summary>
+      <div class="absolute left-0 right-0 top-full border-t border-navy/10 bg-white px-6 pb-5 pt-2 shadow-lg">
+        <ul class="flex flex-col gap-3">
+          {NAV_LINKS.map((link) => (
+            <li>
+              <a href={link.href} class="block py-1 text-sm font-medium text-navy/80 hover:text-navy">{link.label}</a>
+            </li>
+          ))}
+        </ul>
+        <Button href={CTA_LINK.href} class="mt-4 w-full">{CTA_LINK.label}</Button>
+      </div>
+    </details>
+  </nav>
+</header>

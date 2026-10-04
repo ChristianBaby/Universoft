@@ -1,0 +1,27 @@
+---
+import type { BlogEntry } from "@/lib/blog";
+import { formatDate } from "@/lib/blog";
+
+interface Props {
+  post: BlogEntry;
+}
+
+const { post } = Astro.props;
+---
+
+<article class="group flex h-full flex-col overflow-hidden rounded-2xl border border-navy/10 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-blue/30 hover:shadow-xl">
+  <a href={`/blog/${post.id}`} class="flex flex-1 flex-col">
+    <div class="relative h-48 w-full overflow-hidden bg-navy">
+      <img src={post.data.cover} alt={post.data.coverAlt} width="800" height="500" loading="lazy" decoding="async" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+      <span class="absolute bottom-3 left-3 rounded-full bg-blue/90 px-3 py-1 text-xs font-semibold text-white">{post.data.category}</span>
+    </div>
+    <div class="flex flex-1 flex-col gap-3 p-6">
+      <h2 class="font-display text-base font-bold leading-snug text-navy transition-colors group-hover:text-blue">{post.data.title}</h2>
+      <p class="flex-1 text-sm leading-relaxed text-navy/60">{post.data.description}</p>
+      <div class="flex items-center justify-between border-t border-navy/10 pt-3">
+        <time datetime={post.data.publishedAt.toISOString().slice(0, 10)} class="text-xs text-navy/50">{formatDate(post.data.publishedAt)}</time>
+        <span class="text-xs font-semibold text-blue group-hover:underline">Leer más →</span>
+      </div>
+    </div>
+  </a>
+</article>

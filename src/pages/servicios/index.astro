@@ -1,0 +1,30 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import SectionHeader from "@/components/ui/SectionHeader.astro";
+import ServicesGrid from "@/components/sections/services/ServicesGrid.astro";
+import HowWeWork from "@/components/sections/services/HowWeWork.astro";
+import CtaFinal from "@/components/sections/home/CtaFinal.astro";
+---
+
+<BaseLayout
+  title="Servicios de software, web, telecomunicaciones y ciberseguridad"
+  description="Plataformas virtuales, páginas web informativas, telecomunicaciones y ciberseguridad para empresas en Perú. Conoce cada servicio y solicita una cotización."
+  path="/servicios"
+>
+  <main>
+    <section class="bg-white pb-16 pt-32">
+      <div class="mx-auto max-w-7xl px-6">
+        <SectionHeader
+          as="h1"
+          label="Nuestros servicios"
+          title="Soluciones tecnológicas integrales"
+          description="Cada servicio se adapta a las necesidades y objetivos de tu empresa. Trabajamos contigo para encontrar la solución ideal."
+          centered={false}
+        />
+      </div>
+    </section>
+    <ServicesGrid />
+    <HowWeWork />
+    <CtaFinal />
+  </main>
+</BaseLayout>

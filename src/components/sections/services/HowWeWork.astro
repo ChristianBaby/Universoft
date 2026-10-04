@@ -1,0 +1,25 @@
+---
+import SectionHeader from "@/components/ui/SectionHeader.astro";
+import { HOW_WE_WORK } from "@/lib/constants/services";
+---
+
+<section class="bg-cream py-24">
+  <div class="mx-auto max-w-7xl px-6">
+    <SectionHeader
+      label="Proceso"
+      title="Cómo trabajamos"
+      description="Un proceso claro y transparente para que siempre sepas en qué etapa está tu proyecto."
+    />
+    <ol class="mt-16 grid grid-cols-1 gap-8 md:grid-cols-5">
+      {HOW_WE_WORK.map(({ step, title, description }, i) => (
+        <li class="reveal flex flex-col items-start gap-4 md:items-center md:text-center" style={`transition-delay:${i * 80}ms`}>
+          <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-blue to-blue-bright text-sm font-bold text-white shadow-lg shadow-blue/30">
+            {step}
+          </span>
+          <h3 class="font-display text-sm font-semibold text-navy">{title}</h3>
+          <p class="text-xs leading-relaxed text-navy/60">{description}</p>
+        </li>
+      ))}
+    </ol>
+  </div>
+</section>

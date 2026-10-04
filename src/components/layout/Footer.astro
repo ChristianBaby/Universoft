@@ -1,0 +1,87 @@
+---
+import Icon from "@/components/ui/Icon.astro";
+import { NAV_LINKS } from "@/lib/constants/navigation";
+import { CONTACT } from "@/lib/constants/contact";
+import { SERVICES } from "@/lib/constants/services";
+
+const year = new Date().getFullYear();
+const socials = Object.entries(CONTACT.social).filter(([, url]) => url && url !== "#");
+const linkClass = "text-sm text-white/65 transition-colors hover:text-white";
+---
+
+<footer class="bg-gradient-to-b from-[#08152f] via-navy to-navy-900 text-white">
+  <div class="mx-auto max-w-7xl px-6 pb-12 pt-16">
+    <div class="rounded-3xl border border-white/10 bg-white/5 p-6 sm:p-8">
+      <div class="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
+        <div>
+          <p class="text-sm font-medium uppercase tracking-[0.3em] text-blue-bright/80">¿Listo para crecer?</p>
+          <h2 class="mt-2 text-2xl font-semibold text-white sm:text-3xl">Hablemos sobre tu próximo proyecto</h2>
+        </div>
+        <div class="flex flex-col gap-3 sm:flex-row">
+          <a href={CONTACT.whatsapp} target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 rounded-full bg-blue px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-blue-bright">
+            Escríbenos por WhatsApp <Icon name="message-circle" size={16} />
+          </a>
+          <a href="/contacto" class="inline-flex items-center justify-center gap-2 rounded-full border border-white/15 bg-white/5 px-5 py-3 text-sm font-semibold text-white/90 transition-colors hover:bg-white/10">
+            Solicita una cotización <Icon name="arrow-right" size={16} />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-12 grid gap-10 md:grid-cols-2 lg:grid-cols-5">
+      <div class="flex flex-col gap-4 lg:col-span-2">
+        <a href="/" class="inline-flex items-center gap-2.5" aria-label="Universoft Systems, inicio">
+          <img src="/images/isotipo-transparent.png" alt="" width="48" height="43" class="h-12 w-auto brightness-0 invert" />
+          <span class="font-display text-sm font-bold uppercase tracking-[0.14em]">Universoft Systems</span>
+        </a>
+        <p class="max-w-md text-sm leading-6 text-white/65">
+          Desarrollamos software a medida, plataformas virtuales y soluciones tecnológicas para impulsar tu empresa.
+        </p>
+        {socials.length > 0 && (
+          <ul class="flex gap-3">
+            {socials.map(([name, href]) => (
+              <li>
+                <a href={href} target="_blank" rel="noopener noreferrer" class={`${linkClass} capitalize`}>{name}</a>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+
+      <nav aria-label="Navegación del pie">
+        <h3 class="font-display mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-white/40">Navegación</h3>
+        <ul class="flex flex-col gap-3">
+          {NAV_LINKS.map((link) => (
+            <li><a href={link.href} class={linkClass}>{link.label}</a></li>
+          ))}
+          <li><a href="/contacto" class={linkClass}>Contacto</a></li>
+          <li><a href="/buscar" class={linkClass}>Buscar</a></li>
+        </ul>
+      </nav>
+
+      <nav aria-label="Servicios">
+        <h3 class="font-display mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-white/40">Servicios</h3>
+        <ul class="flex flex-col gap-3">
+          {SERVICES.map((service) => (
+            <li><a href={service.href} class={linkClass}>{service.title}</a></li>
+          ))}
+        </ul>
+      </nav>
+
+      <div>
+        <h3 class="font-display mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-white/40">Contacto</h3>
+        <ul class="flex flex-col gap-3 text-sm text-white/65">
+          <li><a href={CONTACT.whatsapp} target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 hover:text-white"><Icon name="message-circle" size={15} />{CONTACT.phone}</a></li>
+          <li><a href={`tel:+51${CONTACT.phone}`} class="flex items-center gap-2 hover:text-white"><Icon name="phone" size={15} />{CONTACT.phone}</a></li>
+          <li><a href={`mailto:${CONTACT.email}`} class="flex items-center gap-2 hover:text-white"><Icon name="mail" size={15} />{CONTACT.email}</a></li>
+          <li class="flex items-center gap-2 text-white/50"><Icon name="map-pin" size={15} />{CONTACT.location}</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-10 flex flex-col gap-3 border-t border-white/5 pt-6 text-sm text-white/40 sm:flex-row sm:items-center sm:justify-between">
+      <p>© {year} Universoft Systems. Todos los derechos reservados.</p>
+      <p>Hecho para impulsar negocios con tecnología.</p>
+    </div>
+  </div>
+</footer>

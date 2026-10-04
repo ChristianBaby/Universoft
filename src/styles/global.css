@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0a1a3c;
+  --color-navy-deep: #0f2a52;
+  --color-navy-900: #060e1f;
+  --color-blue: #2563eb;
+  --color-blue-bright: #1e66f5;
+  --color-blue-dark: #1d4ed8;
+  --color-cream: #f5f7f0;
+
+  --font-sans: "Inter Variable", system-ui, sans-serif;
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-white text-navy antialiased;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-blue;
+  }
+}
+
+.prose-universoft {
+  @apply space-y-5 text-base leading-relaxed text-navy/75;
+}
+
+.prose-universoft h2 {
+  @apply mt-10 font-display text-2xl font-bold text-navy sm:text-3xl;
+}
+
+.prose-universoft p {
+  @apply leading-relaxed;
+}
+
+.prose-universoft strong {
+  @apply font-semibold text-navy;
+}
+
+.prose-universoft img {
+  @apply my-8 w-full rounded-2xl object-cover;
+}
+
+.prose-universoft a {
+  @apply font-medium text-blue underline underline-offset-4 hover:text-blue-bright;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
