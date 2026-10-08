@@ -1,0 +1,142 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Button from "@/components/ui/Button.astro";
+import Icon from "@/components/ui/Icon.astro";
+import CtaFinal from "@/components/sections/home/CtaFinal.astro";
+import { SERVICES } from "@/lib/constants/services";
+import { SITE_URL } from "@/lib/constants/site";
+import { faqPageJsonLd, serviceJsonLd, breadcrumbJsonLd } from "@/lib/seo/structuredData";
+import { iconSlug } from "@/lib/utils/icons";
+import { truncate } from "@/lib/utils/text";
+
+export function getStaticPaths() {
+  return SERVICES.map((service) => ({ params: { id: service.id }, props: { service } }));
+}
+
+const { service } = Astro.props;
+const description = truncate(service.longDescription ?? service.description);
+const iconName = iconSlug(service.icon);
+
+const jsonLd = [
+  serviceJsonLd(service),
+  breadcrumbJsonLd([
+    { name: "Inicio", url: SITE_URL },
+    { name: "Servicios", url: `${SITE_URL}/servicios` },
+    { name: service.title, url: `${SITE_URL}${service.href}` },
+  ]),
+  ...(service.faq?.length ? [faqPageJsonLd(service.faq)] : []),
+];
+---
+
+<BaseLayout title={service.title} description={description} path={service.href} image={service.image} jsonLd={jsonLd}>
+  <main>
+    <section class="bg-white pb-20 pt-32">
+      <div class="mx-auto max-w-7xl px-6">
+        <a href="/servicios" class="mb-8 inline-flex items-center gap-2 text-sm font-medium text-navy/60 transition-colors hover:text-navy">
+          <Icon name="arrow-left" size={16} /> Todos los servicios
+        </a>
+        <div class="mb-6 flex items-center gap-4">
+          <div class="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-blue to-blue-bright text-white shadow-lg shadow-blue/30">
+            <Icon name={iconName} size={24} />
+          </div>
+          <span class="text-xs font-semibold uppercase tracking-widest text-blue">Servicio</span>
+        </div>
+        <h1 class="font-display max-w-3xl text-3xl font-bold leading-tight text-navy sm:text-4xl lg:text-5xl">{service.title}</h1>
+        {service.longDescription && (
+          <p class="mt-6 max-w-3xl text-base leading-relaxed text-navy/70 lg:text-lg">{service.longDescription}</p>
+        )}
+        <div class="mt-8">
+          <Button href="/contacto" class="px-8 py-4 text-base">Solicita una cotización</Button>
+        </div>
+      </div>
+    </section>
+
+    {service.benefits?.length ? (
+      <section class="bg-cream py-24">
+        <div class="mx-auto max-w-7xl px-6">
+          <header class="mb-16 text-center">
+            <span class="text-xs font-semibold uppercase tracking-widest text-blue">Beneficios</span>
+            <h2 class="font-display mt-4 text-3xl font-bold text-navy sm:text-4xl">¿Por qué elegir este servicio?</h2>
+          </header>
+          <ul class="grid grid-cols-1 gap-8 sm:grid-cols-2">
+            {service.benefits.map((benefit) => (
+              <li class="reveal rounded-2xl border border-navy/10 bg-white p-8 shadow-sm transition-all hover:border-blue/30 hover:shadow-lg">
+                <div class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-blue/10 text-blue">
+                  <Icon name={iconSlug(benefit.icon)} size={22} />
+                </div>
+                <h3 class="font-display text-lg font-bold text-navy">{benefit.title}</h3>
+                <p class="mt-2 text-sm leading-relaxed text-navy/60">{benefit.description}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    ) : null}
+
+    {service.useCases?.length ? (
+      <section class="bg-white py-24">
+        <div class="mx-auto max-w-7xl px-6">
+          <header class="mb-16 text-center">
+            <span class="text-xs font-semibold uppercase tracking-widest text-blue">Casos de uso</span>
+            <h2 class="font-display mt-4 text-3xl font-bold text-navy sm:text-4xl">¿Cómo lo aplicamos?</h2>
+          </header>
+          <ol class="grid grid-cols-1 gap-8 lg:grid-cols-2">
+            {service.useCases.map((useCase, i) => (
+              <li class="reveal flex gap-5 rounded-2xl border border-navy/10 bg-white p-6 shadow-sm">
+                <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-blue to-blue-bright text-sm font-bold text-white shadow-md shadow-blue/20">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <div>
+                  <h3 class="font-display text-base font-bold text-navy">{useCase.title}</h3>
+                  <p class="mt-1.5 text-sm leading-relaxed text-navy/60">{useCase.description}</p>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
+    ) : null}
+
+    {service.technologies?.length ? (
+      <section class="bg-cream py-24">
+        <div class="mx-auto max-w-7xl px-6">
+          <header class="mb-12 text-center">
+            <span class="text-xs font-semibold uppercase tracking-widest text-blue">Stack tecnológico</span>
+            <h2 class="font-display mt-4 text-3xl font-bold text-navy sm:text-4xl">Tecnologías que utilizamos</h2>
+          </header>
+          <ul class="flex flex-wrap justify-center gap-4">
+            {service.technologies.map((tech) => (
+              <li class="rounded-full border border-navy/10 bg-white px-6 py-3 text-sm font-medium text-navy/80">{tech}</li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    ) : null}
+
+    {service.faq?.length ? (
+      <section class="bg-white py-24">
+        <div class="mx-auto max-w-3xl px-6">
+          <header class="mb-16 text-center">
+            <span class="text-xs font-semibold uppercase tracking-widest text-blue">Preguntas frecuentes</span>
+            <h2 class="font-display mt-4 text-3xl font-bold text-navy sm:text-4xl">Resolvemos tus dudas</h2>
+          </header>
+          <div class="flex flex-col gap-4">
+            {service.faq.map((item) => (
+              <details class="group rounded-2xl border border-navy/10 bg-white shadow-sm">
+                <summary class="flex cursor-pointer list-none items-center justify-between gap-4 px-6 py-5 text-sm font-semibold text-navy select-none [&::-webkit-details-marker]:hidden">
+                  {item.question}
+                  <span class="shrink-0 text-navy/40 transition-transform group-open:rotate-180"><Icon name="chevron-down" size={18} /></span>
+                </summary>
+                <div class="px-6 pb-5">
+                  <p class="text-sm leading-relaxed text-navy/60">{item.answer}</p>
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+    ) : null}
+
+    <CtaFinal />
+  </main>
+</BaseLayout>

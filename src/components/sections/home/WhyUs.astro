@@ -1,0 +1,37 @@
+---
+import SectionHeader from "@/components/ui/SectionHeader.astro";
+import Icon from "@/components/ui/Icon.astro";
+import GradientBlob from "@/components/ui/GradientBlob.astro";
+
+const reasons = [
+  "Equipo especializado en desarrollo de software.",
+  "Soluciones escalables y totalmente a medida.",
+  "Procesos claros y comunicación constante.",
+  "Soporte y mantenimiento posterior a la entrega.",
+];
+---
+
+<section class="relative overflow-hidden bg-navy py-24">
+  <GradientBlob color="blue" size="lg" class="-top-40 -right-40 opacity-30" />
+  <div class="relative z-10 mx-auto max-w-7xl px-6">
+    <div class="grid grid-cols-1 items-center gap-16 lg:grid-cols-2">
+      <div>
+        <SectionHeader
+          label="¿Por qué elegirnos?"
+          title="Tecnología confiable, equipo comprometido"
+          description="En Universoft Systems no vendemos software genérico. Construimos soluciones pensadas para tu negocio, con un acompañamiento real en cada etapa."
+          centered={false}
+          tone="dark"
+        />
+        <ul class="mt-10 flex flex-col gap-4">
+          {reasons.map((reason, i) => (
+            <li class="reveal flex items-start gap-3" style={`transition-delay:${i * 80}ms`}>
+              <Icon name="circle-check" size={20} class="mt-0.5 text-blue-bright" />
+              <span class="text-sm leading-relaxed text-white/80">{reason}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
