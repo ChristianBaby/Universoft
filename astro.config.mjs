@@ -4,8 +4,30 @@ import sitemap from "@astrojs/sitemap";
 import vercel from "@astrojs/vercel";
 import tailwindcss from "@tailwindcss/vite";
 import { readdirSync, readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+import { execSync } from "node:child_process";
 
 const NOINDEX_PATHS = ["/buscar", "/404"];
+
+/**
+ * El adaptador de Vercel copia el directorio de salida a su carpeta estatica
+ * como parte del propio `astro build`. Si Pagefind corriera como un paso
+ * aparte despues del build (`astro build && pagefind ...`), sus archivos
+ * nunca llegarian a esa copia. Por eso se ejecuta aqui, en el hook
+ * `astro:build:done`, que corre antes del hook del adaptador.
+ */
+function pagefindIntegration() {
+  return {
+    name: "pagefind-indexer",
+    hooks: {
+      "astro:build:done": ({ dir, logger }) => {
+        const target = fileURLToPath(dir);
+        logger.info(`Indexando con Pagefind: ${target}`);
+        execSync(`npx --yes pagefind --site "${target}"`, { stdio: "inherit" });
+      },
+    },
+  };
+}
 
 function blogDates() {
   const dir = new URL("./src/content/blog/", import.meta.url);
@@ -28,6 +50,7 @@ export default defineConfig({
   adapter: vercel(),
   trailingSlash: "never",
   integrations: [
+    pagefindIntegration(),
     react(),
     sitemap({
       filter: (page) => !NOINDEX_PATHS.some((path) => new URL(page).pathname.startsWith(path)),
