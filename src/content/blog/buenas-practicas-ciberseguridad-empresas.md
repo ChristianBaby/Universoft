@@ -66,4 +66,6 @@ Los parches de seguridad existen por una razón: corrigen vulnerabilidades conoc
 
 Establece una política de actualizaciones que incluya: actualizar sistemas operativos y software en cuanto los parches esten disponibles, mantener un inventario de todo el software y hardware de la empresa, retirar sistemas y aplicaciones que ya no reciban soporte del fabricante y automatizar las actualizaciones siempre que sea posible.
 
-En Universoft Systems ofrecemos servicios de ciberseguridad que incluyen auditorías de vulnerabilidades, implementación de medidas de protección y capacitación para tu equipo. La seguridad de tu empresa no es un gasto: es una inversión que protege tu negocio, tu reputación y la confianza de tus clientes.
+En Universoft Systems ofrecemos [servicios de ciberseguridad](/servicios/ciberseguridad) que incluyen auditorías de vulnerabilidades, implementación de medidas de protección y capacitación para tu equipo. La seguridad de tu empresa no es un gasto: es una inversión que protege tu negocio, tu reputación y la confianza de tus clientes.
+
+Si quieres evaluar el nivel de protección actual de tu empresa, [contactanos](/contacto) para una revisión inicial sin compromiso.

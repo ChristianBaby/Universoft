@@ -70,6 +70,6 @@ Elegir una plataforma virtual no se trata de buscar la más popular o la más ba
 
 La digitalización no es un proyecto para el futuro: es una necesidad del presente. Cada día que pasa sin una plataforma virtual adecuada es un día de oportunidades pérdidas, errores evitables y costos innecesarios.
 
-En Universoft Systems desarrollamos plataformas virtuales a medida, diseñadas específicamente para los procesos y objetivos de tu empresa. No vendemos soluciones genericas: construimos herramientas que se adaptan a tu forma de trabajar.
+En Universoft Systems desarrollamos [plataformas virtuales a medida](/servicios/plataformas), diseñadas específicamente para los procesos y objetivos de tu empresa. No vendemos soluciones genericas: construimos herramientas que se adaptan a tu forma de trabajar.
 
-Si estas listo para dar el siguiente paso en la transformación digital de tu empresa, contactanos para una consulta sin compromiso. Te ayudamos a identificar que tipo de plataforma necesitas y como implementarla de forma efectiva.
+Si estas listo para dar el siguiente paso en la transformación digital de tu empresa, [contactanos](/contacto) para una consulta sin compromiso. Te ayudamos a identificar que tipo de plataforma necesitas y como implementarla de forma efectiva.

@@ -56,7 +56,7 @@ Analizar estos datos con herramientas como Google Analytics te permite identific
 
 Un sitio web sin certificado SSL (el candado verde en la barra de direcciones) no solo es inseguro: los navegadores modernos muestran advertencias que ahuyentan a los visitantes. Si tu web no tiene HTTPS, perderas tráfico y credibilidad.
 
-Otros problemas de seguridad incluyen plugins desactualizados con vulnerabilidades conocidas, formularios sin protección contra spam, falta de respaldos automáticos y codigo obsoleto con brechas de seguridad.
+Otros problemas de seguridad incluyen plugins desactualizados con vulnerabilidades conocidas, formularios sin protección contra spam, falta de respaldos automáticos y codigo obsoleto con brechas de seguridad. Si no sabes por donde empezar, nuestro [servicio de ciberseguridad](/servicios/ciberseguridad) incluye una auditoría inicial de vulnerabilidades.
 
 En cuanto al SEO, si tu web no aparece en las primeras páginas de Google para búsquedas relevantes a tu negocio, algo está mal. Las métricas Core Web Vitals (LCP, INP, CLS) son ahora factores de posicionamiento no negociables en 2026.
 
@@ -64,6 +64,6 @@ En cuanto al SEO, si tu web no aparece en las primeras páginas de Google para b
 
 Si identificaste una o más de estas señales en tu sitio web, no entres en panico: tiene solución. El primer paso es realizar una auditoría completa que evalue el rendimiento, diseño, seguridad y SEO de tu web actual.
 
-En Universoft Systems diseñamos y desarrollamos sitios web modernos, rápidos y optimizados para SEO. No se trata solo de verse bien: creamos sitios que convierten visitantes en clientes, con una experiencia de usuario impecable en cualquier dispositivo.
+En Universoft Systems diseñamos y desarrollamos [sitios web modernos, rápidos y optimizados para SEO](/servicios/web). No se trata solo de verse bien: creamos sitios que convierten visitantes en clientes, con una experiencia de usuario impecable en cualquier dispositivo.
 
-Contactanos para una evaluación gratuita de tu sitio web actual. Te mostraremos exactamente que necesita mejorar y como podemos ayudarte a lograrlo.
+[Contactanos](/contacto) para una evaluación gratuita de tu sitio web actual. Te mostraremos exactamente que necesita mejorar y como podemos ayudarte a lograrlo.

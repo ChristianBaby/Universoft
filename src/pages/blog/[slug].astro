@@ -2,8 +2,9 @@
 import { render } from "astro:content";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import Icon from "@/components/ui/Icon.astro";
-import { getPublishedPosts, formatDate } from "@/lib/blog";
+import { getPublishedPosts, formatDate, relatedServiceId } from "@/lib/blog";
 import { SITE_URL } from "@/lib/constants/site";
+import { SERVICES } from "@/lib/constants/services";
 import { articleJsonLd, breadcrumbJsonLd } from "@/lib/seo/structuredData";
 
 export async function getStaticPaths() {
@@ -13,6 +14,7 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
+const relatedService = SERVICES.find((service) => service.id === relatedServiceId(post.data.category));
 
 const url = `${SITE_URL}/blog/${post.id}`;
 const published = post.data.publishedAt.toISOString();
@@ -62,6 +64,21 @@ const jsonLd = [
       <div class="prose-universoft mt-12">
         <Content />
       </div>
+
+      {relatedService && (
+        <a
+          href={relatedService.href}
+          class="mt-16 flex items-center justify-between gap-6 rounded-2xl border border-navy/10 bg-cream p-8 transition-all hover:border-blue/30 hover:shadow-lg"
+        >
+          <div>
+            <span class="text-xs font-semibold uppercase tracking-widest text-blue">Servicio relacionado</span>
+            <h2 class="font-display mt-2 text-xl font-bold text-navy">{relatedService.title}</h2>
+            <p class="mt-1 text-sm leading-relaxed text-navy/60">{relatedService.description}</p>
+          </div>
+          <Icon name="arrow-right" size={20} class="shrink-0 text-blue" />
+        </a>
+      )}
+
       <div class="mt-16 border-t border-navy/10 pt-8">
         <a href="/blog" class="inline-flex items-center gap-2 text-sm font-medium text-blue transition-colors hover:text-blue-dark">
           <Icon name="arrow-left" size={16} /> Ver todos los artículos

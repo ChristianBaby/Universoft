@@ -70,6 +70,6 @@ Según análisis del sector, las empresas que invierten en software personalizad
 
 La realidad es que muchas empresas terminan usando una combinación de ambas: soluciones genéricas para funciones estándar (como correo o contabilidad básica) y software a medida para los procesos que realmente diferencian su negocio.
 
-En Universoft Systems nos especializamos en desarrollar software a medida que se integra perfectamente con las herramientas que ya usas. No te pedimos que cambies tu forma de trabajar: construimos tecnología que se adapta a ti.
+En Universoft Systems nos especializamos en desarrollar [software y plataformas a medida](/servicios/plataformas) que se integran perfectamente con las herramientas que ya usas. No te pedimos que cambies tu forma de trabajar: construimos tecnología que se adapta a ti.
 
-Si no estas seguro de que opción es la mejor para tu empresa, contactanos para una asesoría sin compromiso. Analizamos tus procesos, evaluamos las alternativas disponibles y te recomendamos la solución más eficiente para tu caso específico.
+Si no estas seguro de que opción es la mejor para tu empresa, [contactanos](/contacto) para una asesoría sin compromiso. Analizamos tus procesos, evaluamos las alternativas disponibles y te recomendamos la solución más eficiente para tu caso específico.
