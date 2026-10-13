@@ -8,7 +8,7 @@ import "../styles/global.css";
 import Navbar from "@/components/layout/Navbar.astro";
 import Footer from "@/components/layout/Footer.astro";
 import JsonLd from "@/components/seo/JsonLd.astro";
-import { SITE_URL, SITE_NAME, DEFAULT_OG_IMAGE } from "@/lib/constants/site";
+import { SITE_URL, SITE_NAME, DEFAULT_OG_IMAGE, GA_MEASUREMENT_ID } from "@/lib/constants/site";
 import { organizationJsonLd, websiteJsonLd } from "@/lib/seo/structuredData";
 
 interface Props {
@@ -68,6 +68,18 @@ const fullTitle = title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
     <JsonLd data={organizationJsonLd()} />
     <JsonLd data={websiteJsonLd()} />
     {jsonLd.map((data) => <JsonLd data={data} />)}
+
+    {import.meta.env.PROD && (
+      <>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}></script>
+        <script define:vars={{ GA_MEASUREMENT_ID }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { dataLayer.push(arguments); }
+          gtag("js", new Date());
+          gtag("config", GA_MEASUREMENT_ID);
+        </script>
+      </>
+    )}
   </head>
   <body class="flex min-h-full flex-col">
     <a href="#contenido" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:shadow-lg">
