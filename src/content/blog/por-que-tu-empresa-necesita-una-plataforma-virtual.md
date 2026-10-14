@@ -4,7 +4,7 @@ description: "Digitalizar tus procesos ya no es una opción, es una necesidad. D
 publishedAt: 2025-05-15
 category: "Plataformas"
 cover: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop&q=80"
-coverAlt: "¿Por qué tu empresa necesita una plataforma virtual?"
+coverAlt: "Equipo de trabajo colaborando con herramientas digitales"
 author: "Universoft Systems"
 readTime: "8 min de lectura"
 draft: false

@@ -37,7 +37,7 @@ const jsonLd = [
 ---
 
 <BaseLayout
-  title={post.data.title}
+  title={post.data.seoTitle ?? post.data.title}
   description={post.data.description}
   path={`/blog/${post.id}`}
   image={post.data.cover}

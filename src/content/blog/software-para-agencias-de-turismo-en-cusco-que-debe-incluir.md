@@ -1,10 +1,11 @@
 ---
 title: "Software para agencias de turismo en Cusco: qué debe incluir una buena plataforma de reservas"
-description: "No todo software para agencias de viajes es igual. Te contamos qué funcionalidades realmente marcan la diferencia en la operación diaria de una agencia en Cusco."
+seoTitle: "Software para agencias de turismo en Cusco"
+description: "No todo software para agencias de viajes es igual. Te contamos qué funcionalidades marcan la diferencia en la operación diaria de una agencia en Cusco."
 publishedAt: 2026-01-08
 category: "Turismo"
 cover: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=500&fit=crop&q=80"
-coverAlt: "Software para agencias de turismo en Cusco: qué debe incluir una buena plataforma de reservas"
+coverAlt: "Pantalla con un calendario de reservas de tours"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
 draft: false

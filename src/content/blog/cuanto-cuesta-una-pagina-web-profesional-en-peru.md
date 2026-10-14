@@ -1,10 +1,11 @@
 ---
 title: "Cuánto cuesta una página web profesional en Perú (y qué factores influyen)"
+seoTitle: "Cuánto cuesta una página web profesional en Perú"
 description: "No existe un precio único para una web profesional. Te explicamos qué factores determinan el costo real y cómo presupuestar tu proyecto con criterio."
 publishedAt: 2025-10-23
 category: "Web"
 cover: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&h=500&fit=crop&q=80"
-coverAlt: "Cuánto cuesta una página web profesional en Perú (y qué factores influyen)"
+coverAlt: "Diseñador trabajando en el layout de una página web"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
 draft: false

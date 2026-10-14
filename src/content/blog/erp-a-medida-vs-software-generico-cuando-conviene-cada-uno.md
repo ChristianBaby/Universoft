@@ -1,10 +1,11 @@
 ---
 title: "ERP a medida vs. software genérico: cuándo conviene cada uno para tu PYME"
-description: "SAP, Odoo o un ERP construido a tu medida: te explicamos las diferencias reales y cómo elegir la opción correcta según el tamaño y la complejidad de tu empresa."
+seoTitle: "ERP a medida vs. software genérico: ¿cuál elegir?"
+description: "SAP, Odoo o un ERP a tu medida: te explicamos las diferencias reales y cómo elegir la opción correcta según el tamaño de tu empresa."
 publishedAt: 2025-09-11
 category: "Plataformas"
 cover: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=500&fit=crop&q=80"
-coverAlt: "ERP a medida vs. software genérico: cuándo conviene cada uno para tu PYME"
+coverAlt: "Equipo revisando dashboards de un sistema ERP en varias pantallas"
 author: "Universoft Systems"
 readTime: "8 min de lectura"
 draft: false

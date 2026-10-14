@@ -1,10 +1,11 @@
 ---
 title: "SEO para agencias de viajes en Cusco: cómo aparecer cuando turistas buscan tours a Machu Picchu"
-description: "La mayoría de los viajeros investiga y reserva su tour a Machu Picchu meses antes de llegar a Cusco. Te explicamos cómo asegurarte de que te encuentren a ti y no solo a las grandes OTAs."
+seoTitle: "SEO para agencias de viajes en Cusco"
+description: "La mayoría de los viajeros investiga y reserva su tour a Machu Picchu meses antes de llegar a Cusco. Te explicamos cómo lograr que te encuentren a ti."
 publishedAt: 2026-03-05
 category: "Turismo"
 cover: "https://images.unsplash.com/photo-1590089171605-171f3b536f74?w=800&h=500&fit=crop&q=80"
-coverAlt: "SEO para agencias de viajes en Cusco: cómo aparecer cuando turistas buscan tours a Machu Picchu"
+coverAlt: "Vista de Machu Picchu entre la neblina de la montaña"
 author: "Universoft Systems"
 readTime: "8 min de lectura"
 draft: false

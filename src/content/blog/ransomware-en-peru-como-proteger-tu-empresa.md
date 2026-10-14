@@ -4,7 +4,7 @@ description: "El ransomware es una de las amenazas más costosas para las empres
 publishedAt: 2025-08-28
 category: "Ciberseguridad"
 cover: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=500&fit=crop&q=80"
-coverAlt: "Ransomware en Perú: cómo proteger a tu empresa paso a paso"
+coverAlt: "Pantalla de computadora con una alerta de seguridad en rojo"
 author: "Universoft Systems"
 readTime: "9 min de lectura"
 draft: false

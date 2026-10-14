@@ -4,7 +4,7 @@ description: "¿Comprar un software estándar o desarrollar uno propio? Te expli
 publishedAt: 2025-02-08
 category: "Software"
 cover: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=500&fit=crop&q=80"
-coverAlt: "Software a medida vs. soluciones genéricas: ¿qué te conviene?"
+coverAlt: "Equipo de desarrollo de software trabajando"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
 draft: false

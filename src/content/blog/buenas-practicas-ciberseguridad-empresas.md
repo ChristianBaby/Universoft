@@ -4,7 +4,7 @@ description: "Proteger la información de tu empresa no requiere ser experto en 
 publishedAt: 2025-03-20
 category: "Ciberseguridad"
 cover: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=500&fit=crop&q=80"
-coverAlt: "Buenas prácticas de ciberseguridad para empresas"
+coverAlt: "Candado digital sobre un teclado, símbolo de protección de datos"
 author: "Universoft Systems"
 readTime: "9 min de lectura"
 draft: false

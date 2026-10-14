@@ -4,7 +4,7 @@ description: "Un sitio web desactualizado puede ahuyentar clientes potenciales. 
 publishedAt: 2025-04-03
 category: "Web"
 cover: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop&q=80"
-coverAlt: "5 señales de que tu web necesita una renovación"
+coverAlt: "Diseño web responsive visualizado en varios dispositivos"
 author: "Universoft Systems"
 readTime: "6 min de lectura"
 draft: false

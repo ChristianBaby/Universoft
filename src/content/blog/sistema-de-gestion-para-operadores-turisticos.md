@@ -1,10 +1,11 @@
 ---
 title: "Sistema de gestión para operadores turísticos: itinerarios, guías y disponibilidad en un solo lugar"
-description: "Cuando un operador turístico crece, las hojas de cálculo y los grupos de WhatsApp dejan de alcanzar. Así es como un sistema de gestión centraliza itinerarios, guías, vehículos y disponibilidad."
+seoTitle: "Sistema de gestión para operadores turísticos"
+description: "Cuando un operador turístico crece, las hojas de cálculo y el WhatsApp ya no alcanzan. Un sistema de gestión centraliza itinerarios, guías y disponibilidad."
 publishedAt: 2026-03-19
 category: "Turismo"
 cover: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=500&fit=crop&q=80"
-coverAlt: "Sistema de gestión para operadores turísticos: itinerarios, guías y disponibilidad en un solo lugar"
+coverAlt: "Equipo planificando itinerarios turísticos con notas en una pizarra"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
 draft: false

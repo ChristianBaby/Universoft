@@ -1,10 +1,11 @@
 ---
 title: "VoIP vs. telefonía tradicional: cuánto puede ahorrar tu empresa"
-description: "La telefonía IP reemplaza las líneas fijas tradicionales con una solución más económica y flexible. Te explicamos las diferencias y el ahorro real para tu empresa."
+seoTitle: "VoIP vs. telefonía tradicional: ¿cuánto ahorras?"
+description: "La telefonía IP reemplaza las líneas fijas con una solución más económica y flexible. Te explicamos las diferencias y el ahorro real para tu empresa."
 publishedAt: 2025-06-19
 category: "Telecomunicaciones"
 cover: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=500&fit=crop&q=80"
-coverAlt: "VoIP vs. telefonía tradicional: cuánto puede ahorrar tu empresa"
+coverAlt: "Persona realizando una llamada telefónica de oficina por VoIP"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
 draft: false

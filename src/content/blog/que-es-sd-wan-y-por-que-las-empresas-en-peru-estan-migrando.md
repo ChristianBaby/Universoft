@@ -1,10 +1,11 @@
 ---
 title: "SD-WAN: qué es y por qué las empresas en Perú están migrando"
+seoTitle: "SD-WAN: qué es y por qué tu empresa debería migrar"
 description: "SD-WAN está reemplazando a las arquitecturas de red tradicionales en empresas con varias sedes. Te explicamos qué es, cómo funciona y qué beneficios ofrece."
 publishedAt: 2025-07-03
 category: "Telecomunicaciones"
 cover: "https://images.unsplash.com/photo-1683322499436-f4383dd59f5a?w=800&h=500&fit=crop&q=80"
-coverAlt: "SD-WAN: qué es y por qué las empresas en Perú están migrando"
+coverAlt: "Centro de datos con servidores y cableado de red"
 author: "Universoft Systems"
 readTime: "8 min de lectura"
 draft: false

@@ -1,10 +1,11 @@
 ---
 title: "Digitalización en Cusco: por qué las empresas del sur del Perú están invirtiendo en tecnología"
-description: "Cusco tiene un contexto económico propio: turismo internacional, comercio local y una competencia cada vez más digital. Te contamos por qué la tecnología ya no es opcional."
+seoTitle: "Digitalización en Cusco: empresas del sur de Perú"
+description: "Cusco tiene un contexto propio: turismo internacional, comercio local y una competencia cada vez más digital. Por qué la tecnología ya no es opcional."
 publishedAt: 2025-12-18
 category: "Software"
 cover: "https://images.unsplash.com/photo-1526392060635-9d6019884377?w=800&h=500&fit=crop&q=80"
-coverAlt: "Digitalización en Cusco: por qué las empresas del sur del Perú están invirtiendo en tecnología"
+coverAlt: "Vista de Cusco con arquitectura colonial y comercio local"
 author: "Universoft Systems"
 readTime: "6 min de lectura"
 draft: false

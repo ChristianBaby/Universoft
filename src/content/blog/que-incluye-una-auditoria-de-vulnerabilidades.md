@@ -1,10 +1,11 @@
 ---
 title: "Qué incluye una auditoría de vulnerabilidades (y por qué tu empresa la necesita)"
-description: "Una auditoría de vulnerabilidades revela los puntos débiles de tu infraestructura antes de que un atacante los encuentre. Te explicamos cada etapa del proceso."
+seoTitle: "Qué incluye una auditoría de vulnerabilidades"
+description: "Una auditoría de vulnerabilidades revela los puntos débiles de tu infraestructura antes de que un atacante los encuentre. Te explicamos cada etapa."
 publishedAt: 2025-08-14
 category: "Ciberseguridad"
 cover: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&h=500&fit=crop&q=80"
-coverAlt: "Qué incluye una auditoría de vulnerabilidades (y por qué tu empresa la necesita)"
+coverAlt: "Candado sobre un teclado, símbolo de una auditoría de seguridad"
 author: "Universoft Systems"
 readTime: "8 min de lectura"
 draft: false
