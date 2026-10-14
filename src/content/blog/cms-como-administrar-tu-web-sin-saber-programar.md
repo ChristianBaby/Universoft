@@ -15,7 +15,7 @@ reviewed: false
 
 Imagina que necesitas corregir un número de teléfono en tu web, actualizar el precio de un servicio o publicar una noticia urgente, pero no puedes hacerlo tú mismo: tienes que escribir a tu desarrollador, esperar su disponibilidad y, muchas veces, pagar por un cambio que te toma dos minutos describir.
 
-Esa dependencia es evitable. Un sistema de gestión de contenido, conocido como CMS por sus siglas en inglés (Content Management System), te da el control para hacer esos cambios tú mismo, sin tocar una sola línea de código.
+Esa dependencia es evitable. Un sistema de gestión de contenido —o gestor de contenido, conocido como CMS por sus siglas en inglés (Content Management System)— te da el control para editar tu sitio web tú mismo, sin tocar una sola línea de código.
 
 ## Qué es exactamente un CMS
 

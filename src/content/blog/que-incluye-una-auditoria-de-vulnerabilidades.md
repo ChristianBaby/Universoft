@@ -15,7 +15,7 @@ reviewed: false
 
 La mayoría de las empresas no sabe exactamente qué tan expuesta está su infraestructura digital hasta que algo falla. Puertos abiertos que nadie recuerda haber dejado así, configuraciones por defecto que nunca se cambiaron, contraseñas reutilizadas en sistemas críticos: son el tipo de brechas que no se detectan en el trabajo diario, pero que un atacante encuentra con relativa facilidad.
 
-Una auditoría de vulnerabilidades existe precisamente para cerrar esa brecha de información. Es un proceso sistemático que identifica, clasifica y prioriza las debilidades de seguridad de tu infraestructura, aplicaciones y redes, antes de que alguien más las explote. No es un trámite burocrático: es la base sobre la que se construye cualquier estrategia de ciberseguridad seria.
+Una auditoría de vulnerabilidades existe precisamente para cerrar esa brecha de información. Es un análisis de vulnerabilidades sistemático que identifica, clasifica y prioriza las debilidades de seguridad de tu infraestructura, aplicaciones y redes, antes de que alguien más las explote. No es un trámite burocrático: es la base sobre la que se construye cualquier estrategia de ciberseguridad seria.
 
 ## Las etapas de una auditoría completa
 
@@ -25,7 +25,7 @@ Un proceso de auditoría bien ejecutado no es un solo paso, sino una secuencia d
 
 **Análisis de configuraciones.** Aquí se revisan los ajustes reales de servidores, bases de datos, aplicaciones y dispositivos de red en busca de configuraciones débiles o por defecto: contraseñas de fábrica sin cambiar, permisos demasiado amplios, cifrado desactivado o protocolos obsoletos todavía habilitados.
 
-**Pruebas de penetración controladas.** A diferencia de un escaneo automático, las pruebas de penetración (o pentesting) simulan de forma controlada el comportamiento de un atacante real, intentando explotar las vulnerabilidades encontradas para confirmar si son explotables en la práctica y qué tan grave sería el impacto.
+**Pruebas de penetración controladas.** A diferencia de un escaneo automático, las pruebas de penetración (o pentesting) aplican técnicas de hacking ético para simular de forma controlada el comportamiento de un atacante real, intentando explotar las vulnerabilidades encontradas para confirmar si son explotables en la práctica y qué tan grave sería el impacto.
 
 ![Equipo de trabajo implementando medidas de seguridad](https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=450&fit=crop&q=80)
 

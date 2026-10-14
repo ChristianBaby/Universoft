@@ -25,7 +25,7 @@ En la práctica, esto significa que cuando un cliente paga un tour en tu sitio, 
 
 ## Aceptar tarjetas y monedas internacionales
 
-Para una agencia enfocada en turismo receptivo, es importante que la pasarela elegida acepte tarjetas emitidas en otros países, no solo tarjetas peruanas. La mayoría de turistas que reservan desde el extranjero pagan con tarjetas de crédito o débito internacionales, y una pasarela limitada a procesar solo tarjetas locales deja fuera a buena parte del público objetivo.
+Para una agencia enfocada en turismo receptivo, es importante que la pasarela elegida acepte tarjetas internacionales emitidas en otros países, no solo tarjetas peruanas. La mayoría de turistas que reservan desde el extranjero pagan con tarjetas de crédito o débito internacionales, y una pasarela limitada a procesar solo tarjetas locales deja fuera a buena parte del público objetivo.
 
 También vale la pena considerar si conviene mostrar precios en soles, en dólares, o en ambos, dependiendo del perfil de cliente que más reserve con la agencia. Algunas pasarelas permiten procesar el cobro en la moneda que el cliente prefiera, lo que reduce la fricción al momento de pagar.
 
@@ -39,7 +39,7 @@ Esta estrategia tiene una ventaja importante: reduce las cancelaciones de últim
 
 ## Seguridad: lo básico que toda agencia debe entender
 
-Procesar pagos en línea implica responsabilidades de seguridad, aunque la agencia no maneje directamente los datos de la tarjeta. El estándar que rige estos procesos a nivel internacional se llama PCI-DSS, y en términos simples establece buenas prácticas para que los datos de pago se transmitan y almacenen de forma segura.
+Procesar pagos en línea implica responsabilidades de seguridad en pagos, aunque la agencia no maneje directamente los datos de la tarjeta. El estándar que rige estos procesos a nivel internacional se llama PCI-DSS, y en términos simples establece buenas prácticas para que los datos de pago se transmitan y almacenen de forma segura.
 
 La buena noticia es que, al usar una pasarela de pago reconocida, buena parte de este cumplimiento recae en el proveedor de la pasarela, no en la agencia. Aun así, es importante elegir proveedores serios, mantener la plataforma de reservas actualizada, y evitar guardar datos de tarjetas fuera del flujo seguro que ofrece la pasarela. Si quieres entender mejor cómo proteger la información de tu negocio en este tipo de procesos, en Universoft Systems también ofrecemos [servicios de ciberseguridad](/servicios/ciberseguridad) orientados a negocios que manejan pagos y datos de clientes en línea.
 

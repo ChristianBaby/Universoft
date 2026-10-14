@@ -15,11 +15,11 @@ reviewed: false
 
 Cuando una empresa revisa su presupuesto anual, la ciberseguridad suele quedar en el último lugar de la lista. No genera ventas directas, no se ve en el producto final y sus resultados son, por definición, invisibles: cuando funciona, simplemente no pasa nada. Esa invisibilidad hace que muchos gerentes la traten como un gasto postergable.
 
-El problema es que esa decisión no elimina el riesgo, solo lo transfiere al futuro, con un costo mucho mayor. En Perú, menos del 25% de las pymes destina presupuesto a ciberseguridad, según el ESET Security Report Latinoamérica 2026. Al mismo tiempo, la DIVINDAT-PNP registró más de 42,000 denuncias por delitos informáticos solo en 2024. La brecha entre exposición y protección es enorme, y las empresas que no invierten están, en la práctica, apostando a no ser la próxima víctima.
+El problema es que esa decisión no elimina el riesgo de ciberseguridad, solo lo transfiere al futuro, con un costo mucho mayor. En Perú, menos del 25% de las pymes destina presupuesto a ciberseguridad, según el ESET Security Report Latinoamérica 2026. Al mismo tiempo, la DIVINDAT-PNP registró más de 42,000 denuncias por delitos informáticos solo en 2024. La brecha entre exposición y protección es enorme, y las empresas que no invierten están, en la práctica, apostando a no ser la próxima víctima.
 
 ## Lo que realmente cuesta un ataque
 
-El costo de un incidente de seguridad rara vez se limita al rescate que pide un atacante o al valor de los datos robados. Expertos advierten que una vulneración de ciberseguridad puede costar hasta el 20% de los ingresos anuales de un negocio. Esa cifra incluye varios componentes que suelen subestimarse:
+Las pérdidas por ciberataque rara vez se limitan al rescate que pide un atacante o al valor de los datos robados. Expertos advierten que una vulneración de ciberseguridad puede costar hasta el 20% de los ingresos anuales de un negocio. Esa cifra incluye varios componentes que suelen subestimarse:
 
 **Interrupción operativa.** Mientras los sistemas están comprometidos o fuera de línea, la empresa no puede facturar, atender clientes ni producir. Para un negocio que depende de sus plataformas digitales, cada hora de inactividad es ingreso perdido.
 
@@ -39,7 +39,7 @@ Esto convierte a cada pyme desprotegida en una puerta de entrada relativamente f
 
 ## El costo de prevenir, en perspectiva
 
-Comparado con el costo de un incidente, el de la prevención es predecible y mucho menor. Una estrategia de ciberseguridad básica no requiere una inversión descomunal: incluye medidas como auditorías periódicas de vulnerabilidades, autenticación multifactor, cifrado de información sensible, copias de seguridad automatizadas y capacitación del equipo.
+Comparado con el costo de un incidente, una inversión en seguridad es predecible y mucho menor. Una estrategia de ciberseguridad básica no requiere una inversión descomunal: incluye medidas como auditorías periódicas de vulnerabilidades, autenticación multifactor, cifrado de información sensible, copias de seguridad automatizadas y capacitación del equipo.
 
 La diferencia clave es que este gasto se planifica, se presupuesta y se distribuye en el tiempo. El costo de un ataque, en cambio, llega de golpe, sin aviso y sin posibilidad de negociar el momento en que ocurre. Es la diferencia entre pagar una prima de seguro y pagar el valor total de un siniestro.
 

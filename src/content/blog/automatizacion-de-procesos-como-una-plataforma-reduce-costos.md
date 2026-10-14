@@ -15,7 +15,7 @@ reviewed: false
 
 Toda empresa tiene procesos que se repiten todos los días: generar una factura, actualizar el inventario después de una venta, aprobar una solicitud de compra, responder la misma consulta de un cliente por tercera vez en la semana. Individualmente, cada una de estas tareas parece pequeña. Sumadas a lo largo de un mes, representan horas de trabajo que podrían dedicarse a algo que realmente mueva el negocio hacia adelante.
 
-Las empresas que han digitalizado estos procesos reportan una reducción de hasta el 30% en sus costos operativos y un aumento del 25% en productividad. Esa diferencia no viene de trabajar más horas, sino de eliminar la fricción que generan los procesos manuales y los sistemas que no se comunican entre sí.
+Las empresas que han digitalizado estos procesos reportan una reducción de hasta el 30% en sus costos operativos y un aumento del 25% en productividad. Esa diferencia no viene de trabajar más horas, sino de eliminar la fricción que generan los procesos manuales y los sistemas que no se comunican entre sí. En el fondo, la automatización empresarial consiste en rediseñar los flujos de trabajo para ganar eficiencia operativa sin depender de más horas de trabajo manual.
 
 ## Qué significa automatizar un proceso
 

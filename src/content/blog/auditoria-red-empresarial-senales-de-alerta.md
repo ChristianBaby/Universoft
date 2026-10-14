@@ -27,13 +27,13 @@ Una caída de conexión de pocos minutos puede parecer un inconveniente menor, p
 
 Muchas pequeñas y medianas empresas operan con una sola red plana: todos los dispositivos, desde las computadoras del equipo administrativo hasta las cámaras de seguridad y los celulares personales de los visitantes, comparten la misma red sin ninguna separación.
 
-Esto no solo afecta el rendimiento, sino que es un riesgo de seguridad serio. Si un dispositivo comprometido entra a la red, puede moverse libremente hacia los sistemas más sensibles de la empresa. Una red bien diseñada separa el tráfico por zonas: administración, invitados, dispositivos IoT y sistemas críticos, cada uno con sus propias reglas de acceso.
+Esto no solo afecta el rendimiento de red, sino que es un riesgo de seguridad serio. Si un dispositivo comprometido entra a la red, puede moverse libremente hacia los sistemas más sensibles de la empresa. Una red bien diseñada separa el tráfico por zonas: administración, invitados, dispositivos IoT y sistemas críticos, cada uno con sus propias reglas de acceso.
 
 ![Cables de red organizados en un rack de telecomunicaciones](https://images.unsplash.com/photo-1573164713988-8665fc963095?w=800&h=450&fit=crop&q=80)
 
 ## 3. Nadie en tu empresa sabe qué pasa en la red
 
-¿Tu empresa sabría detectar si alguien está usando un ancho de banda desproporcionado para actividades no relacionadas con el trabajo? ¿O si un dispositivo desconocido se conectó a la red la madrugada del sábado? Si la respuesta es no, tu red opera sin visibilidad.
+¿Tu empresa monitorea el tráfico de red y sabría detectar si alguien está usando un ancho de banda desproporcionado para actividades no relacionadas con el trabajo? ¿O si un dispositivo desconocido se conectó a la red la madrugada del sábado? Si la respuesta es no, tu red opera sin visibilidad.
 
 La falta de monitoreo es una de las señales más peligrosas porque es silenciosa: los problemas de rendimiento, los cuellos de botella y hasta los intentos de acceso no autorizado pueden pasar completamente desapercibidos hasta que generan una interrupción grave o una brecha de seguridad.
 

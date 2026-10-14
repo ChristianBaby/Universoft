@@ -29,7 +29,7 @@ Cada uno de estos errores, cuando ocurre con un grupo de viajeros ya en Cusco, n
 
 Un sistema de gestión a medida para un operador turístico reemplaza ese mosaico de hojas de cálculo y mensajes de WhatsApp por un único lugar donde vive la información real y actualizada del negocio.
 
-Esto significa calendario de disponibilidad de guías y vehículos visible para todo el equipo en tiempo real, sin duplicar asignaciones. Itinerarios configurables que se adaptan a variaciones comunes —grupo privado versus grupo compartido, con o sin Camino Inca, distintas duraciones— sin tener que reescribir todo desde cero cada vez. Control de cupos por fecha que impide vender más espacios de los que realmente existen, algo crítico cuando se trabaja con boletos de tren o permisos de ingreso limitados a Machu Picchu. Visibilidad para todo el equipo, desde quien vende el tour hasta el guía que lo ejecuta, sobre el estado real de cada reserva.
+Esto significa coordinación de guías y vehículos visible para todo el equipo en tiempo real, sin duplicar asignaciones, y una gestión de itinerarios centralizada en lugar de dispersa entre archivos distintos. Itinerarios configurables que se adaptan a variaciones comunes —grupo privado versus grupo compartido, con o sin Camino Inca, distintas duraciones— sin tener que reescribir todo desde cero cada vez. Control de cupos por fecha que impide vender más espacios de los que realmente existen, algo crítico cuando se trabaja con boletos de tren o permisos de ingreso limitados a Machu Picchu. Visibilidad para todo el equipo, desde quien vende el tour hasta el guía que lo ejecuta, sobre el estado real de cada reserva.
 
 ## Automatización de las tareas que consumen tiempo
 

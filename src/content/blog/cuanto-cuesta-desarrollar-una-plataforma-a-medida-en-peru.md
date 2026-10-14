@@ -15,7 +15,7 @@ reviewed: false
 
 Es la primera pregunta que hace casi cualquier empresa antes de decidirse por un desarrollo a medida: ¿cuánto cuesta? Y es también la pregunta más difícil de responder con una cifra única, porque el precio de una plataforma depende de variables muy distintas entre un proyecto y otro.
 
-A diferencia de un software genérico con precio de catálogo, una plataforma a medida se cotiza según el trabajo real que implica construirla. Eso significa que dos empresas pueden pedir "una plataforma de gestión" y terminar con presupuestos completamente diferentes, porque lo que hay detrás de esa frase es distinto en cada caso. Esta guía explica qué factores mueven ese número, para que puedas llegar a una conversación de cotización con expectativas realistas.
+A diferencia de un software genérico con precio de catálogo, el desarrollo de software a medida se cotiza según el trabajo real que implica construirlo. Eso significa que dos empresas pueden definir un alcance del proyecto distinto para "una plataforma de gestión" y terminar con un presupuesto de software completamente diferente, porque lo que hay detrás de esa frase es distinto en cada caso. Esta guía explica qué factores mueven ese número, para que puedas llegar a una conversación de cotización con expectativas realistas.
 
 ## El alcance de funcionalidades es el factor que más pesa
 

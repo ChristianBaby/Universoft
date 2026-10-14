@@ -15,7 +15,7 @@ reviewed: false
 
 Las agencias de viajes y operadores turísticos en Cusco conocen bien a las plataformas internacionales de reservas: Booking, GetYourGuide, Viator y similares, conocidas en el sector como OTAs (Online Travel Agencies). Son canales que traen visibilidad real frente a un público que ya confía en esas marcas globales, y para muchos negocios locales representan una parte importante de sus reservas.
 
-El costo de esa visibilidad, sin embargo, suele quedar escondido en la letra pequeña: comisiones que en muchos casos superan el 20% o 25% del valor de cada reserva. Para un tour de varios días con un margen ya ajustado, esa comisión puede representar la diferencia entre una operación rentable y una que apenas cubre costos. Y a eso se suma algo menos tangible pero igual de importante: la relación con el viajero queda, en buena parte, en manos de la OTA, no del operador que realmente ejecuta el tour.
+El costo de esa visibilidad, sin embargo, suele quedar escondido en la letra pequeña: comisiones de reserva que en muchos casos superan el 20% o 25% del valor de cada reserva. Para un tour de varios días con un margen ya ajustado, esa comisión puede representar la diferencia entre una operación rentable y una que apenas cubre costos. Y a eso se suma algo menos tangible pero igual de importante: la relación con el viajero queda, en buena parte, en manos de la OTA, no del operador que realmente ejecuta el tour.
 
 ## No se trata de abandonar las OTAs
 

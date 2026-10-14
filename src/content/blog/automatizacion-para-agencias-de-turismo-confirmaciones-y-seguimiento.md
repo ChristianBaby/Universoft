@@ -21,7 +21,7 @@ Cuando ese proceso depende completamente de personas, aparecen los mismos proble
 
 La automatización en una agencia de turismo no significa convertir toda la comunicación en mensajes fríos y genéricos. Significa que los mensajes correctos salgan en el momento correcto, sin que alguien tenga que recordarlo manualmente.
 
-La confirmación de reserva es el primer punto: en cuanto se cierra una venta, el sistema puede enviar automáticamente los detalles del tour, el método de pago confirmado y los próximos pasos, sin depender de que alguien del equipo esté disponible en ese momento exacto. Los recordatorios previos al viaje son igual de importantes: qué llevar según la altitud y el clima, a qué hora y dónde es el punto de encuentro, y cualquier indicación específica del tour, enviados automáticamente uno o dos días antes sin intervención manual.
+Las confirmaciones automáticas son el primer punto: en cuanto se cierra una venta, el sistema puede enviar automáticamente los detalles del tour, el método de pago confirmado y los próximos pasos, sin depender de que alguien del equipo esté disponible en ese momento exacto. Los recordatorios de viaje previos a la salida son igual de importantes: qué llevar según la altitud y el clima, a qué hora y dónde es el punto de encuentro, y cualquier indicación específica del tour, enviados automáticamente uno o dos días antes sin intervención manual.
 
 ![Confirmación automática de reserva de tour en el celular](https://images.unsplash.com/photo-1590089171605-171f3b536f74?w=800&h=450&fit=crop&q=80)
 
@@ -33,7 +33,7 @@ Un sistema automatizado puede enviar, pocos días después del tour, un mensaje 
 
 ## Menos trabajo manual, más capacidad de crecer
 
-El argumento de fondo para automatizar no es solo ahorrar tiempo: es poder crecer sin que cada reserva adicional implique contratar a alguien más solo para escribir mensajes. Una agencia que automatiza sus confirmaciones, recordatorios y seguimiento puede absorber picos de temporada alta —cuando las reservas se multiplican en pocas semanas— sin que la calidad de atención se resienta ni el equipo se sature.
+El argumento de fondo para automatizar no es solo ahorrar tiempo: es poder crecer sin que cada reserva adicional implique contratar a alguien más solo para escribir mensajes. Una agencia que automatiza el seguimiento de clientes, sus confirmaciones y recordatorios puede absorber picos de temporada alta —cuando las reservas se multiplican en pocas semanas— sin que la calidad de atención se resienta ni el equipo se sature.
 
 Esto es particularmente relevante en Cusco, donde la estacionalidad del turismo es marcada: los meses de alta demanda concentran una cantidad de reservas que, gestionadas manualmente, suelen desbordar a equipos pequeños precisamente cuando más ingresos está generando el negocio.
 

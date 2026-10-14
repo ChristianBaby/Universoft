@@ -27,7 +27,7 @@ En la práctica, esto significa que tu equipo puede hacer y recibir llamadas des
 
 La telefonía tradicional depende de infraestructura física: cables de cobre, centrales telefónicas físicas (PBX) y una línea por cada extensión que necesites. Cada línea adicional implica un costo de instalación y una tarifa mensual independiente.
 
-Con VoIP, las extensiones son virtuales. Agregar un nuevo colaborador a tu sistema telefónico puede tomar minutos en lugar de días, y no requiere tender cableado nuevo ni esperar la visita de un técnico del operador. Además, un sistema VoIP bien configurado permite funciones que la telefonía tradicional no ofrece de forma nativa: grabación de llamadas, enrutamiento inteligente, buzones de voz enviados por correo, reportes de volumen de llamadas y integración con sistemas de atención al cliente.
+Con VoIP operas desde una centralita virtual: las extensiones son virtuales. Agregar un nuevo colaborador a tu sistema telefónico puede tomar minutos en lugar de días, y no requiere tender cableado nuevo ni esperar la visita de un técnico del operador. Además, un sistema VoIP bien configurado permite funciones que la telefonía tradicional no ofrece de forma nativa: grabación de llamadas, enrutamiento inteligente, buzones de voz enviados por correo, reportes de volumen de llamadas y integración con sistemas de atención al cliente.
 
 ![Equipo de oficina trabajando con auriculares en llamadas de atención al cliente](https://images.unsplash.com/photo-1506399558188-acca6f8cbf41?w=800&h=450&fit=crop&q=80)
 

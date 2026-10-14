@@ -12,7 +12,7 @@ reviewed: false
 ---
 ## Una amenaza que no distingue tamaño de empresa
 
-El ransomware es un tipo de software malicioso que cifra los archivos de una empresa y exige un pago, generalmente en criptomonedas, a cambio de la clave para recuperarlos. En cuestión de minutos, una empresa puede perder acceso a sus bases de datos, documentos contables, sistemas de facturación y cualquier otro archivo almacenado en los equipos comprometidos.
+El ransomware, también conocido como secuestro de datos, es un tipo de software malicioso que cifra los archivos de una empresa y exige un pago, generalmente en criptomonedas, a cambio de la clave para recuperarlos. En cuestión de minutos, una empresa puede perder acceso a sus bases de datos, documentos contables, sistemas de facturación y cualquier otro archivo almacenado en los equipos comprometidos.
 
 Durante años existió la idea de que este tipo de ataque se dirigía únicamente a grandes corporaciones con mucho que perder. La realidad en Perú es distinta: las pymes son blancos frecuentes precisamente porque suelen tener menos protección que las empresas grandes, mientras que igualmente dependen de sus sistemas digitales para operar día a día. Un taller, una clínica, un estudio contable o una agencia de servicios pueden quedar completamente paralizados por un ataque que a una corporación con más recursos le costaría resolver en horas.
 

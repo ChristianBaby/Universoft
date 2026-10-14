@@ -37,7 +37,7 @@ Esto tiene un costo directo. Cada overbooking significa un cliente molesto, una 
 
 Digitalizar no significa simplemente mover la hoja de Excel a una nube compartida. Significa reemplazar el proceso completo por un sistema donde la disponibilidad se actualiza en tiempo real con cada reserva, donde todo el equipo ve la misma información al instante, y donde el estado de cada cliente (reservado, pagado, confirmado, completado) es visible sin tener que preguntar a nadie.
 
-Esto implica centralizar en un solo lugar lo que hoy vive disperso: el calendario de disponibilidad, los datos de contacto del cliente, el estado del pago y la comunicación relacionada con cada reserva. El resultado no es solo menos errores: es que cualquier persona del equipo puede atender a un cliente con información completa, sin depender de que "la persona que lo atendió primero" esté disponible para explicar el caso.
+Esto implica centralizar en un solo lugar lo que hoy vive disperso: el calendario de reservas en línea, la gestión de clientes turísticos, el estado del pago y la comunicación relacionada con cada reserva. En la práctica, es el equivalente a tener un CRM para turismo pensado específicamente para cómo opera una agencia. El resultado no es solo menos errores: es que cualquier persona del equipo puede atender a un cliente con información completa, sin depender de que "la persona que lo atendió primero" esté disponible para explicar el caso.
 
 ## El rol de WhatsApp no desaparece, cambia
 
