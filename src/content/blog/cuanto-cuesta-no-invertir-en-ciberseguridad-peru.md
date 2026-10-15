@@ -4,7 +4,7 @@ seoTitle: "El costo real de NO invertir en ciberseguridad"
 description: "Postergar la ciberseguridad parece ahorrar dinero, pero el costo de un ataque suele ser mucho mayor que el de prevenirlo. Analizamos las cifras reales."
 publishedAt: 2025-07-31
 category: "Ciberseguridad"
-cover: "https://images.unsplash.com/photo-1563986768609-322da13575f2?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/cuanto-cuesta-no-invertir-en-ciberseguridad-peru-cover.webp"
 coverAlt: "Alerta de seguridad desplegada en la pantalla de una computadora"
 author: "Universoft Systems"
 readTime: "8 min de lectura"
@@ -29,7 +29,7 @@ Las pérdidas por ciberataque rara vez se limitan al rescate que pide un atacant
 
 **Consecuencias legales y regulatorias.** Dependiendo del tipo de información comprometida, una empresa puede enfrentar sanciones, demandas o la obligación de notificar a cada cliente afectado, con el costo administrativo que eso implica.
 
-![Concepto de ciberseguridad y protección de datos](https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=450&fit=crop&q=80)
+![Concepto de ciberseguridad y protección de datos](/images/blog/cuanto-cuesta-no-invertir-en-ciberseguridad-peru-inline-1.webp)
 
 ## Por qué las pymes son un blanco atractivo
 

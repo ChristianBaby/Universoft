@@ -4,7 +4,7 @@ seoTitle: "CMS: administra tu web sin saber programar"
 description: "Un gestor de contenido te permite actualizar tu web sin depender de un programador. Te explicamos qué es y por qué importa para tu negocio."
 publishedAt: 2025-11-06
 category: "Web"
-cover: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/cms-como-administrar-tu-web-sin-saber-programar-cover.webp"
 coverAlt: "Panel de administración de contenido de un sitio web en una laptop"
 author: "Universoft Systems"
 readTime: "6 min de lectura"
@@ -23,7 +23,7 @@ Un CMS es una interfaz —normalmente un panel de administración al que accedes
 
 Detrás de esa interfaz, el sitio sigue siendo una aplicación web construida profesionalmente. El CMS no reemplaza el desarrollo: lo complementa, separando la parte técnica (que construye un desarrollador) de la parte de contenido (que gestionas tú, el día a día).
 
-![Persona administrando contenido desde un panel de control](https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=800&h=450&fit=crop&q=80)
+![Persona administrando contenido desde un panel de control](/images/blog/cms-como-administrar-tu-web-sin-saber-programar-inline-1.webp)
 
 ## Qué puedes hacer sin saber programar
 

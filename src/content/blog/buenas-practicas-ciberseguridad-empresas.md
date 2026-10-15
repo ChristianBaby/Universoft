@@ -3,7 +3,7 @@ title: "Buenas prácticas de ciberseguridad para empresas"
 description: "Proteger la información de tu empresa no requiere ser experto en tecnología. Conoce las medidas básicas que toda organización debería implementar."
 publishedAt: 2025-03-20
 category: "Ciberseguridad"
-cover: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/buenas-practicas-ciberseguridad-empresas-cover.webp"
 coverAlt: "Candado digital sobre un teclado, símbolo de protección de datos"
 author: "Universoft Systems"
 readTime: "9 min de lectura"
@@ -24,7 +24,7 @@ Implementa el principio de mínimo privilegio: cada persona solo debe tener acce
 
 Acciones concretas que debes tomar: clasifica tu información por nivel de sensibilidad, asigna permisos de acceso por roles y no por personas individuales, revisa y actualiza los permisos periódicamente, revoca inmediatamente el acceso de empleados que dejan la empresa y registra quién accede a datos críticos para poder auditar en caso de incidentes.
 
-![Concepto de ciberseguridad y protección de datos](https://images.unsplash.com/photo-1563986768609-322da13575f2?w=800&h=450&fit=crop&q=80)
+![Código en la pantalla de una laptop](/images/blog/buenas-practicas-ciberseguridad-empresas-inline-1.webp)
 
 ## Contraseñas robustas y autenticación multifactor
 
@@ -50,7 +50,7 @@ Medidas esenciales para proteger tu correo corporativo: implementa filtros antis
 
 Enseña a tu equipo a identificar correos sospechosos: remitentes desconocidos, errores ortográficos, urgencia injustificada y enlaces que no coinciden con el dominio visible son señales de alerta clasicas.
 
-![Equipo de trabajo implementando medidas de seguridad](https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=450&fit=crop&q=80)
+![Equipo de trabajo implementando medidas de seguridad](/images/blog/buenas-practicas-ciberseguridad-empresas-inline-2.webp)
 
 ## Capacitación: el factor humano es clave
 

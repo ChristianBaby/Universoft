@@ -4,7 +4,7 @@ seoTitle: "Qué incluye una auditoría de vulnerabilidades"
 description: "Una auditoría de vulnerabilidades revela los puntos débiles de tu infraestructura antes de que un atacante los encuentre. Te explicamos cada etapa."
 publishedAt: 2025-08-14
 category: "Ciberseguridad"
-cover: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/que-incluye-una-auditoria-de-vulnerabilidades-cover.webp"
 coverAlt: "Candado sobre un teclado, símbolo de una auditoría de seguridad"
 author: "Universoft Systems"
 readTime: "8 min de lectura"
@@ -27,7 +27,7 @@ Un proceso de auditoría bien ejecutado no es un solo paso, sino una secuencia d
 
 **Pruebas de penetración controladas.** A diferencia de un escaneo automático, las pruebas de penetración (o pentesting) aplican técnicas de hacking ético para simular de forma controlada el comportamiento de un atacante real, intentando explotar las vulnerabilidades encontradas para confirmar si son explotables en la práctica y qué tan grave sería el impacto.
 
-![Equipo de trabajo implementando medidas de seguridad](https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=450&fit=crop&q=80)
+![Equipo de trabajo implementando medidas de seguridad](/images/blog/que-incluye-una-auditoria-de-vulnerabilidades-inline-1.webp)
 
 **Revisión de políticas de acceso.** Se evalúa quién tiene acceso a qué información, si los permisos siguen el principio de mínimo privilegio y si existen cuentas activas que deberían haberse revocado hace tiempo, como las de ex empleados.
 

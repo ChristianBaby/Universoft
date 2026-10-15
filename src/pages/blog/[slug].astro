@@ -23,7 +23,7 @@ const jsonLd = [
     url,
     title: post.data.title,
     description: post.data.description,
-    image: post.data.cover,
+    image: new URL(post.data.cover, SITE_URL).toString(),
     publishedAt: post.data.publishedAt,
     updatedAt: post.data.updatedAt ?? post.data.publishedAt,
     author: post.data.author,

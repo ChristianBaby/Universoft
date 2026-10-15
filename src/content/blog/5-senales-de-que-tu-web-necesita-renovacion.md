@@ -3,7 +3,7 @@ title: "5 señales de que tu web necesita una renovación"
 description: "Un sitio web desactualizado puede ahuyentar clientes potenciales. Aprende a identificar cuándo es momento de renovar tu presencia digital."
 publishedAt: 2025-04-03
 category: "Web"
-cover: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/5-senales-de-que-tu-web-necesita-renovacion-cover.webp"
 coverAlt: "Diseño web responsive visualizado en varios dispositivos"
 author: "Universoft Systems"
 readTime: "6 min de lectura"
@@ -24,7 +24,7 @@ Las causas más comunes de lentitud incluyen imágenes sin optimizar, codigo obs
 
 Si tu web obtiene una puntuación inferior a 50 en PageSpeed, es una señal clara de que necesita atención urgente.
 
-![Diseño web responsive en multiples dispositivos](https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&h=450&fit=crop&q=80)
+![Diseño web responsive en multiples dispositivos](/images/blog/5-senales-de-que-tu-web-necesita-renovacion-inline-1.webp)
 
 ## 2. No se adapta a dispositivos móviles
 
@@ -50,7 +50,7 @@ Una tasa de rebote superior al 70% en páginas principales es una señal de aler
 
 Analizar estos datos con herramientas como Google Analytics te permite identificar exactamente donde pierdes visitantes y que páginas necesitan mejoras urgentes.
 
-![Análisis y desarrollo web profesional](https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=450&fit=crop&q=80)
+![Análisis y desarrollo web profesional](/images/blog/5-senales-de-que-tu-web-necesita-renovacion-inline-2.webp)
 
 ## 5. Problemas de seguridad y SEO deficiente
 

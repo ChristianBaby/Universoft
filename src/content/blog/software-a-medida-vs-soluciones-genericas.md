@@ -4,7 +4,7 @@ seoTitle: "Software a medida vs. soluciones genéricas"
 description: "¿Comprar un software estándar o desarrollar uno propio? Te explicamos los pros y contras de cada opción para que tomes la mejor decisión."
 publishedAt: 2025-02-08
 category: "Software"
-cover: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/software-a-medida-vs-soluciones-genericas-cover.webp"
 coverAlt: "Equipo de desarrollo de software trabajando"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
@@ -25,7 +25,7 @@ El proceso típico incluye un análisis detallado de tus necesidades y flujos de
 
 El resultado es una herramienta que funciona exactamente como tu empresa necesita, con la flexibilidad de crecer y adaptarse a medida que tu negocio evoluciona.
 
-![Equipo de desarrollo de software trabajando](https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=450&fit=crop&q=80)
+![Equipo de desarrollo de software trabajando](/images/blog/software-a-medida-vs-soluciones-genericas-inline-1.webp)
 
 ## Que son las soluciones genéricas
 
@@ -49,7 +49,7 @@ Costo inicial más bajo y accesible. Implementación rápida, en días o semanas
 **Soluciones genéricas — Desventajas:**
 Funcionalidades limitadas a lo que el fabricante ofrece. Puede obligarte a cambiar tus procesos internos. La evolución del software depende de decisiones comerciales del proveedor, no de tus necesidades. Costos de licencia recurrentes que se acumulan con el tiempo.
 
-![Programación y desarrollo de software](https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=450&fit=crop&q=80)
+![Programación y desarrollo de software](/images/blog/software-a-medida-vs-soluciones-genericas-inline-2.webp)
 
 ## Cuando elegir cada opción
 

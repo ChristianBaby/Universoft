@@ -4,7 +4,7 @@ seoTitle: "Automatización para agencias de turismo"
 description: "Responder cada confirmación y seguimiento a mano no escala en temporada alta. Así libera tiempo la automatización sin perder el trato cercano con el viajero."
 publishedAt: 2026-04-02
 category: "Turismo"
-cover: "https://images.unsplash.com/photo-1761198793038-17576e4e3896?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/automatizacion-para-agencias-de-turismo-confirmaciones-y-seguimiento-cover.webp"
 coverAlt: "Persona gestionando reservas y mensajes de clientes desde el celular"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
@@ -23,7 +23,7 @@ La automatización en una agencia de turismo no significa convertir toda la comu
 
 Las confirmaciones automáticas son el primer punto: en cuanto se cierra una venta, el sistema puede enviar automáticamente los detalles del tour, el método de pago confirmado y los próximos pasos, sin depender de que alguien del equipo esté disponible en ese momento exacto. Los recordatorios de viaje previos a la salida son igual de importantes: qué llevar según la altitud y el clima, a qué hora y dónde es el punto de encuentro, y cualquier indicación específica del tour, enviados automáticamente uno o dos días antes sin intervención manual.
 
-![Confirmación automática de reserva de tour en el celular](https://images.unsplash.com/photo-1590089171605-171f3b536f74?w=800&h=450&fit=crop&q=80)
+![Confirmación automática de reserva de tour en el celular](/images/blog/automatizacion-para-agencias-de-turismo-confirmaciones-y-seguimiento-inline-1.webp)
 
 ## El seguimiento después del viaje, el paso que más se olvida
 

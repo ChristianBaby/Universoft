@@ -4,7 +4,7 @@ seoTitle: "Transformación digital en PYMES peruanas 2026"
 description: "La transformación digital ya no es opcional para las PYMES peruanas. Te explicamos por dónde empezar, qué priorizar y cómo evitar los errores más comunes."
 publishedAt: 2025-12-04
 category: "Software"
-cover: "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/transformacion-digital-en-pymes-peruanas-2026-cover.webp"
 coverAlt: "Dueño de una pyme revisando indicadores digitales de su negocio"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
@@ -23,7 +23,7 @@ El error más común es elegir una herramienta antes de entender el problema que
 
 Este diagnóstico no necesita ser complejo. Basta con que cada área identifique sus tres procesos más lentos o propensos a error. Esa lista, priorizada por impacto, es el punto de partida real de cualquier transformación digital efectiva.
 
-![Equipo de trabajo revisando procesos en una pizarra](https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=450&fit=crop&q=80)
+![Equipo de trabajo revisando procesos en una pizarra](/images/blog/transformacion-digital-en-pymes-peruanas-2026-inline-1.webp)
 
 ## Prioriza automatización sobre funcionalidades atractivas
 

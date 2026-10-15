@@ -4,7 +4,7 @@ seoTitle: "Cuánto cuesta una página web profesional en Perú"
 description: "No existe un precio único para una web profesional. Te explicamos qué factores determinan el costo real y cómo presupuestar tu proyecto con criterio."
 publishedAt: 2025-10-23
 category: "Web"
-cover: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/cuanto-cuesta-una-pagina-web-profesional-en-peru-cover.webp"
 coverAlt: "Diseñador trabajando en el layout de una página web"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
@@ -23,7 +23,7 @@ El factor más evidente es el alcance: no es lo mismo un sitio de una sola pági
 
 Pero el número de páginas por sí solo no define el costo. Una página con un formulario complejo, una galería dinámica o contenido que cambia según el usuario cuesta más que cinco páginas estáticas de solo texto e imágenes.
 
-![Diseño de interfaz web en pantalla de laptop](https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=450&fit=crop&q=80)
+![Diseño de interfaz web en pantalla de laptop](/images/blog/cuanto-cuesta-una-pagina-web-profesional-en-peru-inline-1.webp)
 
 ## Diseño a medida vs. plantilla
 

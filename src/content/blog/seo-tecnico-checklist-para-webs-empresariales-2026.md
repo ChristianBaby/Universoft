@@ -4,7 +4,7 @@ seoTitle: "SEO técnico: checklist para webs empresariales"
 description: "El SEO técnico es la base invisible que determina si Google puede encontrar y posicionar tu sitio. Revisa esta checklist antes de dar tu web por terminada."
 publishedAt: 2025-11-20
 category: "Web"
-cover: "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/seo-tecnico-checklist-para-webs-empresariales-2026-cover.webp"
 coverAlt: "Lista de verificación de SEO técnico sobre un escritorio"
 author: "Universoft Systems"
 readTime: "8 min de lectura"
@@ -29,7 +29,7 @@ Cada página debe tener exactamente un encabezado H1 que indique su tema princip
 
 Usar múltiples H1 o saltar niveles de jerarquía (de H1 directo a H4, por ejemplo) debilita esa señal de estructura.
 
-![Pantalla mostrando métricas de análisis web](https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=450&fit=crop&q=80)
+![Pantalla mostrando métricas de análisis web](/images/blog/seo-tecnico-checklist-para-webs-empresariales-2026-inline-1.webp)
 
 ## Datos estructurados (Schema markup)
 

@@ -4,7 +4,7 @@ seoTitle: "Web para agencias de turismo: no basta con redes"
 description: "Instagram y Facebook ayudan a mostrar tu trabajo, pero no reemplazan una web propia. Te explicamos qué pierde una agencia que solo vive en redes sociales."
 publishedAt: 2026-02-05
 category: "Turismo"
-cover: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/pagina-web-para-agencias-de-turismo-por-que-no-basta-redes-sociales-cover.webp"
 coverAlt: "Teléfono mostrando el feed de redes sociales de una agencia de turismo"
 author: "Universoft Systems"
 readTime: "6 min de lectura"
@@ -29,7 +29,7 @@ Cuando un viajero busca en Google algo como "tours a Machu Picchu desde Cusco" o
 
 Esto significa que una agencia que solo existe en redes sociales es prácticamente invisible para el tipo de búsqueda que hace un viajero que todavía no conoce ninguna agencia por nombre, y que está comparando opciones antes de decidir con quién reservar.
 
-![Pantalla mostrando el diseño de un sitio web](https://images.unsplash.com/photo-1611926653458-09294b3142bf?w=800&h=450&fit=crop&q=80)
+![Pantalla mostrando el diseño de un sitio web](/images/blog/pagina-web-para-agencias-de-turismo-por-que-no-basta-redes-sociales-inline-1.webp)
 
 ## Transmite menos confianza a turistas extranjeros
 

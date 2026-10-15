@@ -4,7 +4,7 @@ seoTitle: "Redes para equipos remotos e híbridos: guía"
 description: "El trabajo híbrido llegó para quedarse. Te explicamos cómo diseñar una red segura y confiable para equipos que ya no trabajan solo desde la oficina."
 publishedAt: 2025-07-17
 category: "Telecomunicaciones"
-cover: "https://images.unsplash.com/photo-1680992046615-065f58bcb4d8?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/redes-para-equipos-remotos-e-hibridos-guia-empresas-peruanas-cover.webp"
 coverAlt: "Persona trabajando de forma remota conectada por videollamada"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
@@ -31,7 +31,7 @@ Esta improvisación funciona en el corto plazo, pero expone a la empresa a riesg
 
 **Autenticación multifactor.** Para accesos remotos, una contraseña ya no es suficiente. Exigir un segundo factor de verificación (como un código temporal en el celular) reduce drásticamente el riesgo de que una credencial robada o filtrada se traduzca en un acceso no autorizado a los sistemas de la empresa.
 
-![Persona trabajando de forma remota conectada por videollamada desde su laptop](https://images.unsplash.com/photo-1517373116369-9bdb8cdc9f62?w=800&h=450&fit=crop&q=80)
+![Persona trabajando de forma remota conectada por videollamada desde su laptop](/images/blog/redes-para-equipos-remotos-e-hibridos-guia-empresas-peruanas-inline-1.webp)
 
 **Herramientas de colaboración centralizadas.** Mensajería, videoconferencia y gestión de documentos deben vivir en plataformas corporativas controladas, no en una mezcla de aplicaciones personales elegidas por cada colaborador. Esto no solo mejora la seguridad, también la trazabilidad y la continuidad cuando alguien deja el equipo.
 

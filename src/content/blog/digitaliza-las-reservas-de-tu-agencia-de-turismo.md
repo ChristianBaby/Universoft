@@ -4,7 +4,7 @@ seoTitle: "Digitaliza las reservas de tu agencia de turismo"
 description: "WhatsApp y Excel funcionan al inicio, pero con el crecimiento se vuelven la principal fuente de errores de una agencia de turismo. Cómo dar el salto."
 publishedAt: 2026-01-22
 category: "Turismo"
-cover: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/digitaliza-las-reservas-de-tu-agencia-de-turismo-cover.webp"
 coverAlt: "Persona organizando reservas de viaje en una hoja de cálculo"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
@@ -31,7 +31,7 @@ Durante los meses de mayor demanda, el volumen de consultas simultáneas se mult
 
 Esto tiene un costo directo. Cada overbooking significa un cliente molesto, una reubicación de última hora o, en el peor caso, una cancelación que daña la reputación de la agencia justo cuando más reservas están en juego.
 
-![Equipo de trabajo revisando reservas en laptop y celular](https://images.unsplash.com/photo-1586880244406-556ebe35f282?w=800&h=450&fit=crop&q=80)
+![Equipo de trabajo revisando reservas en laptop y celular](/images/blog/digitaliza-las-reservas-de-tu-agencia-de-turismo-inline-1.webp)
 
 ## Qué significa realmente "digitalizar las reservas"
 

@@ -4,7 +4,7 @@ seoTitle: "Digitalización en Cusco: empresas del sur de Perú"
 description: "Cusco tiene un contexto propio: turismo internacional, comercio local y una competencia cada vez más digital. Por qué la tecnología ya no es opcional."
 publishedAt: 2025-12-18
 category: "Software"
-cover: "https://images.unsplash.com/photo-1526392060635-9d6019884377?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/digitalizacion-en-cusco-empresas-del-sur-de-peru-cover.webp"
 coverAlt: "Vista de Cusco con arquitectura colonial y comercio local"
 author: "Universoft Systems"
 readTime: "6 min de lectura"
@@ -23,7 +23,7 @@ Gran parte de los visitantes que llegan a Cusco —ya sea por turismo o por nego
 
 Esto no aplica solo a agencias de turismo: restaurantes, alojamientos, transportistas, artesanía y comercio en general enfrentan la misma dinámica. El cliente de hoy decide gran parte de su experiencia antes de llegar físicamente al negocio.
 
-![Vista de paisaje andino representando el sur del Perú](https://images.unsplash.com/photo-1531497865144-0464ef8fb9a9?w=800&h=450&fit=crop&q=80)
+![Vista de paisaje andino representando el sur del Perú](/images/blog/digitalizacion-en-cusco-empresas-del-sur-de-peru-inline-1.webp)
 
 ## Competir con negocios de mayor alcance digital
 

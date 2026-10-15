@@ -4,7 +4,7 @@ seoTitle: "SD-WAN: qué es y por qué tu empresa debería migrar"
 description: "SD-WAN está reemplazando a las arquitecturas de red tradicionales en empresas con varias sedes. Te explicamos qué es, cómo funciona y qué beneficios ofrece."
 publishedAt: 2025-07-03
 category: "Telecomunicaciones"
-cover: "https://images.unsplash.com/photo-1683322499436-f4383dd59f5a?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/que-es-sd-wan-y-por-que-las-empresas-en-peru-estan-migrando-cover.webp"
 coverAlt: "Centro de datos con servidores y cableado de red"
 author: "Universoft Systems"
 readTime: "8 min de lectura"
@@ -23,7 +23,7 @@ Imagina que tu empresa tiene una oficina principal y dos sucursales, cada una co
 
 Con esta arquitectura de red, todas estas conexiones se administran desde un panel centralizado que decide, en tiempo real, cuál es la mejor ruta para cada tipo de tráfico. Una videollamada importante puede priorizarse automáticamente sobre una descarga de archivos no urgente, y si un enlace falla, el tráfico se redirige a otra conexión disponible sin que los usuarios lo noten.
 
-![Centro de datos con servidores y equipos de red activos](https://images.unsplash.com/photo-1625276254563-f0fbbf66a5e7?w=800&h=450&fit=crop&q=80)
+![Centro de datos con servidores y equipos de red activos](/images/blog/que-es-sd-wan-y-por-que-las-empresas-en-peru-estan-migrando-inline-1.webp)
 
 ## Por qué cada vez más empresas están migrando
 

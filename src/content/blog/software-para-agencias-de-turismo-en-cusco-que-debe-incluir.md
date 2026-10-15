@@ -4,7 +4,7 @@ seoTitle: "Software para agencias de turismo en Cusco"
 description: "No todo software para agencias de viajes es igual. Te contamos qué funcionalidades marcan la diferencia en la operación diaria de una agencia en Cusco."
 publishedAt: 2026-01-08
 category: "Turismo"
-cover: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/software-para-agencias-de-turismo-en-cusco-que-debe-incluir-cover.webp"
 coverAlt: "Pantalla con un calendario de reservas de tours"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
@@ -29,7 +29,7 @@ No todos los viajeros quieren el mismo paquete. Algunos buscan tours grupales es
 
 Lo ideal es un sistema que permita armar itinerarios personalizados a partir de componentes reutilizables (transporte, guía, entradas, alojamiento, comidas), de forma que el equipo de ventas pueda cotizar rápido sin rehacer todo desde cero cada vez que un cliente pide algo distinto al paquete habitual.
 
-![Persona planificando un viaje con laptop y mapa](https://images.unsplash.com/photo-1522199755839-a2bacb67c546?w=800&h=450&fit=crop&q=80)
+![Persona planificando un viaje con laptop y mapa](/images/blog/software-para-agencias-de-turismo-en-cusco-que-debe-incluir-inline-1.webp)
 
 ## Cobro de anticipos y pagos en línea
 

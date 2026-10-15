@@ -3,7 +3,7 @@ title: "Ransomware en Perú: cómo proteger a tu empresa paso a paso"
 description: "El ransomware es una de las amenazas más costosas para las empresas peruanas. Te explicamos cómo funciona y qué medidas concretas tomar para protegerte."
 publishedAt: 2025-08-28
 category: "Ciberseguridad"
-cover: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/ransomware-en-peru-como-proteger-tu-empresa-cover.webp"
 coverAlt: "Pantalla de computadora con una alerta de seguridad en rojo"
 author: "Universoft Systems"
 readTime: "9 min de lectura"
@@ -28,7 +28,7 @@ Entender las puertas de entrada más comunes es el primer paso para cerrarlas. L
 
 **Accesos remotos mal configurados.** Conexiones de escritorio remoto expuestas a internet sin protección adicional son una de las vías de entrada más explotadas por grupos de ransomware a nivel global.
 
-![Equipo de trabajo implementando medidas de seguridad](https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=450&fit=crop&q=80)
+![Equipo de trabajo implementando medidas de seguridad](/images/blog/ransomware-en-peru-como-proteger-tu-empresa-inline-1.webp)
 
 ## La estrategia de protección, paso a paso
 

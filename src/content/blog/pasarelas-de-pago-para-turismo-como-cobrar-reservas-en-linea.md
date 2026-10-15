@@ -4,7 +4,7 @@ seoTitle: "Pasarelas de pago para turismo: cobra en línea"
 description: "Cobrar en línea es clave para una agencia que recibe turistas extranjeros. Cómo funcionan las pasarelas de pago y qué considerar para implementarlas."
 publishedAt: 2026-02-19
 category: "Turismo"
-cover: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/pasarelas-de-pago-para-turismo-como-cobrar-reservas-en-linea-cover.webp"
 coverAlt: "Persona pagando una reserva de viaje con tarjeta desde su laptop"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
@@ -29,7 +29,7 @@ Para una agencia enfocada en turismo receptivo, es importante que la pasarela el
 
 También vale la pena considerar si conviene mostrar precios en soles, en dólares, o en ambos, dependiendo del perfil de cliente que más reserve con la agencia. Algunas pasarelas permiten procesar el cobro en la moneda que el cliente prefiera, lo que reduce la fricción al momento de pagar.
 
-![Pago con tarjeta en un dispositivo móvil](https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=450&fit=crop&q=80)
+![Pago con tarjeta en un dispositivo móvil](/images/blog/pasarelas-de-pago-para-turismo-como-cobrar-reservas-en-linea-inline-1.webp)
 
 ## Anticipos vs. pago completo
 

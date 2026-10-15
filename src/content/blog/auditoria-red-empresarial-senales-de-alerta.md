@@ -4,7 +4,7 @@ seoTitle: "Auditoría de red: 5 señales de alerta"
 description: "Una red lenta o inestable afecta la productividad de tu equipo. Aprende a identificar las señales de que es momento de auditar tu infraestructura."
 publishedAt: 2025-06-05
 category: "Telecomunicaciones"
-cover: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/auditoria-red-empresarial-senales-de-alerta-cover.webp"
 coverAlt: "Técnico revisando el cableado y los equipos de una red empresarial"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
@@ -29,7 +29,7 @@ Muchas pequeñas y medianas empresas operan con una sola red plana: todos los di
 
 Esto no solo afecta el rendimiento de red, sino que es un riesgo de seguridad serio. Si un dispositivo comprometido entra a la red, puede moverse libremente hacia los sistemas más sensibles de la empresa. Una red bien diseñada separa el tráfico por zonas: administración, invitados, dispositivos IoT y sistemas críticos, cada uno con sus propias reglas de acceso.
 
-![Cables de red organizados en un rack de telecomunicaciones](https://images.unsplash.com/photo-1573164713988-8665fc963095?w=800&h=450&fit=crop&q=80)
+![Cables de red organizados en un rack de telecomunicaciones](/images/blog/auditoria-red-empresarial-senales-de-alerta-inline-1.webp)
 
 ## 3. Nadie en tu empresa sabe qué pasa en la red
 

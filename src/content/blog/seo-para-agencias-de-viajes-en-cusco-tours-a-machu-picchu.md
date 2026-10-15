@@ -4,7 +4,7 @@ seoTitle: "SEO para agencias de viajes en Cusco"
 description: "La mayoría de los viajeros investiga y reserva su tour a Machu Picchu meses antes de llegar a Cusco. Te explicamos cómo lograr que te encuentren a ti."
 publishedAt: 2026-03-05
 category: "Turismo"
-cover: "https://images.unsplash.com/photo-1590089171605-171f3b536f74?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/seo-para-agencias-de-viajes-en-cusco-tours-a-machu-picchu-cover.webp"
 coverAlt: "Vista de Machu Picchu entre la neblina de la montaña"
 author: "Universoft Systems"
 readTime: "8 min de lectura"
@@ -23,7 +23,7 @@ Antes de pensar en palabras clave, vale la pena entender el comportamiento real 
 
 Esto significa que una agencia que solo tiene contenido en español ya está perdiendo a gran parte de su mercado potencial antes de empezar. No hace falta traducir literalmente cada página: lo ideal es pensar el contenido en inglés desde el inicio para las páginas orientadas a captar turistas extranjeros, y mantener el español para el mercado nacional y la operación interna.
 
-![Turista planificando su viaje a Machu Picchu desde el celular](https://images.unsplash.com/photo-1761198793038-17576e4e3896?w=800&h=450&fit=crop&q=80)
+![Turista planificando su viaje a Machu Picchu desde el celular](/images/blog/seo-para-agencias-de-viajes-en-cusco-tours-a-machu-picchu-inline-1.webp)
 
 ## Contenido que responde preguntas reales del viajero
 

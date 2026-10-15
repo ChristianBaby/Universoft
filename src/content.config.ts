@@ -11,7 +11,7 @@ const blog = defineCollection({
     publishedAt: z.coerce.date(),
     updatedAt: z.coerce.date().optional(),
     category: z.string(),
-    cover: z.url(),
+    cover: z.string().min(1),
     coverAlt: z.string(),
     author: z.string().default("Universoft Systems"),
     readTime: z.string().optional(),

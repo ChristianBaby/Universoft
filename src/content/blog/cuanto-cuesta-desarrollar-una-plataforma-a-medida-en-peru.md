@@ -4,7 +4,7 @@ seoTitle: "Cuánto cuesta una plataforma a medida en Perú"
 description: "No existe un precio único para un software a medida. Te explicamos qué factores determinan el costo real de una plataforma y cómo presupuestar tu proyecto."
 publishedAt: 2025-09-25
 category: "Plataformas"
-cover: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/cuanto-cuesta-desarrollar-una-plataforma-a-medida-en-peru-cover.webp"
 coverAlt: "Equipo de desarrollo planificando el alcance de una plataforma digital"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
@@ -23,7 +23,7 @@ El primer y mayor determinante del costo es cuánto hace la plataforma. Un porta
 
 Antes de pedir una cotización, conviene separar lo que es imprescindible para el lanzamiento de lo que sería deseable más adelante. Esto no solo ayuda a controlar el presupuesto inicial: permite lanzar un MVP (producto mínimo viable) funcional más rápido y agregar funcionalidades con el presupuesto que genera el propio negocio una vez en marcha.
 
-![Equipo de desarrollo planificando un proyecto de software](https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=450&fit=crop&q=80)
+![Equipo de desarrollo planificando un proyecto de software](/images/blog/cuanto-cuesta-desarrollar-una-plataforma-a-medida-en-peru-inline-1.webp)
 
 ## Integraciones: la parte menos visible del presupuesto
 

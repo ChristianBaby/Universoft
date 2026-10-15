@@ -4,7 +4,7 @@ seoTitle: "Automatización de procesos: reduce costos operativos"
 description: "Facturación, inventario, aprobaciones: descubre qué procesos conviene automatizar primero y cuánto puede ahorrar tu empresa al eliminar el trabajo manual."
 publishedAt: 2025-10-09
 category: "Plataformas"
-cover: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/automatizacion-de-procesos-como-una-plataforma-reduce-costos-cover.webp"
 coverAlt: "Panel de control de una plataforma digital con métricas de procesos automatizados"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
@@ -23,7 +23,7 @@ Automatizar no es simplemente "usar una computadora" para algo que antes se hac�
 
 Una plataforma bien diseñada no reemplaza a tu equipo: elimina las partes del trabajo que no requieren pensar, para que las personas dediquen su tiempo a lo que sí lo requiere.
 
-![Panel de control con métricas de negocio en tiempo real](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=450&fit=crop&q=80)
+![Panel de control con métricas de negocio en tiempo real](/images/blog/automatizacion-de-procesos-como-una-plataforma-reduce-costos-inline-1.webp)
 
 ## Facturación automática
 

@@ -4,7 +4,7 @@ seoTitle: "Sistema de gestión para operadores turísticos"
 description: "Cuando un operador turístico crece, las hojas de cálculo y el WhatsApp ya no alcanzan. Un sistema de gestión centraliza itinerarios, guías y disponibilidad."
 publishedAt: 2026-03-19
 category: "Turismo"
-cover: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/sistema-de-gestion-para-operadores-turisticos-cover.webp"
 coverAlt: "Equipo planificando itinerarios turísticos con notas en una pizarra"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
@@ -23,7 +23,7 @@ El problema no es que las hojas de cálculo sean una mala herramienta. Es que no
 
 Cada uno de estos errores, cuando ocurre con un grupo de viajeros ya en Cusco, no es solo un problema operativo: es una experiencia negativa que termina en una reseña mala, justo el tipo de contenido que, como explicamos en otros artículos, pesa muchísimo en la decisión de futuros viajeros.
 
-![Equipo coordinando operaciones turísticas desde una plataforma digital](https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=450&fit=crop&q=80)
+![Equipo coordinando operaciones turísticas desde una plataforma digital](/images/blog/sistema-de-gestion-para-operadores-turisticos-inline-1.webp)
 
 ## Qué resuelve un sistema de gestión centralizado
 

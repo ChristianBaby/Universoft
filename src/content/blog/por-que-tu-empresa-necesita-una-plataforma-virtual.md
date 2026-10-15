@@ -3,7 +3,7 @@ title: "¿Por qué tu empresa necesita una plataforma virtual?"
 description: "Digitalizar tus procesos ya no es una opción, es una necesidad. Descubre cómo una plataforma virtual puede transformar la eficiencia de tu negocio."
 publishedAt: 2025-05-15
 category: "Plataformas"
-cover: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/por-que-tu-empresa-necesita-una-plataforma-virtual-cover.webp"
 coverAlt: "Equipo de trabajo colaborando con herramientas digitales"
 author: "Universoft Systems"
 readTime: "8 min de lectura"
@@ -28,7 +28,7 @@ Una plataforma virtual bien implementada transforma la manera en que tu empresa 
 
 **Acceso remoto:** Tu equipo puede trabajar desde cualquier lugar con conexión a internet, accediendo a los mismos datos y herramientas que tendrian en la oficina.
 
-![Equipo de trabajo colaborando con herramientas digitales](https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=450&fit=crop&q=80)
+![Equipo de trabajo colaborando con herramientas digitales](/images/blog/por-que-tu-empresa-necesita-una-plataforma-virtual-inline-1.webp)
 
 ## Tipos de plataformas para cada necesidad
 
@@ -50,7 +50,7 @@ Las organizaciones que digitalizan sus procesos de atención al cliente responde
 
 En el contexto peruano, [un sondeo de Movistar Empresas encontró que el 27% de las mipymes que adoptaron herramientas digitales aumentaron sus ventas, y un 25% mejoró su productividad](https://www.revistaeconomia.com/?p=132431). La digitalización no solo optimiza lo que ya haces: abre puertas a oportunidades que antes eran inaccesibles.
 
-![Transformación digital en empresas](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=450&fit=crop&q=80)
+![Transformación digital en empresas](/images/blog/por-que-tu-empresa-necesita-una-plataforma-virtual-inline-2.webp)
 
 ## Cómo elegir la plataforma adecuada
 

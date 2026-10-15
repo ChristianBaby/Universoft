@@ -4,7 +4,7 @@ seoTitle: "ERP a medida vs. genérico para tu PYME"
 description: "SAP, Odoo o un ERP a tu medida: te explicamos las diferencias reales y cómo elegir la opción correcta según el tamaño de tu empresa."
 publishedAt: 2025-09-11
 category: "Plataformas"
-cover: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/erp-a-medida-vs-software-generico-cuando-conviene-cada-uno-cover.webp"
 coverAlt: "Equipo revisando dashboards de un sistema ERP en varias pantallas"
 author: "Universoft Systems"
 readTime: "8 min de lectura"
@@ -23,7 +23,7 @@ Los ERP genéricos son plataformas diseñadas para adaptarse a miles de empresas
 
 El problema aparece en la configuración. Para que un ERP genérico refleje tus procesos reales, normalmente necesitas activar módulos que no usarás completos, contratar consultorías de implementación y, en muchos casos, adaptar tu forma de trabajar a lo que el sistema permite en lugar de lo contrario. Cuanto más específico es tu rubro, más notoria se vuelve esta fricción.
 
-![Equipo de trabajo revisando procesos operativos](https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&h=450&fit=crop&q=80)
+![Equipo de trabajo revisando procesos operativos](/images/blog/erp-a-medida-vs-software-generico-cuando-conviene-cada-uno-inline-1.webp)
 
 ## Cómo funciona un ERP a medida
 

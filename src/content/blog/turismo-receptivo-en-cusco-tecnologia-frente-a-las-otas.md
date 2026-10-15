@@ -4,7 +4,7 @@ seoTitle: "Turismo en Cusco: cómo competir con las OTAs"
 description: "Booking, GetYourGuide y Viator se quedan con buena parte del margen de cada reserva. Así una agencia en Cusco puede recuperar terreno con tecnología propia."
 publishedAt: 2026-04-16
 category: "Turismo"
-cover: "https://images.unsplash.com/photo-1665858253158-c3ea4dccd113?w=800&h=500&fit=crop&q=80"
+cover: "/images/blog/turismo-receptivo-en-cusco-tecnologia-frente-a-las-otas-cover.webp"
 coverAlt: "Turistas caminando por una calle empedrada de Cusco"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
@@ -23,7 +23,7 @@ Esto no significa que las OTAs sean el enemigo. Para un negocio que recién empi
 
 La estrategia más sólida para un operador en Cusco no es elegir entre OTAs y canal propio, sino usar las OTAs como un canal secundario de visibilidad, mientras construye un canal directo propio que capture la mayor cantidad posible de reservas sin intermediarios.
 
-![Viajero reservando directamente desde el sitio web de una agencia local](https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=450&fit=crop&q=80)
+![Viajero reservando directamente desde el sitio web de una agencia local](/images/blog/turismo-receptivo-en-cusco-tecnologia-frente-a-las-otas-inline-1.webp)
 
 ## Qué necesita una agencia para captar reservas directas
 
