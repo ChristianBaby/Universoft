@@ -1,5 +1,6 @@
 ---
 title: "Software a medida vs. soluciones genéricas: ¿qué te conviene?"
+seoTitle: "Software a medida vs. soluciones genéricas"
 description: "¿Comprar un software estándar o desarrollar uno propio? Te explicamos los pros y contras de cada opción para que tomes la mejor decisión."
 publishedAt: 2025-02-08
 category: "Software"
