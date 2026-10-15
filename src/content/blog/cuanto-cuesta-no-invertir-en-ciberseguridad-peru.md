@@ -15,11 +15,11 @@ reviewed: false
 
 Cuando una empresa revisa su presupuesto anual, la ciberseguridad suele quedar en el último lugar de la lista. No genera ventas directas, no se ve en el producto final y sus resultados son, por definición, invisibles: cuando funciona, simplemente no pasa nada. Esa invisibilidad hace que muchos gerentes la traten como un gasto postergable.
 
-El problema es que esa decisión no elimina el riesgo de ciberseguridad, solo lo transfiere al futuro, con un costo mucho mayor. En Perú, menos del 25% de las pymes destina presupuesto a ciberseguridad, según el ESET Security Report Latinoamérica 2026. Al mismo tiempo, la DIVINDAT-PNP registró más de 42,000 denuncias por delitos informáticos solo en 2024. La brecha entre exposición y protección es enorme, y las empresas que no invierten están, en la práctica, apostando a no ser la próxima víctima.
+El problema es que esa decisión no elimina el riesgo de ciberseguridad, solo lo transfiere al futuro, con un costo mucho mayor. En Perú, [menos del 25% de las pymes destina presupuesto a ciberseguridad](https://gestion.pe/economia/empresas/pymes-peruanas-menos-del-25-invierte-en-ciberseguridad-pese-al-aumento-de-los-ciberataques-noticia/), según el ESET Security Report Latinoamérica. Al mismo tiempo, [la ciberdelincuencia en Perú registró más de 42,000 denuncias por delitos informáticos solo en 2024](https://rpp.pe/peru/actualidad/fraudes-digitales-y-suplantacion-de-identidad-alarmantes-cifras-de-la-pnp-revelan-el-impacto-de-la-ciberdelincuencia-en-peru-noticia-1620466), según cifras del Sistema Informático de Denuncias Policiales (Sidpol) difundidas por la PNP. La brecha entre exposición y protección es enorme, y las empresas que no invierten están, en la práctica, apostando a no ser la próxima víctima.
 
 ## Lo que realmente cuesta un ataque
 
-Las pérdidas por ciberataque rara vez se limitan al rescate que pide un atacante o al valor de los datos robados. Expertos advierten que una vulneración de ciberseguridad puede costar hasta el 20% de los ingresos anuales de un negocio. Esa cifra incluye varios componentes que suelen subestimarse:
+Las pérdidas por ciberataque rara vez se limitan al rescate que pide un atacante o al valor de los datos robados. [Estimaciones de Kaspersky para pequeñas y medianas empresas en América Latina ubican el costo promedio de una brecha de seguridad entre 93,000 y 155,000 dólares](https://mediapyme.substack.com/p/las-perdidas-por-hackeos-a-pymes), una cifra que para muchas pymes equivale a varios meses de facturación. Ese monto incluye varios componentes que suelen subestimarse:
 
 **Interrupción operativa.** Mientras los sistemas están comprometidos o fuera de línea, la empresa no puede facturar, atender clientes ni producir. Para un negocio que depende de sus plataformas digitales, cada hora de inactividad es ingreso perdido.
 
@@ -35,7 +35,7 @@ Las pérdidas por ciberataque rara vez se limitan al rescate que pide un atacant
 
 Existe la idea equivocada de que los ciberdelincuentes solo persiguen a grandes corporaciones. En realidad, ocurre lo contrario: las empresas pequeñas y medianas son blancos más atractivos precisamente porque invierten menos en protección. Tienen información valiosa (datos de clientes, información financiera, acceso a proveedores más grandes) pero defensas más débiles.
 
-Esto convierte a cada pyme desprotegida en una puerta de entrada relativamente fácil, no solo para el robo directo de datos, sino también como punto de acceso hacia socios comerciales más grandes con los que trabaja. Las denuncias registradas por la DIVINDAT-PNP reflejan esta tendencia: el volumen de incidentes no se concentra únicamente en las empresas más visibles del mercado.
+Esto convierte a cada pyme desprotegida en una puerta de entrada relativamente fácil, no solo para el robo directo de datos, sino también como punto de acceso hacia socios comerciales más grandes con los que trabaja. Las decenas de miles de denuncias por delitos informáticos que se registran cada año en el país reflejan esta tendencia: el volumen de incidentes no se concentra únicamente en las empresas más visibles del mercado.
 
 ## El costo de prevenir, en perspectiva
 
@@ -51,6 +51,6 @@ En nuestro [servicio de ciberseguridad](/servicios/ciberseguridad) trabajamos ex
 
 ## La pregunta correcta no es "cuánto cuesta"
 
-La pregunta que toda empresa debería hacerse no es cuánto cuesta invertir en ciberseguridad, sino cuánto costaría no hacerlo. Con miles de denuncias registradas cada año en Perú y pérdidas que pueden alcanzar una quinta parte de los ingresos anuales, la prevención deja de ser un gasto opcional y se convierte en una decisión financiera razonable.
+La pregunta que toda empresa debería hacerse no es cuánto cuesta invertir en ciberseguridad, sino cuánto costaría no hacerlo. Con decenas de miles de denuncias registradas cada año en Perú y pérdidas que, en promedio, se cuentan en decenas de miles de dólares, la prevención deja de ser un gasto opcional y se convierte en una decisión financiera razonable.
 
 Si quieres entender exactamente dónde está expuesta tu empresa, [contactanos](/contacto) para una evaluación inicial sin compromiso. Identificamos tus riesgos reales antes de que se conviertan en una cifra en una denuncia.

@@ -15,7 +15,7 @@ reviewed: false
 
 Hace algunos años, la transformación digital era un tema de innovación para empresas grandes con presupuestos amplios. Hoy es una prioridad concreta para las PYMES peruanas, que compiten en un mercado donde sus clientes buscan, comparan y compran de forma digital, sin importar el tamaño del negocio que los atiende. Adoptar herramientas digitales y avanzar en la digitalización empresarial, incluida la automatización de procesos internos, ya no es un lujo reservado a las grandes corporaciones.
 
-Según una encuesta de Microsoft citada en medios peruanos, la ciberseguridad preocupa al 78% de los líderes de pymes del país, y es la prioridad principal (50%) dentro de sus esfuerzos de transformación digital. El trabajo híbrido, por su parte, ya está presente en el 44% de las empresas. Estas cifras muestran un proceso que avanza, pero que muchas PYMES todavía no saben por dónde empezar de forma ordenada.
+[Según una encuesta de Microsoft Perú a pymes del país](https://www.elperuano.pe/noticia/213817-las-pymes-peruanas-en-la-era-digital), la ciberseguridad preocupa al 78% de los líderes de pymes del país, y es la prioridad principal (50%) dentro de sus esfuerzos de transformación digital. El trabajo híbrido, por su parte, ya está presente en el 44% de las empresas. Estas cifras muestran un proceso que avanza, pero que muchas PYMES todavía no saben por dónde empezar de forma ordenada.
 
 ## Empieza por un diagnóstico, no por la tecnología
 

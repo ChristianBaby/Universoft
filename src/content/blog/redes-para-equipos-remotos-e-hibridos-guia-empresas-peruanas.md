@@ -13,7 +13,7 @@ reviewed: false
 ---
 ## El trabajo híbrido ya es la norma, no la excepción
 
-El esquema de trabajo cambió de forma permanente. Según una encuesta reciente de Microsoft citada en medios peruanos, el trabajo híbrido o flexible ya está presente en el 44% de las empresas, consolidándose como un modelo habitual y no como una medida temporal.
+El esquema de trabajo cambió de forma permanente. [Según una encuesta de Microsoft Perú a pymes del país](https://www.elperuano.pe/noticia/213817-las-pymes-peruanas-en-la-era-digital), el trabajo híbrido o flexible ya está presente en el 44% de las empresas, consolidándose como un modelo habitual y no como una medida temporal.
 
 Este cambio trae beneficios claros en flexibilidad y retención de talento, pero también plantea un desafío que muchas empresas aún no han resuelto del todo: ¿cómo garantizar que un colaborador que trabaja desde su casa, un café o una ciudad distinta tenga el mismo nivel de acceso, velocidad y seguridad que tendría conectado directamente a la red de la oficina?
 

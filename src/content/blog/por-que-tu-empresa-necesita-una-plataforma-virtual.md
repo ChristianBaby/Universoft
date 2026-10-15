@@ -14,7 +14,7 @@ reviewed: true
 
 En un mundo donde la tecnología avanza a pasos agigantados, las empresas que no se adaptan quedan rezagadas. La transformación digital no es simplemente tener presencia en internet o usar correo electrónico: implica integrar herramientas digitales en todas las áreas del negocio para optimizar tareas, automatizar procesos y mejorar la experiencia del cliente.
 
-Según estudios recientes, las empresas que adoptan plataformas digitales logran reducir sus costos operativos hasta en un 30% y aumentar su productividad en un 25%. Estos números no son casualidad: son el resultado de centralizar información, eliminar tareas manuales repetitivas y tomar decisiones basadas en datos reales.
+[Estudios de la firma Forrester](https://impactotic.co/micrositios-tic/zoho/plataformas-unificadas-en-la-nube-clave-para-reducir-costos-ti/) muestran que las organizaciones que migran a plataformas unificadas pueden reducir sus costos operativos de TI hasta en un 30% y aumentar la productividad de sus usuarios en más del 25%. Estos números no son casualidad: son el resultado de centralizar información, eliminar tareas manuales repetitivas y tomar decisiones basadas en datos reales.
 
 ## Beneficios concretos de una plataforma virtual
 
@@ -46,9 +46,9 @@ No todas las plataformas son iguales, y la elección correcta depende de las nec
 
 Los números hablan por si solos. Empresas que han implementado plataformas virtuales reportan resultados significativos:
 
-Las organizaciones que digitalizan sus procesos de atención al cliente reducen los tiempos de respuesta en un 60% en promedio. Los sistemas de gestión de inventario automatizados disminuyen los errores de stock hasta en un 40%. Las plataformas de colaboración interna mejoran la productividad de los equipos remotos en un 35%.
+Las organizaciones que digitalizan sus procesos de atención al cliente responden notablemente más rápido a sus clientes, al eliminar los cuellos de botella de gestionar consultas de forma manual. Los sistemas de gestión de inventario automatizados reducen de forma consistente los errores de stock frente a los registros manuales en hojas de cálculo. Las plataformas de colaboración interna, por su parte, facilitan que los equipos remotos mantengan el mismo nivel de coordinación que tendrían trabajando desde una misma oficina.
 
-En el contexto peruano, las PYMES que adoptan herramientas digitales tienen el doble de probabilidades de expandir su mercado a nivel nacional e internacional. La digitalización no solo optimiza lo que ya haces: abre puertas a oportunidades que antes eran inaccesibles.
+En el contexto peruano, [un sondeo de Movistar Empresas encontró que el 27% de las mipymes que adoptaron herramientas digitales aumentaron sus ventas, y un 25% mejoró su productividad](https://www.revistaeconomia.com/?p=132431). La digitalización no solo optimiza lo que ya haces: abre puertas a oportunidades que antes eran inaccesibles.
 
 ![Transformación digital en empresas](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=450&fit=crop&q=80)
 

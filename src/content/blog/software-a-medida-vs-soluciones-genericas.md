@@ -38,7 +38,7 @@ Sin embargo, al estar diseñadas para miles de empresas diferentes, no se adapta
 ## Comparación directa: ventajas y desventajas
 
 **Software a medida — Ventajas:**
-Se adapta exactamente a tus procesos sin forzar cambios en tu operación. Ofrece escalabilidad total, ya que crece contigo sin limites impuestos por un proveedor. Proporciona integración fluida con todos tus sistemas existentes. Genera ventaja competitiva porque tu herramienta refleja tu forma única de operar. Los estudios demuestran un retorno de inversión aproximadamente 25% superior a largo plazo.
+Se adapta exactamente a tus procesos sin forzar cambios en tu operación. Ofrece escalabilidad total, ya que crece contigo sin limites impuestos por un proveedor. Proporciona integración fluida con todos tus sistemas existentes. Genera ventaja competitiva porque tu herramienta refleja tu forma única de operar, lo que suele traducirse en un mejor retorno de inversión a largo plazo frente a pagar licencias por funciones que no usas.
 
 **Software a medida — Desventajas:**
 Requiere una mayor inversión inicial de tiempo y presupuesto. El ciclo de desarrollo puede tomar semanas o meses según la complejidad. Necesitas un proveedor confiable para mantenimiento y actualizaciones.
@@ -65,7 +65,7 @@ Un error común es comparar solo el costo inicial. El software genérico parece 
 
 El software a medida tiene una inversión inicial mayor, pero eliminan los costos recurrentes de licencia, las personalizaciones ya están incluidas en el desarrollo y el retorno de inversión a mediano plazo (2-3 años) suele ser significativamente mayor.
 
-Según análisis del sector, las empresas que invierten en software personalizado obtienen un ROI un 25% superior en comparación con las que dependen exclusivamente de soluciones genéricas.
+Por eso, para procesos que son el corazón de tu negocio, el software a medida termina siendo la opción más rentable en comparación con depender exclusivamente de soluciones genéricas, aun cuando el desembolso inicial sea mayor.
 
 ## La decisión inteligente
 
