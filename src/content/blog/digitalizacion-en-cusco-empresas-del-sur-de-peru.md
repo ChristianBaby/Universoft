@@ -15,7 +15,7 @@ reviewed: false
 
 Cuando se habla de digitalización empresarial en Perú, la conversación suele estar centrada en Lima. Pero Cusco y el sur del país tienen una realidad económica propia: una fuerte dependencia del turismo internacional, un comercio local activo y empresas que, cada vez más, compiten no solo entre sí, sino contra negocios de otras regiones con mayor presencia digital.
 
-Esa combinación está empujando a un número creciente de pymes de Cusco a invertir en tecnología en Cusco, no como una tendencia que se sigue por moda, sino como una respuesta directa a cómo cambió el comportamiento de sus propios clientes y a la necesidad de ganar competitividad digital frente a negocios de otras regiones.
+Esa combinación está empujando a un número creciente de pymes de Cusco a invertir en tecnología en Cusco, no como una tendencia que se sigue por moda, sino como una respuesta directa a cómo cambió el comportamiento de sus propios clientes y a la necesidad de ganar competitividad digital frente a negocios de otras regiones. Si buscas una mirada más general sobre por dónde empezar, revisa también [transformación digital en PYMES peruanas](/blog/transformacion-digital-en-pymes-peruanas-2026).
 
 ## Clientes que buscan y reservan antes de llegar
 

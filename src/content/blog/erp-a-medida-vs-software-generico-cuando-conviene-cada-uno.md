@@ -15,7 +15,7 @@ reviewed: false
 
 Cuando una empresa crece, llega un momento en que las hojas de cálculo y los sistemas aislados ya no alcanzan. Inventario por un lado, finanzas por otro, recursos humanos en una tercera herramienta que no habla con las demás: ahí es cuando aparece la necesidad de un ERP (Enterprise Resource Planning), un software ERP que funciona como sistema de gestión empresarial, integrando todas las áreas del negocio en un solo lugar a través de distintos módulos ERP.
 
-La pregunta que casi todas las empresas se hacen en ese punto es la misma: ¿conviene contratar un ERP genérico como SAP u Odoo, o invertir en uno construido específicamente para nuestros procesos? No es una decisión trivial, porque un ERP termina siendo la columna vertebral de la operación durante años.
+La pregunta que casi todas las empresas se hacen en ese punto es la misma: ¿conviene contratar un ERP genérico como SAP u Odoo, o invertir en uno construido específicamente para nuestros procesos? No es una decisión trivial, porque un ERP termina siendo la columna vertebral de la operación durante años. Es el mismo dilema que exploramos de forma general en [software a medida vs. soluciones genéricas](/blog/software-a-medida-vs-soluciones-genericas), pero aquí nos enfocamos específicamente en el caso de un sistema de gestión empresarial.
 
 ## Cómo funciona un ERP genérico
 
