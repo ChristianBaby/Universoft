@@ -9,7 +9,7 @@ coverAlt: "Persona trabajando de forma remota conectada por videollamada"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## El trabajo híbrido ya es la norma, no la excepción
 

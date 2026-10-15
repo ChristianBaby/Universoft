@@ -9,7 +9,7 @@ coverAlt: "Panel de control de una plataforma digital con métricas de procesos 
 author: "Universoft Systems"
 readTime: "7 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## El costo invisible del trabajo manual
 

@@ -9,7 +9,7 @@ coverAlt: "Persona gestionando reservas y mensajes de clientes desde el celular"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## El mismo mensaje, escrito a mano, cien veces
 

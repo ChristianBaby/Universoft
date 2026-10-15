@@ -9,7 +9,7 @@ coverAlt: "Técnico revisando el cableado y los equipos de una red empresarial"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## La red es la base invisible de tu operación
 

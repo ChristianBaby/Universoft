@@ -9,7 +9,7 @@ coverAlt: "Vista de Cusco con arquitectura colonial y comercio local"
 author: "Universoft Systems"
 readTime: "6 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## Un contexto económico distinto al de Lima
 

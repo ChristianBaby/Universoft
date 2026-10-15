@@ -9,7 +9,7 @@ coverAlt: "Equipo revisando dashboards de un sistema ERP en varias pantallas"
 author: "Universoft Systems"
 readTime: "8 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## Un ERP no es solo otro software más
 

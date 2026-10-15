@@ -9,7 +9,7 @@ coverAlt: "Teléfono mostrando el feed de redes sociales de una agencia de turis
 author: "Universoft Systems"
 readTime: "6 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## Las redes sociales son una vitrina, no una base
 

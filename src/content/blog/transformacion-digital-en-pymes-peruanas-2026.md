@@ -9,7 +9,7 @@ coverAlt: "Dueño de una pyme revisando indicadores digitales de su negocio"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## Una prioridad que ya no se discute
 

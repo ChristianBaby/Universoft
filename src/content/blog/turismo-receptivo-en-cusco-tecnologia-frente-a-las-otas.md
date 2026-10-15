@@ -9,7 +9,7 @@ coverAlt: "Turistas caminando por una calle empedrada de Cusco"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## El costo invisible de depender de las OTAs
 

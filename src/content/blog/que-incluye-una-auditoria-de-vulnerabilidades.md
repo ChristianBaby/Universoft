@@ -9,7 +9,7 @@ coverAlt: "Candado sobre un teclado, símbolo de una auditoría de seguridad"
 author: "Universoft Systems"
 readTime: "8 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## Conocer tus riesgos antes que un atacante
 

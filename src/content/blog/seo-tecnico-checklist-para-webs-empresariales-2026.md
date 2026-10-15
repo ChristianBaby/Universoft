@@ -9,7 +9,7 @@ coverAlt: "Lista de verificación de SEO técnico sobre un escritorio"
 author: "Universoft Systems"
 readTime: "8 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## El SEO que no se ve, pero decide todo lo demás
 

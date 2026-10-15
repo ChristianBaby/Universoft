@@ -9,7 +9,7 @@ coverAlt: "Persona organizando reservas de viaje en una hoja de cálculo"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## Una historia muy común en Cusco
 

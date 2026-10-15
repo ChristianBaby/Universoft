@@ -9,7 +9,7 @@ coverAlt: "Vista de Machu Picchu entre la neblina de la montaña"
 author: "Universoft Systems"
 readTime: "8 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## El viajero decide antes de llegar a Cusco
 

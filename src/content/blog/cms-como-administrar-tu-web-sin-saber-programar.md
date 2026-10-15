@@ -9,7 +9,7 @@ coverAlt: "Panel de administración de contenido de un sitio web en una laptop"
 author: "Universoft Systems"
 readTime: "6 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## La dependencia que nadie quiere tener
 

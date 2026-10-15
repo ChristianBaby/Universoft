@@ -9,7 +9,7 @@ coverAlt: "Alerta de seguridad desplegada en la pantalla de una computadora"
 author: "Universoft Systems"
 readTime: "8 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## Una decisión que parece ahorrar dinero (y no lo hace)
 

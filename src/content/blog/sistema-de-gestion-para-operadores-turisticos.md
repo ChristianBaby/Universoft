@@ -9,7 +9,7 @@ coverAlt: "Equipo planificando itinerarios turísticos con notas en una pizarra"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## La complejidad que crece con cada tour nuevo
 

@@ -9,7 +9,7 @@ coverAlt: "Equipo de desarrollo planificando el alcance de una plataforma digita
 author: "Universoft Systems"
 readTime: "7 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## Por qué no existe una tabla de precios fija
 

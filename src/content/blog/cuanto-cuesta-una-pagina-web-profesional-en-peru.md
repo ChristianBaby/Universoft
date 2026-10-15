@@ -9,7 +9,7 @@ coverAlt: "Diseñador trabajando en el layout de una página web"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## Una pregunta sin una sola respuesta
 

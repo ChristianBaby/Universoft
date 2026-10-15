@@ -9,7 +9,7 @@ coverAlt: "Centro de datos con servidores y cableado de red"
 author: "Universoft Systems"
 readTime: "8 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## Una nueva forma de administrar la red empresarial
 

@@ -9,7 +9,7 @@ coverAlt: "Persona pagando una reserva de viaje con tarjeta desde su laptop"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## El pago en línea ya no es opcional para el turismo receptivo
 

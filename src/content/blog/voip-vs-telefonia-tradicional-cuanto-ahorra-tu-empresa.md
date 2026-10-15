@@ -9,7 +9,7 @@ coverAlt: "Persona realizando una llamada telefónica de oficina por VoIP"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## La telefonía fija está quedando obsoleta para las empresas
 

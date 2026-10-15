@@ -9,7 +9,7 @@ coverAlt: "Pantalla con un calendario de reservas de tours"
 author: "Universoft Systems"
 readTime: "7 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## Un sector con una necesidad tecnológica particular
 

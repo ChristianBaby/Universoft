@@ -8,7 +8,7 @@ coverAlt: "Pantalla de computadora con una alerta de seguridad en rojo"
 author: "Universoft Systems"
 readTime: "9 min de lectura"
 draft: false
-reviewed: false
+reviewed: true
 ---
 ## Una amenaza que no distingue tamaño de empresa
 
