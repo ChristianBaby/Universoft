@@ -1,0 +1,56 @@
+---
+import Icon from "@/components/ui/Icon.astro";
+
+interface Props {
+  currentPage: number;
+  lastPage: number;
+  baseUrl: string;
+}
+
+const { currentPage, lastPage, baseUrl } = Astro.props;
+
+const pageHref = (n: number) => (n === 1 ? baseUrl : `${baseUrl}/${n}`);
+const pages = Array.from({ length: lastPage }, (_, i) => i + 1);
+---
+
+{lastPage > 1 && (
+  <nav class="mt-16 flex items-center justify-center gap-2" aria-label="Paginación del blog">
+    {currentPage > 1 && (
+      <a
+        href={pageHref(currentPage - 1)}
+        class="flex h-10 w-10 items-center justify-center rounded-full border border-navy/10 text-navy/60 transition-colors hover:border-blue/30 hover:text-blue"
+        aria-label="Página anterior"
+      >
+        <Icon name="chevron-left" size={18} />
+      </a>
+    )}
+
+    {pages.map((n) =>
+      n === currentPage ? (
+        <span
+          class="flex h-10 w-10 items-center justify-center rounded-full bg-blue text-sm font-semibold text-white"
+          aria-current="page"
+        >
+          {n}
+        </span>
+      ) : (
+        <a
+          href={pageHref(n)}
+          class="flex h-10 w-10 items-center justify-center rounded-full border border-navy/10 text-sm font-medium text-navy/70 transition-colors hover:border-blue/30 hover:text-blue"
+        >
+          {n}
+        </a>
+      )
+    )}
+
+    {currentPage < lastPage && (
+      <a
+        href={pageHref(currentPage + 1)}
+        class="flex h-10 w-10 items-center justify-center rounded-full border border-navy/10 text-navy/60 transition-colors hover:border-blue/30 hover:text-blue"
+        aria-label="Página siguiente"
+      >
+        <Icon name="chevron-right" size={18} />
+      </a>
+    )}
+  </nav>
+)}
