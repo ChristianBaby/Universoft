@@ -15,8 +15,8 @@ export const SERVICES: Service[] = [
     ],
     icon: "Monitor",
     href: "/servicios/plataformas",
-    image: "/images/stock/plataformas-virtuales.jpg",
-    heroImage: "/images/stock/plataformas-virtuales.jpg",
+    image: "/images/stock/plataformas-virtuales.webp",
+    heroImage: "/images/stock/plataformas-virtuales.webp",
     longDescription:
       "Diseñamos y desarrollamos plataformas digitales a medida que centralizan la operación de tu empresa en un solo lugar. Desde portales de clientes y sistemas ERP hasta marketplaces e intranets corporativas, creamos soluciones que automatizan tareas, mejoran la colaboración entre equipos y te permiten tomar decisiones basadas en datos en tiempo real. Nuestras plataformas se integran con pasarelas de pago, APIs de terceros y servicios en la nube para ofrecer una experiencia completa y escalable.",
     benefits: [
@@ -104,8 +104,8 @@ export const SERVICES: Service[] = [
     ],
     icon: "Globe",
     href: "/servicios/web",
-    image: "/images/stock/paginas-web.jpg",
-    heroImage: "/images/stock/paginas-web.jpg",
+    image: "/images/stock/paginas-web.webp",
+    heroImage: "/images/stock/paginas-web.webp",
     longDescription:
       "Tu sitio web es la cara digital de tu empresa y en muchos casos la primera impresión que un cliente potencial tiene de tu negocio. Diseñamos y desarrollamos páginas web informativas que combinan un diseño visual moderno con rendimiento técnico de primer nivel. Cada sitio está optimizado para motores de búsqueda (SEO), cumple con las métricas Core Web Vitals de Google y se adapta perfectamente a cualquier dispositivo, desde un smartphone hasta una pantalla de escritorio.",
     benefits: [
@@ -192,8 +192,8 @@ export const SERVICES: Service[] = [
     ],
     icon: "Network",
     href: "/servicios/telecomunicaciones",
-    image: "/images/stock/telecomunicaciones.jpg",
-    heroImage: "/images/stock/telecomunicaciones.jpg",
+    image: "/images/stock/telecomunicaciones.webp",
+    heroImage: "/images/stock/telecomunicaciones.webp",
     longDescription:
       "La conectividad es el sistema nervioso de cualquier empresa moderna. Diseñamos, implementamos y mantenemos soluciones de telecomunicaciones que garantizan una comunicación estable, rápida y segura para tu organización. Desde el cableado estructurado y la configuración de redes hasta sistemas de comunicación unificada y monitoreo de infraestructura, nos encargamos de que tu empresa esté siempre conectada sin interrupciones.",
     benefits: [
@@ -281,8 +281,8 @@ export const SERVICES: Service[] = [
     ],
     icon: "ShieldCheck",
     href: "/servicios/ciberseguridad",
-    image: "/images/stock/ciberseguridad.jpg",
-    heroImage: "/images/stock/ciberseguridad.jpg",
+    image: "/images/stock/ciberseguridad.webp",
+    heroImage: "/images/stock/ciberseguridad.webp",
     longDescription:
       "En un mundo donde los ciberataques son cada vez más sofisticados y frecuentes, proteger la información de tu empresa no es opcional, es una necesidad estratégica. Ofrecemos servicios integrales de ciberseguridad que van desde la prevención hasta la respuesta a incidentes: auditorías de vulnerabilidades, protección de datos, monitoreo continuo y capacitación a tu equipo. Nuestro enfoque va más allá de la defensa reactiva para construir verdadera resiliencia digital en tu organización.",
     benefits: [
