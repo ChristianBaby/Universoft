@@ -20,7 +20,7 @@ Durante años existió la idea de que este tipo de ataque se dirigía únicament
 
 Entender las puertas de entrada más comunes es el primer paso para cerrarlas. La mayoría de los ataques de ransomware no explotan vulnerabilidades sofisticadas, sino errores básicos y previsibles:
 
-**Correos de phishing.** Un mensaje que aparenta ser legítimo, con un archivo adjunto o un enlace malicioso, sigue siendo la puerta de entrada más común. Basta con que una persona del equipo haga clic sin verificar el remitente.
+**[Correos de phishing](/blog/phishing-en-empresas-como-identificarlo-antes-de-que-sea-tarde).** Un mensaje que aparenta ser legítimo, con un archivo adjunto o un enlace malicioso, sigue siendo la puerta de entrada más común. Basta con que una persona del equipo haga clic sin verificar el remitente.
 
 **Contraseñas débiles o reutilizadas.** Credenciales simples o usadas en múltiples servicios facilitan que un atacante acceda a un sistema con solo probar combinaciones conocidas de filtraciones previas.
 
@@ -34,7 +34,7 @@ Entender las puertas de entrada más comunes es el primer paso para cerrarlas. L
 
 Protegerse del ransomware no depende de una sola herramienta, sino de varias capas de defensa que funcionan juntas.
 
-**1. Backups siguiendo la regla 3-2-1.** Mantener 3 copias de los datos importantes, en 2 tipos de medios distintos, con al menos 1 copia fuera del sitio físico de la empresa. Si el ransomware cifra los archivos originales, una copia de seguridad reciente y aislada es la diferencia entre perder todo y restaurar la operación en horas.
+**1. [Backups siguiendo la regla 3-2-1](/blog/backup-empresarial-estrategia-para-no-perder-tu-informacion).** Mantener 3 copias de los datos importantes, en 2 tipos de medios distintos, con al menos 1 copia fuera del sitio físico de la empresa. Si el ransomware cifra los archivos originales, una copia de seguridad reciente y aislada es la diferencia entre perder todo y restaurar la operación en horas.
 
 **2. Segmentación de red.** Dividir la red en segmentos separados limita cuánto puede moverse un atacante si logra entrar. Un ransomware que compromete un solo equipo no debería poder propagarse automáticamente a toda la infraestructura.
 

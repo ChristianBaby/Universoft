@@ -47,7 +47,7 @@ Trabajar con metodologías ágiles ayuda a mantener el control sobre esto: en lu
 
 Un error común al presupuestar es considerar solo el desarrollo inicial y olvidar el mantenimiento. Toda plataforma necesita soporte continuo: corrección de errores, actualizaciones de seguridad, mejoras de rendimiento y, eventualmente, nuevas funcionalidades a medida que el negocio evoluciona.
 
-Este costo recurrente suele ser mucho menor que el desarrollo inicial, pero es importante incluirlo en la planificación financiera desde el principio, en lugar de tratarlo como un gasto imprevisto más adelante.
+Mes a mes, este costo recurrente suele ser mucho menor que el desarrollo inicial, pero sumado a lo largo de los años en que la plataforma sigue en uso, puede terminar representando una inversión mayor que la del lanzamiento. Por eso es importante incluirlo en la planificación financiera desde el principio, en lugar de tratarlo como un gasto imprevisto más adelante; puedes revisar [cuánto cuesta realmente el mantenimiento de un sistema](/blog/cuanto-cuesta-el-mantenimiento-de-un-sistema-despues-de-lanzarlo) con más detalle.
 
 ## Cómo llegar preparado a una cotización
 

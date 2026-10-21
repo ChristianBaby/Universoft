@@ -41,4 +41,6 @@ Esto es particularmente relevante en Cusco, donde la estacionalidad del turismo 
 
 Cada agencia tiene su propio flujo de venta y su propia forma de comunicarse con el viajero, así que una automatización genérica rara vez encaja del todo. Lo que funciona es diseñar los flujos automatizados alrededor de cómo realmente opera tu agencia: qué mensajes se envían, en qué momento, por qué canal y con qué tono, integrados directamente con tu sistema de reservas.
 
+Esto cubre lo que pasa después de que alguien ya reservó; si lo que se satura es la etapa anterior, la de responder consultas antes de la venta, puedes revisar también cómo [un chatbot puede encargarse de la atención inicial](/blog/chatbots-para-agencias-de-turismo-atencion-automatica-24-7).
+
 En Universoft Systems desarrollamos [plataformas a medida](/servicios/plataformas) que automatizan justamente este tipo de procesos repetitivos, sin perder el trato cercano que distingue a una buena agencia de turismo. Si tu equipo está saturado de tareas manuales en temporada alta, [conversemos](/contacto) sobre cómo resolverlo.

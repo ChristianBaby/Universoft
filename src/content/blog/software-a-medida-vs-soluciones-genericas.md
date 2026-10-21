@@ -69,7 +69,7 @@ Por eso, para procesos que son el corazón de tu negocio, el software a medida t
 
 ## La decisión inteligente
 
-La realidad es que muchas empresas terminan usando una combinación de ambas: soluciones genéricas para funciones estándar (como correo o contabilidad básica) y software a medida para los procesos que realmente diferencian su negocio. Si tu caso específico es un sistema de gestión empresarial, puedes profundizar en [ERP a medida vs. software genérico](/blog/erp-a-medida-vs-software-generico-cuando-conviene-cada-uno).
+La realidad es que muchas empresas terminan usando una combinación de ambas: soluciones genéricas para funciones estándar (como correo o contabilidad básica) y software a medida para los procesos que realmente diferencian su negocio. Si tu caso específico es un sistema de gestión empresarial, puedes profundizar en [ERP a medida vs. software genérico](/blog/erp-a-medida-vs-software-generico-cuando-conviene-cada-uno); si es tu proceso de ventas, revisa [CRM a medida vs. HubSpot o Salesforce](/blog/crm-a-medida-vs-hubspot-salesforce-cuando-conviene-cada-uno).
 
 En Universoft Systems nos especializamos en desarrollar [software y plataformas a medida](/servicios/plataformas) que se integran perfectamente con las herramientas que ya usas. No te pedimos que cambies tu forma de trabajar: construimos tecnología que se adapta a ti.
 
