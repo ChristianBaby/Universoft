@@ -3,10 +3,11 @@ title: "¿Tu empresa necesita una auditoría de red? 5 señales de alerta"
 seoTitle: "Auditoría de red: 5 señales de alerta"
 description: "Una red lenta o inestable afecta la productividad de tu equipo. Aprende a identificar las señales de que es momento de auditar tu infraestructura."
 publishedAt: 2025-06-05
+updatedAt: 2026-10-21
 category: "Telecomunicaciones"
 cover: "/images/blog/auditoria-red-empresarial-senales-de-alerta-cover.webp"
 coverAlt: "Técnico revisando el cableado y los equipos de una red empresarial"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "7 min de lectura"
 draft: false
 reviewed: true

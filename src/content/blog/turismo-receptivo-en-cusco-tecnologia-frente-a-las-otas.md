@@ -3,10 +3,11 @@ title: "Turismo receptivo en Cusco: cómo la tecnología ayuda a competir con la
 seoTitle: "Turismo en Cusco: cómo competir con las OTAs"
 description: "Booking, GetYourGuide y Viator se quedan con buena parte del margen de cada reserva. Así una agencia en Cusco puede recuperar terreno con tecnología propia."
 publishedAt: 2026-04-16
+updatedAt: 2026-10-21
 category: "Turismo"
 cover: "/images/blog/turismo-receptivo-en-cusco-tecnologia-frente-a-las-otas-cover.webp"
 coverAlt: "Turistas caminando por una calle empedrada de Cusco"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "7 min de lectura"
 draft: false
 reviewed: true

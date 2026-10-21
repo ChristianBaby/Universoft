@@ -3,10 +3,11 @@ title: "Página web para agencias de turismo: por qué no basta con estar en red
 seoTitle: "Web para agencias de turismo: no basta con redes"
 description: "Instagram y Facebook ayudan a mostrar tu trabajo, pero no reemplazan una web propia. Te explicamos qué pierde una agencia que solo vive en redes sociales."
 publishedAt: 2026-02-05
+updatedAt: 2026-10-21
 category: "Turismo"
 cover: "/images/blog/pagina-web-para-agencias-de-turismo-por-que-no-basta-redes-sociales-cover.webp"
 coverAlt: "Teléfono mostrando el feed de redes sociales de una agencia de turismo"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "6 min de lectura"
 draft: false
 reviewed: true

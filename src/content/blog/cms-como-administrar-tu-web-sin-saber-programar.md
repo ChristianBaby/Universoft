@@ -3,10 +3,11 @@ title: "CMS: cómo administrar el contenido de tu web sin saber programar"
 seoTitle: "CMS: administra tu web sin saber programar"
 description: "Un gestor de contenido te permite actualizar tu web sin depender de un programador. Te explicamos qué es y por qué importa para tu negocio."
 publishedAt: 2025-11-06
+updatedAt: 2026-10-21
 category: "Web"
 cover: "/images/blog/cms-como-administrar-tu-web-sin-saber-programar-cover.webp"
 coverAlt: "Panel de administración de contenido de un sitio web en una laptop"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "6 min de lectura"
 draft: false
 reviewed: true

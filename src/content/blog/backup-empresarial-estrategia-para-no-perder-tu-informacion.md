@@ -3,10 +3,11 @@ title: "Backup empresarial: la estrategia que evita perder tu información"
 seoTitle: "Backup empresarial: cómo no perder tu información"
 description: "Un ciberataque o una falla de hardware pueden borrar años de información en minutos. Te explicamos cómo diseñar un backup que realmente funcione."
 publishedAt: 2026-05-14
+updatedAt: 2026-10-21
 category: "Ciberseguridad"
 cover: "/images/blog/backup-empresarial-estrategia-para-no-perder-tu-informacion-cover.webp"
 coverAlt: "Servidores de almacenamiento de datos en un centro de cómputo"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "6 min de lectura"
 draft: false
 reviewed: true

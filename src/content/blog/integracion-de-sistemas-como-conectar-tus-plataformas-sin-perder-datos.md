@@ -3,10 +3,11 @@ title: "Integración de sistemas: cómo conectar tus plataformas sin perder dato
 seoTitle: "Integración de sistemas: conecta tus plataformas"
 description: "Cada software nuevo que adopta una empresa puede volverse una isla aislada. Te explicamos cómo integrar tus sistemas sin duplicar datos ni procesos."
 publishedAt: 2026-06-25
+updatedAt: 2026-10-21
 category: "Software"
 cover: "/images/blog/integracion-de-sistemas-como-conectar-tus-plataformas-sin-perder-datos-cover.webp"
 coverAlt: "Pantallas con código y diagramas de conexión entre sistemas"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "6 min de lectura"
 draft: false
 reviewed: true

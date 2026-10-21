@@ -3,10 +3,11 @@ title: "¿Cuánto cuesta NO invertir en ciberseguridad? El costo real de un ataq
 seoTitle: "El costo real de NO invertir en ciberseguridad"
 description: "Postergar la ciberseguridad parece ahorrar dinero, pero el costo de un ataque suele ser mucho mayor que el de prevenirlo. Analizamos las cifras reales."
 publishedAt: 2025-07-31
+updatedAt: 2026-10-21
 category: "Ciberseguridad"
 cover: "/images/blog/cuanto-cuesta-no-invertir-en-ciberseguridad-peru-cover.webp"
 coverAlt: "Alerta de seguridad desplegada en la pantalla de una computadora"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "8 min de lectura"
 draft: false
 reviewed: true

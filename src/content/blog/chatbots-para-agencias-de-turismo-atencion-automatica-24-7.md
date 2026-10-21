@@ -3,10 +3,11 @@ title: "Chatbots para agencias de turismo: atención automática las 24 horas"
 seoTitle: "Chatbots para agencias de turismo: guía práctica"
 description: "Casi ninguna agencia de turismo usa IA para atención al cliente todavía. Te explicamos cómo un chatbot puede ser tu ventaja frente a la competencia."
 publishedAt: 2026-09-03
+updatedAt: 2026-10-21
 category: "Turismo"
 cover: "/images/blog/chatbots-para-agencias-de-turismo-atencion-automatica-24-7-cover.webp"
 coverAlt: "Persona de una agencia de turismo atendiendo consultas por teléfono y computadora"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "6 min de lectura"
 draft: false
 reviewed: true

@@ -3,10 +3,11 @@ title: "Phishing en empresas: cómo identificarlo antes de que sea tarde"
 seoTitle: "Phishing en empresas: cómo identificarlo a tiempo"
 description: "El phishing es la puerta de entrada más común para los ciberataques en Perú. Te explicamos cómo reconocerlo y qué hacer para proteger a tu empresa."
 publishedAt: 2026-04-30
+updatedAt: 2026-10-21
 category: "Ciberseguridad"
 cover: "/images/blog/phishing-en-empresas-como-identificarlo-antes-de-que-sea-tarde-cover.webp"
 coverAlt: "Persona revisando un correo electrónico sospechoso en su computadora"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "6 min de lectura"
 draft: false
 reviewed: true

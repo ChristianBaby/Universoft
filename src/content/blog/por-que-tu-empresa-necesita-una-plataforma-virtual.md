@@ -2,10 +2,11 @@
 title: "¿Por qué tu empresa necesita una plataforma virtual?"
 description: "Digitalizar tus procesos ya no es una opción, es una necesidad. Descubre cómo una plataforma virtual puede transformar la eficiencia de tu negocio."
 publishedAt: 2025-05-15
+updatedAt: 2026-10-21
 category: "Plataformas"
 cover: "/images/blog/por-que-tu-empresa-necesita-una-plataforma-virtual-cover.webp"
 coverAlt: "Equipo de trabajo colaborando con herramientas digitales"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "8 min de lectura"
 draft: false
 reviewed: true

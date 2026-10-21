@@ -3,10 +3,11 @@ title: "Cómo digitalizar las reservas de tu agencia de turismo y dejar de depen
 seoTitle: "Digitaliza las reservas de tu agencia de turismo"
 description: "WhatsApp y Excel funcionan al inicio, pero con el crecimiento se vuelven la principal fuente de errores de una agencia de turismo. Cómo dar el salto."
 publishedAt: 2026-01-22
+updatedAt: 2026-10-21
 category: "Turismo"
 cover: "/images/blog/digitaliza-las-reservas-de-tu-agencia-de-turismo-cover.webp"
 coverAlt: "Persona organizando reservas de viaje en una hoja de cálculo"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "7 min de lectura"
 draft: false
 reviewed: true

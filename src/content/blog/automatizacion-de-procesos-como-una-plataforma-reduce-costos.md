@@ -3,10 +3,11 @@ title: "Automatización de procesos: cómo una plataforma digital reduce costos 
 seoTitle: "Automatización de procesos: reduce costos operativos"
 description: "Facturación, inventario, aprobaciones: descubre qué procesos conviene automatizar primero y cuánto puede ahorrar tu empresa al eliminar el trabajo manual."
 publishedAt: 2025-10-09
+updatedAt: 2026-10-21
 category: "Plataformas"
 cover: "/images/blog/automatizacion-de-procesos-como-una-plataforma-reduce-costos-cover.webp"
 coverAlt: "Panel de control de una plataforma digital con métricas de procesos automatizados"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "7 min de lectura"
 draft: false
 reviewed: true

@@ -13,7 +13,7 @@ const blog = defineCollection({
     category: z.string(),
     cover: z.string().min(1),
     coverAlt: z.string(),
-    author: z.string().default("Universoft Systems"),
+    author: z.string().default("Christian Pumaccahua Cusihuaman"),
     readTime: z.string().optional(),
     draft: z.boolean().default(true),
     reviewed: z.boolean().default(false),

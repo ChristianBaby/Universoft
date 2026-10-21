@@ -3,10 +3,11 @@ title: "CRM a medida vs. HubSpot o Salesforce: cuándo conviene cada uno"
 seoTitle: "CRM a medida vs. HubSpot o Salesforce: guía"
 description: "HubSpot y Salesforce dominan el mercado de CRM, pero no siempre son la opción correcta. Te explicamos cuándo conviene un CRM a medida."
 publishedAt: 2026-06-11
+updatedAt: 2026-10-21
 category: "Software"
 cover: "/images/blog/crm-a-medida-vs-hubspot-salesforce-cuando-conviene-cada-uno-cover.webp"
 coverAlt: "Persona revisando un panel de ventas y clientes en su computadora"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "6 min de lectura"
 draft: false
 reviewed: true

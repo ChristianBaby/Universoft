@@ -3,10 +3,11 @@ title: "Automatización para agencias de turismo: confirmaciones, recordatorios 
 seoTitle: "Automatización para agencias de turismo"
 description: "Responder cada confirmación y seguimiento a mano no escala en temporada alta. Así libera tiempo la automatización sin perder el trato cercano con el viajero."
 publishedAt: 2026-04-02
+updatedAt: 2026-10-21
 category: "Turismo"
 cover: "/images/blog/automatizacion-para-agencias-de-turismo-confirmaciones-y-seguimiento-cover.webp"
 coverAlt: "Persona gestionando reservas y mensajes de clientes desde el celular"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "7 min de lectura"
 draft: false
 reviewed: true

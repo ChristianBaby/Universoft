@@ -1,4 +1,4 @@
-import { SITE_URL, SITE_NAME } from "@/lib/constants/site";
+import { SITE_URL, SITE_NAME, AUTHOR_NAME, AUTHOR_LINKEDIN } from "@/lib/constants/site";
 import { CONTACT } from "@/lib/constants/contact";
 import type { ServiceFAQ } from "@/lib/types";
 
@@ -89,7 +89,10 @@ export function articleJsonLd(post: ArticleInput) {
     image: post.image,
     datePublished: post.publishedAt.toISOString(),
     dateModified: post.updatedAt.toISOString(),
-    author: { "@type": "Organization", name: post.author },
+    author:
+      post.author === AUTHOR_NAME
+        ? { "@type": "Person", name: AUTHOR_NAME, url: AUTHOR_LINKEDIN, sameAs: [AUTHOR_LINKEDIN] }
+        : { "@type": "Organization", name: post.author },
     publisher: {
       "@type": "Organization",
       name: SITE_NAME,

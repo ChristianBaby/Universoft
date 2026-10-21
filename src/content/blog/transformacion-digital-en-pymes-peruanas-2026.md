@@ -3,10 +3,11 @@ title: "Transformación digital en PYMES peruanas: por dónde empezar en 2026"
 seoTitle: "Transformación digital en PYMES peruanas 2026"
 description: "La transformación digital ya no es opcional para las PYMES peruanas. Te explicamos por dónde empezar, qué priorizar y cómo evitar los errores más comunes."
 publishedAt: 2025-12-04
+updatedAt: 2026-10-21
 category: "Software"
 cover: "/images/blog/transformacion-digital-en-pymes-peruanas-2026-cover.webp"
 coverAlt: "Dueño de una pyme revisando indicadores digitales de su negocio"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "7 min de lectura"
 draft: false
 reviewed: true

@@ -2,10 +2,11 @@
 title: "Buenas prácticas de ciberseguridad para empresas"
 description: "Proteger la información de tu empresa no requiere ser experto en tecnología. Conoce las medidas básicas que toda organización debería implementar."
 publishedAt: 2025-03-20
+updatedAt: 2026-10-21
 category: "Ciberseguridad"
 cover: "/images/blog/buenas-practicas-ciberseguridad-empresas-cover.webp"
 coverAlt: "Candado digital sobre un teclado, símbolo de protección de datos"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
 draft: false
 reviewed: true

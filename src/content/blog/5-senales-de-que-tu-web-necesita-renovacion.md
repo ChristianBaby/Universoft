@@ -2,10 +2,11 @@
 title: "5 señales de que tu web necesita una renovación"
 description: "Un sitio web desactualizado puede ahuyentar clientes potenciales. Aprende a identificar cuándo es momento de renovar tu presencia digital."
 publishedAt: 2025-04-03
+updatedAt: 2026-10-21
 category: "Web"
 cover: "/images/blog/5-senales-de-que-tu-web-necesita-renovacion-cover.webp"
 coverAlt: "Diseño web responsive visualizado en varios dispositivos"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "6 min de lectura"
 draft: false
 reviewed: true

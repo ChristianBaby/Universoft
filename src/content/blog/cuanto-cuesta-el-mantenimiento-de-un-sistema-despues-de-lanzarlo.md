@@ -3,10 +3,11 @@ title: "Cuánto cuesta el mantenimiento de un sistema después de lanzarlo"
 seoTitle: "Cuánto cuesta mantener un sistema de software"
 description: "El costo de un software no termina cuando se lanza. Te explicamos qué cubre el mantenimiento, por qué es necesario y cómo presupuestarlo sin sorpresas."
 publishedAt: 2026-07-09
+updatedAt: 2026-10-21
 category: "Software"
 cover: "/images/blog/cuanto-cuesta-el-mantenimiento-de-un-sistema-despues-de-lanzarlo-cover.webp"
 coverAlt: "Desarrollador revisando código en varias pantallas"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "6 min de lectura"
 draft: false
 reviewed: true

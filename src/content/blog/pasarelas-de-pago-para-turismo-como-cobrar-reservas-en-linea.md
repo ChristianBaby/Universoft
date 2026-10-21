@@ -3,10 +3,11 @@ title: "Pasarelas de pago para turismo: cómo cobrar reservas y tours en línea 
 seoTitle: "Pasarelas de pago para turismo: cobra en línea"
 description: "Cobrar en línea es clave para una agencia que recibe turistas extranjeros. Cómo funcionan las pasarelas de pago y qué considerar para implementarlas."
 publishedAt: 2026-02-19
+updatedAt: 2026-10-21
 category: "Turismo"
 cover: "/images/blog/pasarelas-de-pago-para-turismo-como-cobrar-reservas-en-linea-cover.webp"
 coverAlt: "Persona pagando una reserva de viaje con tarjeta desde su laptop"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "7 min de lectura"
 draft: false
 reviewed: true

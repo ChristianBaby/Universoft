@@ -3,10 +3,11 @@ title: "SEO técnico: la checklist que toda web empresarial debe cumplir en 2026
 seoTitle: "SEO técnico: checklist para webs empresariales"
 description: "El SEO técnico es la base invisible que determina si Google puede encontrar y posicionar tu sitio. Revisa esta checklist antes de dar tu web por terminada."
 publishedAt: 2025-11-20
+updatedAt: 2026-10-21
 category: "Web"
 cover: "/images/blog/seo-tecnico-checklist-para-webs-empresariales-2026-cover.webp"
 coverAlt: "Lista de verificación de SEO técnico sobre un escritorio"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "8 min de lectura"
 draft: false
 reviewed: true

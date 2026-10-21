@@ -3,10 +3,11 @@ title: "Software para agencias de turismo en Cusco: qué debe incluir una buena 
 seoTitle: "Software para agencias de turismo en Cusco"
 description: "No todo software para agencias de viajes es igual. Te contamos qué funcionalidades marcan la diferencia en la operación diaria de una agencia en Cusco."
 publishedAt: 2026-01-08
+updatedAt: 2026-10-21
 category: "Turismo"
 cover: "/images/blog/software-para-agencias-de-turismo-en-cusco-que-debe-incluir-cover.webp"
 coverAlt: "Pantalla con un calendario de reservas de tours"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "7 min de lectura"
 draft: false
 reviewed: true

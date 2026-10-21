@@ -3,10 +3,11 @@ title: "Redes para equipos remotos e híbridos: guía para empresas peruanas"
 seoTitle: "Redes para equipos remotos e híbridos: guía"
 description: "El trabajo híbrido llegó para quedarse. Te explicamos cómo diseñar una red segura y confiable para equipos que ya no trabajan solo desde la oficina."
 publishedAt: 2025-07-17
+updatedAt: 2026-10-21
 category: "Telecomunicaciones"
 cover: "/images/blog/redes-para-equipos-remotos-e-hibridos-guia-empresas-peruanas-cover.webp"
 coverAlt: "Persona trabajando de forma remota conectada por videollamada"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "7 min de lectura"
 draft: false
 reviewed: true

@@ -3,10 +3,11 @@ title: "Tienda online en Perú: qué necesita tu negocio para vender por interne
 seoTitle: "Tienda online en Perú: qué necesitas para vender"
 description: "El comercio electrónico en Perú sigue creciendo con fuerza. Te explicamos qué necesita tu negocio para vender en línea, más allá de solo un catálogo."
 publishedAt: 2026-08-06
+updatedAt: 2026-10-21
 category: "Web"
 cover: "/images/blog/tienda-online-en-peru-que-necesita-tu-negocio-para-vender-por-internet-cover.webp"
 coverAlt: "Persona realizando una compra en línea desde su laptop"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "7 min de lectura"
 draft: false
 reviewed: true

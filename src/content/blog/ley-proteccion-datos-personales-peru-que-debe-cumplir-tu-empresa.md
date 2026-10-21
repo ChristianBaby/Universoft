@@ -3,10 +3,11 @@ title: "Ley de Protección de Datos Personales en Perú: qué debe cumplir tu em
 seoTitle: "Ley de Protección de Datos Personales: guía para empresas"
 description: "La Ley 29733 obliga a toda empresa que maneja datos personales a cumplir reglas concretas. Te explicamos qué exige el reglamento vigente."
 publishedAt: 2026-05-28
+updatedAt: 2026-10-21
 category: "Ciberseguridad"
 cover: "/images/blog/ley-proteccion-datos-personales-peru-que-debe-cumplir-tu-empresa-cover.webp"
 coverAlt: "Documentos legales y una balanza de la justicia sobre un escritorio"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "7 min de lectura"
 draft: false
 reviewed: true

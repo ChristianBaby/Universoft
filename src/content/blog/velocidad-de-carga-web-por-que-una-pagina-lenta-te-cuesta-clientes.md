@@ -3,10 +3,11 @@ title: "Velocidad de carga web: por qué una página lenta te cuesta clientes"
 seoTitle: "Velocidad de carga web: por qué importa tanto"
 description: "Una página lenta no solo afecta tu posicionamiento en Google: aleja clientes antes de que vean lo que ofreces. Te explicamos por qué importa la velocidad."
 publishedAt: 2026-07-23
+updatedAt: 2026-10-21
 category: "Web"
 cover: "/images/blog/velocidad-de-carga-web-por-que-una-pagina-lenta-te-cuesta-clientes-cover.webp"
 coverAlt: "Pantalla mostrando el tiempo de carga de un sitio web"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "6 min de lectura"
 draft: false
 reviewed: true

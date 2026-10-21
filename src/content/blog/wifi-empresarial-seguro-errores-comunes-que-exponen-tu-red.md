@@ -3,10 +3,11 @@ title: "Wi-Fi empresarial seguro: errores comunes que exponen tu red"
 seoTitle: "Wi-Fi empresarial seguro: errores que debes evitar"
 description: "Una red Wi-Fi mal configurada es una puerta abierta a tu información corporativa. Te explicamos los errores más comunes y cómo proteger tu red empresarial."
 publishedAt: 2026-08-20
+updatedAt: 2026-10-21
 category: "Telecomunicaciones"
 cover: "/images/blog/wifi-empresarial-seguro-errores-comunes-que-exponen-tu-red-cover.webp"
 coverAlt: "Router de red empresarial instalado en una oficina"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "6 min de lectura"
 draft: false
 reviewed: true

@@ -2,10 +2,11 @@
 title: "Ransomware en Perú: cómo proteger a tu empresa paso a paso"
 description: "El ransomware es una de las amenazas más costosas para las empresas peruanas. Te explicamos cómo funciona y qué medidas concretas tomar para protegerte."
 publishedAt: 2025-08-28
+updatedAt: 2026-10-21
 category: "Ciberseguridad"
 cover: "/images/blog/ransomware-en-peru-como-proteger-tu-empresa-cover.webp"
 coverAlt: "Pantalla de computadora con una alerta de seguridad en rojo"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
 draft: false
 reviewed: true

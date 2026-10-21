@@ -3,10 +3,11 @@ title: "Cuánto cuesta desarrollar una plataforma a medida en Perú: guía de pr
 seoTitle: "Cuánto cuesta una plataforma a medida en Perú"
 description: "No existe un precio único para un software a medida. Te explicamos qué factores determinan el costo real de una plataforma y cómo presupuestar tu proyecto."
 publishedAt: 2025-09-25
+updatedAt: 2026-10-21
 category: "Plataformas"
 cover: "/images/blog/cuanto-cuesta-desarrollar-una-plataforma-a-medida-en-peru-cover.webp"
 coverAlt: "Equipo de desarrollo planificando el alcance de una plataforma digital"
-author: "Universoft Systems"
+author: "Christian Pumaccahua Cusihuaman"
 readTime: "7 min de lectura"
 draft: false
 reviewed: true
