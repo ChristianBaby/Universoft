@@ -52,6 +52,35 @@
   @apply font-medium text-blue underline underline-offset-4 hover:text-blue-bright;
 }
 
+.prose-universoft h3 {
+  @apply mt-8 font-display text-xl font-bold text-navy;
+}
+
+.prose-universoft ul,
+.prose-universoft ol {
+  @apply ml-5 list-disc space-y-2;
+}
+
+.prose-universoft ol {
+  @apply list-decimal;
+}
+
+.prose-universoft table {
+  @apply my-8 block w-full overflow-x-auto rounded-2xl border border-navy/10 text-left text-sm;
+}
+
+.prose-universoft th {
+  @apply whitespace-nowrap bg-navy px-4 py-3 font-semibold text-white;
+}
+
+.prose-universoft td {
+  @apply border-t border-navy/10 px-4 py-3 align-top;
+}
+
+.prose-universoft tr:nth-child(even) td {
+  @apply bg-navy/[0.03];
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(24px);

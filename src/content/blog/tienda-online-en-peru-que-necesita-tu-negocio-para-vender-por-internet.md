@@ -3,7 +3,7 @@ title: "Tienda online en Perú: qué necesita tu negocio para vender por interne
 seoTitle: "Tienda online en Perú: qué necesitas para vender"
 description: "El comercio electrónico en Perú sigue creciendo con fuerza. Te explicamos qué necesita tu negocio para vender en línea, más allá de solo un catálogo."
 publishedAt: 2026-08-06
-updatedAt: 2026-10-21
+updatedAt: 2026-10-24
 category: "Web"
 cover: "/images/blog/tienda-online-en-peru-que-necesita-tu-negocio-para-vender-por-internet-cover.webp"
 coverAlt: "Persona realizando una compra en línea desde su laptop"
@@ -37,6 +37,8 @@ Tener fotos de productos y precios en una web informativa ayuda a que te encuent
 ## Plataforma genérica o a medida
 
 Para un negocio que recién empieza a vender en línea, una plataforma de ecommerce genérica suele ser el punto de partida más rápido y económico. Pero a medida que el negocio crece, las reglas de precios se vuelven más complejas, o se necesita integrar la tienda con un sistema de inventario o facturación propio, muchas empresas encuentran que una [plataforma a medida](/servicios/plataformas) les da el control que la solución genérica ya no les ofrece.
+
+Sea cual sea la plataforma, hay una decisión previa que determina el rendimiento de toda la tienda: [qué dominio y qué tipo de hosting elegir](/blog/dominio-y-hosting-para-tu-tienda-online-en-peru).
 
 ## El primer paso no es elegir la plataforma
 
