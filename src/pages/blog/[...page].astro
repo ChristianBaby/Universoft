@@ -17,11 +17,11 @@ const { page } = Astro.props;
 const isFirstPage = page.currentPage === 1;
 const path = isFirstPage ? "/blog" : `/blog/${page.currentPage}`;
 const title = isFirstPage
-  ? "Blog de tecnología, software y ciberseguridad"
-  : `Blog de tecnología, software y ciberseguridad — Página ${page.currentPage}`;
+  ? "Blog de software y presencia en Google"
+  : `Blog de software y presencia en Google — Página ${page.currentPage}`;
 const description = isFirstPage
-  ? "Artículos sobre desarrollo de software, ciberseguridad, telecomunicaciones y tendencias tecnológicas para empresas en Perú."
-  : `Página ${page.currentPage} de artículos sobre desarrollo de software, ciberseguridad, telecomunicaciones y tendencias tecnológicas para empresas en Perú.`;
+  ? "Guías sobre desarrollo de software a medida, páginas web que aparecen en Google, redes y ciberseguridad para empresas en Perú."
+  : `Página ${page.currentPage} de guías sobre desarrollo de software a medida, páginas web que aparecen en Google, redes y ciberseguridad para empresas en Perú.`;
 ---
 
 <BaseLayout title={title} description={description} path={path}>
@@ -31,8 +31,8 @@ const description = isFirstPage
         <SectionHeader
           as="h1"
           label="Blog"
-          title="Ideas y conocimiento para tu empresa"
-          description="Artículos sobre tecnología, software y buenas prácticas para ayudarte a tomar mejores decisiones."
+          title="Guías para tu software, tu presencia en Google y tu seguridad"
+          description="Artículos sobre desarrollo de software a medida, páginas web que aparecen en Google, redes y ciberseguridad para empresas en Perú y Latinoamérica."
           centered={false}
         />
         <div class="reveal mt-8 max-w-xl">

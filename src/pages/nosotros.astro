@@ -3,6 +3,16 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 import SectionHeader from "@/components/ui/SectionHeader.astro";
 import Icon from "@/components/ui/Icon.astro";
 import CtaFinal from "@/components/sections/home/CtaFinal.astro";
+import { TEAM } from "@/lib/constants/team";
+
+const initials = (name: string) =>
+  name
+    .split(" ")
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((part) => part[0])
+    .join("")
+    .toUpperCase();
 
 const values = [
   "Compromiso con resultados",
@@ -91,6 +101,29 @@ const cards = [
             ))}
           </ul>
         </article>
+      </div>
+    </section>
+
+    <section class="bg-white py-24">
+      <div class="mx-auto max-w-7xl px-6">
+        <SectionHeader
+          label="Equipo"
+          title="Las personas detrás de cada proyecto"
+          description="Quienes diseñan, desarrollan y acompañan tu proyecto desde Cusco."
+        />
+        <ul class="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-3">
+          {TEAM.map((member) => (
+            <li class="reveal flex flex-col items-center gap-4 rounded-2xl border border-navy/10 bg-cream p-8 text-center">
+              <div class="flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-navy to-navy-deep font-display text-xl font-bold text-white shadow-md">
+                {initials(member.name)}
+              </div>
+              <div>
+                <h3 class="font-display text-lg font-bold text-navy">{member.name}</h3>
+                <p class="mt-1 text-sm font-semibold text-blue">{member.role}</p>
+              </div>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
 

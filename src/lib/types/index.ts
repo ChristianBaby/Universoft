@@ -41,10 +41,18 @@ export interface ValueBlock {
   icon: string;
 }
 
+export interface ProjectCase {
+  name: string;
+  url: string;
+  category: string;
+  summary: string;
+  highlights: string[];
+}
+
 export interface TeamMember {
   name: string;
   role: string;
-  bio: string;
+  bio?: string;
 }
 
 export interface ContactInfo {
@@ -53,6 +61,7 @@ export interface ContactInfo {
   email: string;
   emailAlt: string;
   location: string;
+  hours: string;
   social: {
     linkedin: string;
     facebook: string;

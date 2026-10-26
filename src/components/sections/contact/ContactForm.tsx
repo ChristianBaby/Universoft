@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 type ServiceOption = "plataformas" | "web" | "telecomunicaciones" | "ciberseguridad" | "";
 
@@ -8,15 +8,27 @@ interface FormData {
   email: string;
   phone: string;
   service: ServiceOption;
+  budget: string;
+  timeline: string;
   message: string;
   website: string;
 }
 
+const BUDGET_OPTIONS = [
+  "Menos de US$ 1,000",
+  "US$ 1,000 a 5,000",
+  "US$ 5,000 a 15,000",
+  "Más de US$ 15,000",
+  "Aún no lo sé",
+];
+
+const TIMELINE_OPTIONS = ["Lo antes posible", "En 1 a 3 meses", "Más de 3 meses", "Aún no lo sé"];
+
 const SERVICE_OPTIONS: { value: Exclude<ServiceOption, "">; label: string }[] = [
   { value: "plataformas", label: "Plataformas virtuales" },
   { value: "web", label: "Página web informativa" },
-  { value: "telecomunicaciones", label: "Telecomunicaciones" },
-  { value: "ciberseguridad", label: "Ciberseguridad" },
+  { value: "telecomunicaciones", label: "Redes y comunicaciones empresariales" },
+  { value: "ciberseguridad", label: "Ciberseguridad para empresas" },
 ];
 
 const INITIAL_FORM: FormData = {
@@ -25,6 +37,8 @@ const INITIAL_FORM: FormData = {
   email: "",
   phone: "",
   service: "",
+  budget: "",
+  timeline: "",
   message: "",
   website: "",
 };
@@ -37,6 +51,13 @@ const labelClass = "mb-1.5 block text-xs font-semibold text-navy/70";
 export default function ContactForm() {
   const [form, setForm] = useState<FormData>(INITIAL_FORM);
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
+
+  useEffect(() => {
+    const requested = new URLSearchParams(window.location.search).get("servicio");
+    if (SERVICE_OPTIONS.some((option) => option.value === requested)) {
+      setForm((prev) => ({ ...prev, service: requested as ServiceOption }));
+    }
+  }, []);
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
@@ -123,6 +144,35 @@ export default function ContactForm() {
             </option>
           ))}
         </select>
+      </div>
+
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+        <div>
+          <label htmlFor="budget" className={labelClass}>
+            Presupuesto aproximado <span className="text-navy/40">(opcional)</span>
+          </label>
+          <select id="budget" name="budget" value={form.budget} onChange={handleChange} className={inputClass}>
+            <option value="">Selecciona un rango</option>
+            {BUDGET_OPTIONS.map((option) => (
+              <option key={option} value={option}>
+                {option}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label htmlFor="timeline" className={labelClass}>
+            ¿Cuándo lo necesitas? <span className="text-navy/40">(opcional)</span>
+          </label>
+          <select id="timeline" name="timeline" value={form.timeline} onChange={handleChange} className={inputClass}>
+            <option value="">Selecciona un plazo</option>
+            {TIMELINE_OPTIONS.map((option) => (
+              <option key={option} value={option}>
+                {option}
+              </option>
+            ))}
+          </select>
+        </div>
       </div>
 
       <div>

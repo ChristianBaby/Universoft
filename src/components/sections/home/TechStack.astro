@@ -1,0 +1,19 @@
+---
+import { TECH_STACK } from "@/lib/constants/tech";
+---
+
+<section class="bg-white py-16">
+  <div class="mx-auto max-w-7xl px-6">
+    <p class="text-center text-xs font-semibold uppercase tracking-widest text-navy/50">Tecnologías que usamos en nuestros proyectos</p>
+    <ul class="mt-8 flex flex-wrap items-center justify-center gap-x-10 gap-y-6">
+      {TECH_STACK.map((tech) => (
+        <li class="flex items-center gap-3 text-navy/70">
+          {tech.logo ? (
+            <img src={tech.logo} alt="" width="28" height="28" loading="lazy" decoding="async" class="h-7 w-7" />
+          ) : null}
+          <span class="text-sm font-semibold">{tech.name}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

@@ -2,20 +2,24 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import Hero from "@/components/sections/home/Hero.astro";
 import ValueProposition from "@/components/sections/home/ValueProposition.astro";
+import CasesSection from "@/components/sections/home/CasesSection.astro";
 import ServicesSummary from "@/components/sections/home/ServicesSummary.astro";
+import TechStack from "@/components/sections/home/TechStack.astro";
 import WhyUs from "@/components/sections/home/WhyUs.astro";
 import CtaFinal from "@/components/sections/home/CtaFinal.astro";
 ---
 
 <BaseLayout
-  title="Universoft Systems | Desarrollo de Software a Medida en Cusco"
-  description="Desarrollamos software a medida, plataformas virtuales, páginas web, telecomunicaciones y ciberseguridad para empresas en Perú."
+  title="Páginas web que aparecen en Google"
+  description="Creamos tu página web o sistema a medida para que tu negocio aparezca en Google desde el primer día. Trabajamos con empresas de Perú y Latinoamérica."
   path="/"
 >
   <main>
     <Hero />
     <ValueProposition />
+    <CasesSection />
     <ServicesSummary />
+    <TechStack />
     <WhyUs />
     <CtaFinal />
   </main>

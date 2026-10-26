@@ -2,8 +2,7 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import Button from "@/components/ui/Button.astro";
 import Icon from "@/components/ui/Icon.astro";
-import CtaFinal from "@/components/sections/home/CtaFinal.astro";
-import { SERVICES } from "@/lib/constants/services";
+import { SERVICES, STARTING_PRICE } from "@/lib/constants/services";
 import { SITE_URL } from "@/lib/constants/site";
 import { faqPageJsonLd, serviceJsonLd, breadcrumbJsonLd } from "@/lib/seo/structuredData";
 import { iconSlug } from "@/lib/utils/icons";
@@ -50,6 +49,7 @@ const jsonLd = [
         {service.longDescription && (
           <p class="mt-6 max-w-3xl text-base leading-relaxed text-navy/70 lg:text-lg">{service.longDescription}</p>
         )}
+        <p class="mt-6 text-sm font-semibold text-navy">Inversión desde {STARTING_PRICE} <span class="font-normal text-navy/60">· cada proyecto se cotiza según su alcance</span></p>
         <div class="mt-8">
           <Button href="/contacto" class="px-8 py-4 text-base">Solicita una cotización</Button>
         </div>
@@ -169,6 +169,12 @@ const jsonLd = [
       </section>
     )}
 
-    <CtaFinal />
+    <section class="bg-navy py-20">
+      <div class="mx-auto flex max-w-5xl flex-col items-center gap-6 px-6 text-center">
+        <h2 class="font-display text-2xl font-bold text-white sm:text-3xl">¿Quieres una propuesta para {service.title.toLowerCase()}?</h2>
+        <p class="max-w-2xl text-sm leading-relaxed text-white/70">Cuéntanos tu proyecto y te respondemos con una propuesta sin compromiso.</p>
+        <Button href={`/contacto?servicio=${service.id}`} class="px-8 py-4 text-base">Solicitar propuesta</Button>
+      </div>
+    </section>
   </main>
 </BaseLayout>

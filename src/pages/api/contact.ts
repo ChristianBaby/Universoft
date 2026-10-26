@@ -8,15 +8,17 @@ interface ContactPayload {
   email?: string;
   phone?: string;
   service?: string;
+  budget?: string;
+  timeline?: string;
   message?: string;
   website?: string;
 }
 
 const SERVICE_LABELS: Record<string, string> = {
-  plataformas: "Plataformas virtuales",
-  web: "Página web informativa",
-  telecomunicaciones: "Telecomunicaciones",
-  ciberseguridad: "Ciberseguridad",
+  plataformas: "Desarrollo de software a medida",
+  web: "Páginas web y presencia en Google",
+  telecomunicaciones: "Redes y comunicaciones empresariales",
+  ciberseguridad: "Ciberseguridad para empresas",
 };
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -48,6 +50,8 @@ export const POST: APIRoute = async ({ request }) => {
   const service = body.service?.trim() ?? "";
   const message = body.message?.trim() ?? "";
   const company = body.company?.trim() ?? "";
+  const budget = body.budget?.trim() ?? "";
+  const timeline = body.timeline?.trim() ?? "";
 
   if (!name || !email || !phone || !service || !message) {
     return Response.json({ error: "Campos requeridos incompletos." }, { status: 400 });
@@ -88,6 +92,8 @@ export const POST: APIRoute = async ({ request }) => {
         <p><strong>Correo:</strong> ${escapeHtml(email)}</p>
         <p><strong>Teléfono:</strong> ${escapeHtml(phone)}</p>
         <p><strong>Servicio:</strong> ${escapeHtml(serviceLabel)}</p>
+        <p><strong>Presupuesto:</strong> ${escapeHtml(budget || "No indicado")}</p>
+        <p><strong>Plazo:</strong> ${escapeHtml(timeline || "No indicado")}</p>
         <p><strong>Mensaje:</strong></p>
         <p>${escapeHtml(message).replace(/\n/g, "<br>")}</p>
       `,

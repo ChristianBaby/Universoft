@@ -1,0 +1,38 @@
+---
+import SectionHeader from "@/components/ui/SectionHeader.astro";
+import Icon from "@/components/ui/Icon.astro";
+import { PROJECT_CASES } from "@/lib/constants/cases";
+---
+
+<section class="bg-white py-24">
+  <div class="mx-auto max-w-7xl px-6">
+    <SectionHeader
+      label="Proyectos"
+      title="Software que ya está en producción"
+      description="Proyectos reales que hoy están en línea. Revísalos directamente."
+    />
+
+    <ul class="mt-16 grid grid-cols-1 gap-6 lg:grid-cols-3">
+      {PROJECT_CASES.map((project, i) => (
+        <li class="reveal" style={`transition-delay:${i * 80}ms`}>
+          <a href={project.url} target="_blank" rel="noopener" class="group flex h-full flex-col gap-5 rounded-2xl border border-navy/10 bg-cream p-8 transition-all duration-300 hover:-translate-y-1 hover:border-blue/30 hover:shadow-xl">
+            <span class="text-xs font-semibold uppercase tracking-widest text-blue">{project.category}</span>
+            <h3 class="font-display text-2xl font-bold text-navy">{project.name}</h3>
+            <p class="text-sm leading-relaxed text-navy/70">{project.summary}</p>
+            <ul class="flex flex-col gap-2">
+              {project.highlights.map((item) => (
+                <li class="flex items-start gap-3">
+                  <Icon name="circle-check" size={16} class="mt-0.5 text-blue" />
+                  <span class="text-sm text-navy/70">{item}</span>
+                </li>
+              ))}
+            </ul>
+            <span class="mt-auto inline-flex items-center gap-2 text-sm font-semibold text-blue group-hover:underline">
+              Visitar {project.name} <Icon name="arrow-right" size={16} />
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

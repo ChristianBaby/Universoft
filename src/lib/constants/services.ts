@@ -3,7 +3,7 @@ import type { Service } from "@/lib/types";
 export const SERVICES: Service[] = [
   {
     id: "plataformas",
-    title: "Plataformas Virtuales",
+    title: "Desarrollo de software a medida",
     description:
       "Plataformas web y apps que digitalizan y automatizan procesos de tu empresa.",
     features: [
@@ -93,7 +93,7 @@ export const SERVICES: Service[] = [
   },
   {
     id: "web",
-    title: "Páginas Web Informativas",
+    title: "Páginas web y presencia en Google",
     description:
       "Sitios modernos, rápidos y responsivos optimizados para SEO y dispositivos móviles.",
     features: [
@@ -182,7 +182,7 @@ export const SERVICES: Service[] = [
   },
   {
     id: "telecomunicaciones",
-    title: "Telecomunicaciones",
+    title: "Redes y comunicaciones empresariales",
     description:
       "Soluciones para mantener tu empresa conectada de forma estable y segura.",
     features: [
@@ -270,7 +270,7 @@ export const SERVICES: Service[] = [
   },
   {
     id: "ciberseguridad",
-    title: "Ciberseguridad",
+    title: "Ciberseguridad para empresas",
     description:
       "Protección de información y sistemas frente a amenazas digitales.",
     features: [
@@ -358,6 +358,13 @@ export const SERVICES: Service[] = [
     ],
   },
 ];
+
+export const STARTING_PRICE = "S/ 250";
+
+export const SUPPORT_BLOCK = {
+  title: "Soporte técnico y seguridad",
+  description: "Redes, comunicaciones y protección para que los proyectos que desarrollamos sigan funcionando de forma segura.",
+};
 
 export const HOW_WE_WORK = [
   { step: 1, title: "Contacto y entendimiento", description: "Escuchamos tu proyecto y necesidades." },
