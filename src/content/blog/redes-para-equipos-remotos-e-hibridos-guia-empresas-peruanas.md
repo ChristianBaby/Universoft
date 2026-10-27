@@ -12,6 +12,8 @@ readTime: "7 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** El trabajo híbrido llegó para quedarse. Te explicamos cómo diseñar una red segura y confiable para equipos que ya no trabajan solo desde la oficina.
+
 ## El trabajo híbrido ya es la norma, no la excepción
 
 El esquema de trabajo cambió de forma permanente. [Según una encuesta de Microsoft Perú a pymes del país](https://www.elperuano.pe/noticia/213817-las-pymes-peruanas-en-la-era-digital), el trabajo híbrido o flexible ya está presente en el 44% de las empresas, consolidándose como un modelo habitual y no como una medida temporal.

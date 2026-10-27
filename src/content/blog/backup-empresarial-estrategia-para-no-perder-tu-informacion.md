@@ -12,6 +12,8 @@ readTime: "6 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** Un ciberataque o una falla de hardware pueden borrar años de información en minutos. Te explicamos cómo diseñar un backup que realmente funcione.
+
 ## La diferencia entre un incidente y una catástrofe
 
 Un [ataque de ransomware](/blog/ransomware-en-peru-como-proteger-tu-empresa), un disco duro que falla, un error humano que borra la carpeta equivocada: todos tienen algo en común, y es que la gravedad del daño depende casi por completo de si existía una copia de respaldo funcional. [Según el informe de Veeam 2024, el 41% de los datos de una empresa se ven comprometidos durante un ciberataque, y solo el 57% de esos datos comprometidos logran recuperarse](https://www.acronis.com/es-mx/blog/posts/cost-of-ransomware/). Sin un backup confiable, esa diferencia se convierte en información perdida para siempre.

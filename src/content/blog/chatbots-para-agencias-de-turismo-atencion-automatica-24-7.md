@@ -12,6 +12,8 @@ readTime: "6 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** Casi ninguna agencia de turismo usa IA para atención al cliente todavía. Te explicamos cómo un chatbot puede ser tu ventaja frente a la competencia.
+
 ## Un mercado donde casi nadie lo está haciendo todavía
 
 [Según el Observatorio Nacional del Turismo Emisor (ObservaTUR), solo un 7% de las agencias de viajes usa inteligencia artificial, principalmente como chatbot de atención al cliente](https://www.hosteltur.com/159483_la-ia-aun-no-cuaja-entre-las-agencias-de-viajes-solo-un-7-la-usan.html). Para una agencia en Cusco, eso significa algo concreto: implementar un chatbot bien pensado no es seguir una moda saturada, es adelantarse a una gran mayoría de competidores que todavía no lo ha hecho.

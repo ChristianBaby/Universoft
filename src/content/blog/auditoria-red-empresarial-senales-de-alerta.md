@@ -12,6 +12,8 @@ readTime: "7 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** Una red lenta o inestable afecta la productividad de tu equipo. Aprende a identificar las señales de que es momento de auditar tu infraestructura.
+
 ## La red es la base invisible de tu operación
 
 Pocas veces pensamos en la red de nuestra empresa hasta que algo falla: una videollamada se corta, un sistema se queda cargando o un archivo tarda minutos en subirse a la nube. La red corporativa funciona como el sistema circulatorio de una empresa moderna: cuando funciona bien, es invisible; cuando falla, afecta absolutamente todo.

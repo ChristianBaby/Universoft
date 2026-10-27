@@ -12,6 +12,8 @@ readTime: "8 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** SAP, Odoo o un ERP a tu medida: te explicamos las diferencias reales y cómo elegir la opción correcta según el tamaño de tu empresa.
+
 ## Un ERP no es solo otro software más
 
 Cuando una empresa crece, llega un momento en que las hojas de cálculo y los sistemas aislados ya no alcanzan. Inventario por un lado, finanzas por otro, recursos humanos en una tercera herramienta que no habla con las demás: ahí es cuando aparece la necesidad de un ERP (Enterprise Resource Planning), un software ERP que funciona como sistema de gestión empresarial, integrando todas las áreas del negocio en un solo lugar a través de distintos módulos ERP.

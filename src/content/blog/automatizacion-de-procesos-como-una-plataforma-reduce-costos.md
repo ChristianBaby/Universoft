@@ -12,6 +12,8 @@ readTime: "7 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** Facturación, inventario, aprobaciones: descubre qué procesos conviene automatizar primero y cuánto puede ahorrar tu empresa al eliminar el trabajo manual.
+
 ## El costo invisible del trabajo manual
 
 Toda empresa tiene procesos que se repiten todos los días: generar una factura, actualizar el inventario después de una venta, aprobar una solicitud de compra, responder la misma consulta de un cliente por tercera vez en la semana. Individualmente, cada una de estas tareas parece pequeña. Sumadas a lo largo de un mes, representan horas de trabajo que podrían dedicarse a algo que realmente mueva el negocio hacia adelante.

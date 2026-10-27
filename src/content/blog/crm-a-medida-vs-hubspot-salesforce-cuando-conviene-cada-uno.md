@@ -12,6 +12,8 @@ readTime: "6 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** HubSpot y Salesforce dominan el mercado de CRM, pero no siempre son la opción correcta. Te explicamos cuándo conviene un CRM a medida.
+
 ## El mismo dilema de siempre, aplicado a ventas
 
 ¿Conviene contratar un CRM conocido como HubSpot o Salesforce, o construir uno a medida para los procesos de ventas de tu empresa? Es el mismo dilema que exploramos de forma general en [software a medida vs. soluciones genéricas](/blog/software-a-medida-vs-soluciones-genericas), y que también aplicamos al caso de un [ERP a medida vs. genérico](/blog/erp-a-medida-vs-software-generico-cuando-conviene-cada-uno); aquí nos enfocamos específicamente en la gestión de clientes y ventas.

@@ -12,6 +12,8 @@ readTime: "7 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** Cobrar en línea es clave para una agencia que recibe turistas extranjeros. Cómo funcionan las pasarelas de pago y qué considerar para implementarlas.
+
 ## El pago en línea ya no es opcional para el turismo receptivo
 
 Un viajero que planea visitar Cusco desde otro país suele organizar y reservar buena parte de su viaje semanas o meses antes de llegar al Perú. Para esa persona, poder pagar un anticipo o el total de su tour desde su país de origen, con su propia tarjeta y en un proceso que le resulte familiar y seguro, no es un detalle secundario: es parte de la decisión sobre con qué agencia reservar.

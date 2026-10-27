@@ -12,6 +12,8 @@ readTime: "8 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** La mayoría de los viajeros investiga y reserva su tour a Machu Picchu meses antes de llegar a Cusco. Te explicamos cómo lograr que te encuentren a ti.
+
 ## El viajero decide antes de llegar a Cusco
 
 Cuando alguien planea un viaje a Machu Picchu, la decisión de qué agencia contratar casi nunca se toma en el aeropuerto ni caminando por la Plaza de Armas. Se toma semanas o meses antes, desde el sofá de su casa, comparando resultados de Google, leyendo reseñas y revisando qué incluye cada tour. Si tu agencia no aparece en esa búsqueda inicial, simplemente no existe para ese viajero, sin importar cuántos años de experiencia o cuántos guías certificados tengas.

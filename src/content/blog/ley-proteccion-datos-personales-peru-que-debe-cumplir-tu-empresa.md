@@ -12,6 +12,8 @@ readTime: "7 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** La Ley 29733 obliga a toda empresa que maneja datos personales a cumplir reglas concretas. Te explicamos qué exige el reglamento vigente.
+
 ## Una ley que aplica a casi cualquier empresa, aunque no lo parezca
 
 Si tu empresa guarda nombres, correos, números de teléfono o cualquier otro dato de clientes, proveedores o colaboradores en una base de datos, una hoja de cálculo o un formulario web, la Ley N° 29733 de Protección de Datos Personales te aplica. No es una norma exclusiva para empresas grandes o para el sector tecnológico: cubre a cualquier organización que trate datos personales en el Perú.

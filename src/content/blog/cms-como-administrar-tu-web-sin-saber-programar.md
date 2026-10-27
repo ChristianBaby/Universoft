@@ -12,6 +12,8 @@ readTime: "6 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** Un gestor de contenido te permite actualizar tu web sin depender de un programador. Te explicamos qué es y por qué importa para tu negocio.
+
 ## La dependencia que nadie quiere tener
 
 Imagina que necesitas corregir un número de teléfono en tu web, actualizar el precio de un servicio o publicar una noticia urgente, pero no puedes hacerlo tú mismo: tienes que escribir a tu desarrollador, esperar su disponibilidad y, muchas veces, pagar por un cambio que te toma dos minutos describir.

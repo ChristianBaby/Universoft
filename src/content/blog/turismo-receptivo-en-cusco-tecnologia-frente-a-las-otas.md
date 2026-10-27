@@ -12,6 +12,8 @@ readTime: "7 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** Booking, GetYourGuide y Viator se quedan con buena parte del margen de cada reserva. Así una agencia en Cusco puede recuperar terreno con tecnología propia.
+
 ## El costo invisible de depender de las OTAs
 
 Las agencias de viajes y operadores turísticos en Cusco conocen bien a las plataformas internacionales de reservas: Booking, GetYourGuide, Viator y similares, conocidas en el sector como OTAs (Online Travel Agencies). Son canales que traen visibilidad real frente a un público que ya confía en esas marcas globales, y para muchos negocios locales representan una parte importante de sus reservas.

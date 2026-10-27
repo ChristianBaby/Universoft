@@ -12,6 +12,8 @@ readTime: "6 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** Instagram y Facebook ayudan a mostrar tu trabajo, pero no reemplazan una web propia. Te explicamos qué pierde una agencia que solo vive en redes sociales.
+
 ## Las redes sociales son una vitrina, no una base
 
 Muchas agencias de turismo en Cusco construyeron su presencia digital casi por completo sobre Instagram y Facebook, y tiene sentido: son gratuitas, fáciles de usar y permiten mostrar fotos atractivas de Machu Picchu, el Valle Sagrado o cualquier destino que ofrezcan. El problema aparece cuando esa presencia en redes se convierte en el único canal digital del negocio, porque ahí empiezan a aparecer limitaciones que una página web propia no tiene.

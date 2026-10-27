@@ -12,6 +12,8 @@ readTime: "7 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** WhatsApp y Excel funcionan al inicio, pero con el crecimiento se vuelven la principal fuente de errores de una agencia de turismo. Cómo dar el salto.
+
 ## Una historia muy común en Cusco
 
 Casi toda agencia de turismo empieza igual: un emprendedor con conocimiento del territorio, un número de WhatsApp y una hoja de cálculo donde va anotando las reservas a medida que llegan. Funciona bien cuando el volumen es bajo. El problema aparece cuando el negocio crece, llega la temporada alta, y ese mismo sistema que funcionaba para diez reservas al mes empieza a fallar con cincuenta.

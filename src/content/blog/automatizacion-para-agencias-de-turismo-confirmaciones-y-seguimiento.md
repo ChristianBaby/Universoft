@@ -12,6 +12,8 @@ readTime: "7 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** Responder cada confirmación y seguimiento a mano no escala en temporada alta. Así libera tiempo la automatización sin perder el trato cercano con el viajero.
+
 ## El mismo mensaje, escrito a mano, cien veces
 
 En temporada alta, el equipo de una agencia de turismo en Cusco puede pasar horas escribiendo prácticamente el mismo mensaje una y otra vez: confirmar una reserva, recordar qué llevar el día del tour, indicar el punto de encuentro, y después del viaje, pedir una reseña o enviar una oferta para el próximo destino. Es trabajo necesario, pero es también el tipo de trabajo repetitivo que no debería depender de que alguien del equipo se acuerde de hacerlo, uno por uno, todos los días.

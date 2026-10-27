@@ -12,6 +12,8 @@ readTime: "7 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** No existe un precio único para un software a medida. Te explicamos qué factores determinan el costo real de una plataforma y cómo presupuestar tu proyecto.
+
 ## Por qué no existe una tabla de precios fija
 
 Es la primera pregunta que hace casi cualquier empresa antes de decidirse por un desarrollo a medida: ¿cuánto cuesta? Y es también la pregunta más difícil de responder con una cifra única, porque el precio de una plataforma depende de variables muy distintas entre un proyecto y otro.

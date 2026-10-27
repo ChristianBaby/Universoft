@@ -12,6 +12,8 @@ readTime: "6 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** Cusco tiene un contexto propio: turismo internacional, comercio local y una competencia cada vez más digital. Por qué la tecnología ya no es opcional.
+
 ## Un contexto económico distinto al de Lima
 
 Cuando se habla de digitalización empresarial en Perú, la conversación suele estar centrada en Lima. Pero Cusco y el sur del país tienen una realidad económica propia: una fuerte dependencia del turismo internacional, un comercio local activo y empresas que, cada vez más, compiten no solo entre sí, sino contra negocios de otras regiones con mayor presencia digital.

@@ -12,6 +12,8 @@ readTime: "7 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** La telefonía IP reemplaza las líneas fijas con una solución más económica y flexible. Te explicamos las diferencias y el ahorro real para tu empresa.
+
 ## La telefonía fija está quedando obsoleta para las empresas
 
 Durante décadas, las líneas telefónicas tradicionales fueron la única forma de comunicación empresarial. Hoy, cada vez más empresas en Perú están migrando hacia la telefonía IP (VoIP), una tecnología que transmite llamadas de voz a través de internet en lugar de las redes telefónicas convencionales de cobre.

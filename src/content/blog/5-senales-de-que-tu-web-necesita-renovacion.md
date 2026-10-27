@@ -11,6 +11,8 @@ readTime: "6 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** Un sitio web desactualizado puede ahuyentar clientes potenciales. Aprende a identificar cuándo es momento de renovar tu presencia digital.
+
 ## Tu sitio web es tu carta de presentación
 
 En la era digital, tu sitio web es probablemente el primer contacto que un cliente potencial tiene con tu empresa. En menos de 3 segundos, un visitante forma una impresión sobre tu negocio basandose únicamente en lo que ve en pantalla. Si esa impresión no es positiva, simplemente se va y busca a la competencia.

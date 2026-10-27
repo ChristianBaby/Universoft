@@ -12,6 +12,8 @@ readTime: "7 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** La transformación digital ya no es opcional para las PYMES peruanas. Te explicamos por dónde empezar, qué priorizar y cómo evitar los errores más comunes.
+
 ## Una prioridad que ya no se discute
 
 Hace algunos años, la transformación digital era un tema de innovación para empresas grandes con presupuestos amplios. Hoy es una prioridad concreta para las PYMES peruanas, que compiten en un mercado donde sus clientes buscan, comparan y compran de forma digital, sin importar el tamaño del negocio que los atiende. Adoptar herramientas digitales y avanzar en la digitalización empresarial, incluida la automatización de procesos internos, ya no es un lujo reservado a las grandes corporaciones.

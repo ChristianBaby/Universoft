@@ -12,6 +12,8 @@ readTime: "6 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** El costo de un software no termina cuando se lanza. Te explicamos qué cubre el mantenimiento, por qué es necesario y cómo presupuestarlo sin sorpresas.
+
 ## El costo que muchas empresas no presupuestan
 
 Cuando una empresa presupuesta [el desarrollo de una plataforma a medida](/blog/cuanto-cuesta-desarrollar-una-plataforma-a-medida-en-peru), es común que el cálculo se detenga en la fecha de lanzamiento. Pero un sistema de software no es un producto que se entrega terminado y ya: es una pieza viva que necesita mantenimiento mientras siga en uso, y ese costo continúa mucho después del primer pago.

@@ -12,6 +12,8 @@ readTime: "6 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** Cada software nuevo que adopta una empresa puede volverse una isla aislada. Te explicamos cómo integrar tus sistemas sin duplicar datos ni procesos.
+
 ## El problema que crece sin que nadie lo note
 
 Pocas empresas deciden un día "vamos a tener diez sistemas que no se hablan entre sí". Ocurre de forma gradual: un software de contabilidad aquí, un CRM allá, una hoja de cálculo para inventario, un sistema de facturación distinto al de ventas. [Un estudio de Envoy encontró que las empresas medianas (entre 501 y 2,500 colaboradores) manejan en promedio 255 aplicaciones distintas, y las empresas grandes superan las 660](https://envoy.com/workplace-management/integrations-streamline-workplace-data). Aunque una pyme peruana maneja una escala mucho menor, el patrón es el mismo: cada sistema nuevo que no se integra con los demás es una fuente más de trabajo duplicado.

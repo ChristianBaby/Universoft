@@ -12,6 +12,8 @@ readTime: "6 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** Una red Wi-Fi mal configurada es una puerta abierta a tu información corporativa. Te explicamos los errores más comunes y cómo proteger tu red empresarial.
+
 ## La puerta que casi nadie revisa
 
 Las empresas invierten en firewalls, antivirus y políticas de contraseñas, pero muchas veces dejan la red Wi-Fi configurada prácticamente igual a como salió de fábrica. Es una inconsistencia real: un atacante dentro del alcance de la señal (literalmente, alguien sentado afuera del edificio) puede tener una vía de acceso más simple a la red interna que cualquier ataque remoto sofisticado.

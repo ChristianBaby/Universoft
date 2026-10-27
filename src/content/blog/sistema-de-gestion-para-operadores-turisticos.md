@@ -12,6 +12,8 @@ readTime: "7 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** Cuando un operador turístico crece, las hojas de cálculo y el WhatsApp ya no alcanzan. Un sistema de gestión centraliza itinerarios, guías y disponibilidad.
+
 ## La complejidad que crece con cada tour nuevo
 
 Operar tours en Cusco no es solo vender un paquete: es coordinar guías disponibles en fechas específicas, vehículos y conductores, cupos en trenes a Machu Picchu, reservas de hotel con aliados, variaciones de itinerario según el grupo, y todo eso multiplicado por cada tour que sale en simultáneo durante la temporada alta.

@@ -12,6 +12,8 @@ readTime: "7 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** No existe un precio único para una web profesional. Te explicamos qué factores determinan el costo real y cómo presupuestar tu proyecto con criterio.
+
 ## Una pregunta sin una sola respuesta
 
 "¿Cuánto cuesta una página web?" es probablemente la primera pregunta que hace cualquier empresa antes de digitalizarse, y también la más difícil de responder con una cifra única. Una landing page sencilla y una plataforma corporativa con panel de administración, integraciones y SEO técnico completo no tienen el mismo costo, aunque ambas sean "una página web".

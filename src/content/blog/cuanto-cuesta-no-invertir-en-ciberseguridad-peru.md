@@ -12,6 +12,8 @@ readTime: "8 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** Postergar la ciberseguridad parece ahorrar dinero, pero el costo de un ataque suele ser mucho mayor que el de prevenirlo. Analizamos las cifras reales.
+
 ## Una decisión que parece ahorrar dinero (y no lo hace)
 
 Cuando una empresa revisa su presupuesto anual, la ciberseguridad suele quedar en el último lugar de la lista. No genera ventas directas, no se ve en el producto final y sus resultados son, por definición, invisibles: cuando funciona, simplemente no pasa nada. Esa invisibilidad hace que muchos gerentes la traten como un gasto postergable.
