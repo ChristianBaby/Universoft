@@ -5,7 +5,7 @@ export const CONTACT: ContactInfo = {
   whatsapp: "https://wa.me/51928654174",
   email: "contacto@universoftsystems.com",
   emailAlt: "christianfx08@gmail.com",
-  location: "Cusco, Perú",
+  location: "U.V. Mariscal Agustín Gamarra Etapa 1, Cusco 08003, Perú",
   hours: "Lunes a viernes de 8:00 a 18:00 · Sábados de 8:00 a 13:00",
   social: {
     linkedin: "https://www.linkedin.com/company/universoft-systems/",

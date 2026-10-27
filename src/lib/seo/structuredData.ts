@@ -21,9 +21,16 @@ export function organizationJsonLd() {
     telephone: `+51${CONTACT.phone}`,
     address: {
       "@type": "PostalAddress",
+      streetAddress: "U.V. Mariscal Agustín Gamarra Etapa 1",
       addressLocality: "Cusco",
+      addressRegion: "Cusco",
+      postalCode: "08003",
       addressCountry: "PE",
     },
+    openingHoursSpecification: [
+      { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], opens: "08:00", closes: "18:00" },
+      { "@type": "OpeningHoursSpecification", dayOfWeek: "Saturday", opens: "08:00", closes: "13:00" },
+    ],
     areaServed: "PE",
     ...(sameAs.length > 0 ? { sameAs } : {}),
   };
