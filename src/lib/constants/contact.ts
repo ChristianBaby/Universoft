@@ -8,7 +8,7 @@ export const CONTACT: ContactInfo = {
   location: "Cusco, Perú",
   hours: "Lunes a viernes de 8:00 a 18:00 · Sábados de 8:00 a 13:00",
   social: {
-    linkedin: "#",   // reemplazar con URL real
+    linkedin: "https://www.linkedin.com/company/universoft-systems/",
     facebook: "#",   // reemplazar con URL real
     instagram: "#",  // reemplazar con URL real
     tiktok: "#",     // reemplazar con URL real
