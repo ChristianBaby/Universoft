@@ -1,0 +1,52 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import SectionHeader from "@/components/ui/SectionHeader.astro";
+import { GLOSSARY } from "@/lib/constants/glossary";
+import { SITE_URL } from "@/lib/constants/site";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  name: "Glosario de tecnología para empresas",
+  url: `${SITE_URL}/glosario`,
+  hasDefinedTerm: GLOSSARY.map((item) => ({
+    "@type": "DefinedTerm",
+    name: item.term,
+    description: item.definition,
+  })),
+};
+---
+
+<BaseLayout
+  title="Glosario de tecnología para empresas"
+  description="Definiciones claras de los términos de software, web, redes y ciberseguridad que usan las empresas: SEO, hosting, ransomware, SD-WAN y más."
+  path="/glosario"
+  jsonLd={[jsonLd]}
+>
+  <main>
+    <section class="bg-white pb-16 pt-32">
+      <div class="mx-auto max-w-4xl px-6">
+        <SectionHeader
+          as="h1"
+          label="Glosario"
+          title="Términos de tecnología explicados para empresas"
+          description="Definiciones breves de los conceptos que aparecen en nuestros servicios y artículos."
+          centered={false}
+        />
+      </div>
+    </section>
+
+    <section class="bg-white pb-24">
+      <div class="mx-auto max-w-4xl px-6">
+        <dl class="divide-y divide-navy/10 border-t border-navy/10">
+          {GLOSSARY.map((item) => (
+            <div class="grid gap-2 py-6 sm:grid-cols-[200px_1fr] sm:gap-8" id={item.term.toLowerCase().replace(/[^a-z0-9]+/g, "-")}>
+              <dt class="font-display text-lg font-bold text-navy">{item.term}</dt>
+              <dd class="text-sm leading-relaxed text-navy/70">{item.definition}</dd>
+            </div>
+          ))}
+        </dl>
+      </div>
+    </section>
+  </main>
+</BaseLayout>
