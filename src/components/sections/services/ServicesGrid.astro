@@ -21,7 +21,7 @@ import { iconSlug } from "@/lib/utils/icons";
           )}
         </div>
         <div>
-          <div class="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-blue to-blue-bright text-white shadow-md shadow-blue/20">
+          <div class="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-blue text-white shadow-md shadow-blue/20">
             <Icon name={iconSlug(service.icon)} size={20} />
           </div>
           <h2 class="font-display text-2xl font-bold text-navy sm:text-3xl">{service.title}</h2>
@@ -34,7 +34,7 @@ import { iconSlug } from "@/lib/utils/icons";
               </li>
             ))}
           </ul>
-          <a href={service.href} class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-blue transition-colors hover:text-blue-bright">
+          <a href={service.href} class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-blue transition-colors hover:text-blue-dark">
             Ver más detalles <Icon name="arrow-right" size={16} />
           </a>
         </div>

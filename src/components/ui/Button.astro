@@ -1,7 +1,7 @@
 ---
 interface Props {
   href?: string;
-  variant?: "primary" | "secondary" | "outline";
+  variant?: "primary" | "accent" | "secondary" | "outline";
   class?: string;
   type?: "button" | "submit";
 }
@@ -13,7 +13,9 @@ const base =
 
 const variants = {
   primary:
-    "bg-gradient-to-r from-blue to-blue-bright text-white shadow-lg shadow-blue/25 hover:shadow-xl hover:shadow-blue/40 hover:scale-[1.02] active:scale-[0.98]",
+    "bg-blue text-white shadow-lg shadow-blue/25 hover:bg-blue-dark hover:shadow-xl hover:shadow-blue/40 hover:scale-[1.02] active:scale-[0.98]",
+  accent:
+    "bg-amber text-navy shadow-lg shadow-amber/25 hover:bg-amber/90 hover:shadow-xl hover:scale-[1.02] active:scale-[0.98]",
   secondary:
     "bg-white text-navy border border-navy/10 hover:border-blue/30 hover:text-blue hover:shadow-lg active:scale-[0.98]",
   outline:

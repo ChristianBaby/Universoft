@@ -15,7 +15,7 @@ import { PROJECT_CASES } from "@/lib/constants/cases";
     <ul class="mt-16 grid grid-cols-1 gap-6 lg:grid-cols-3">
       {PROJECT_CASES.map((project, i) => (
         <li class="reveal" style={`transition-delay:${i * 80}ms`}>
-          <a href={project.url} target="_blank" rel="noopener" class="group flex h-full flex-col gap-5 rounded-2xl border border-navy/10 bg-cream p-8 transition-all duration-300 hover:-translate-y-1 hover:border-blue/30 hover:shadow-xl">
+          <a href={project.url} target="_blank" rel="noopener" class="group flex h-full flex-col gap-5 rounded-2xl border border-navy/10 bg-mist p-8 transition-all duration-300 hover:-translate-y-1 hover:border-blue/30 hover:shadow-xl">
             <span class="text-xs font-semibold uppercase tracking-widest text-blue">{project.category}</span>
             <h3 class="font-display text-2xl font-bold text-navy">{project.name}</h3>
             <p class="text-sm leading-relaxed text-navy/70">{project.summary}</p>
