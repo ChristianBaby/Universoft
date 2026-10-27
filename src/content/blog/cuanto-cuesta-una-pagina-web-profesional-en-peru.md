@@ -66,4 +66,17 @@ Desconfía de plazos extremadamente cortos para proyectos con muchos requisitos:
 
 Cuando recibas varias propuestas, compara lo que realmente incluye cada una, no solo el precio final: número de páginas, si incluye CMS, qué integraciones contempla, si el SEO técnico está incluido, qué pasa después de la entrega y durante cuánto tiempo. Dos cotizaciones con cifras muy distintas suelen estar ofreciendo cosas distintas, aunque ambas digan "página web profesional".
 
+| Qué revisar | Pregunta para el proveedor |
+|---|---|
+| Número de páginas | ¿Cuántas páginas incluye y cuáles son? |
+| Panel de administración (CMS) | ¿Podré editar textos, imágenes y artículos sin ti? |
+| Integraciones | ¿Qué sistemas externos conecta (pagos, CRM, WhatsApp, reservas)? |
+| SEO técnico | ¿Está incluido en el precio o es un servicio aparte? |
+| Soporte después de la entrega | ¿Cuánto dura y qué cubre? |
+
+| Tipo de sitio | Qué suele incluir | Plazo que indicamos |
+|---|---|---|
+| Sitio informativo | Inicio, servicios, nosotros, blog y contacto | De 3 a 6 semanas |
+| Sitio con funcionalidades especiales | Integraciones, formularios complejos o contenido dinámico | De 6 a 10 semanas |
+
 En Universoft Systems diseñamos y desarrollamos [sitios web modernos, optimizados para SEO desde el primer día](/servicios/web), con una cotización transparente que detalla exactamente qué incluye tu proyecto. [Contáctanos](/contacto) y te ayudamos a definir el alcance correcto para tu presupuesto, sin sorpresas a mitad de camino.

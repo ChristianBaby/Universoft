@@ -16,6 +16,12 @@ reviewed: true
 
 [El comercio electrónico en Perú movió cerca de US$ 15,600 millones en 2024, un crecimiento de 21.2% frente al año anterior, y el 55% de los peruanos (unos 18.7 millones de personas) compró por internet ese año](https://gestion.pe/economia/empresas/e-commerce-seis-de-cada-10-peruanos-ya-eligen-este-canal-para-sus-compras-online-noticia/), según cifras del Observatorio Ecommerce de CAPECE. La tendencia se sostuvo en 2025, con un crecimiento similar en el primer semestre. Para un negocio que todavía no vende en línea, estas cifras no son una curiosidad: son clientes que ya están comprando, simplemente en otro lugar.
 
+| Indicador | Dato | Fuente |
+|---|---|---|
+| Ventas de comercio electrónico en Perú (2024) | Cerca de US$ 15,600 millones | Observatorio Ecommerce de CAPECE |
+| Crecimiento frente al año anterior | 21.2% | Observatorio Ecommerce de CAPECE |
+| Peruanos que compraron por internet (2024) | 55%, unos 18.7 millones de personas | Observatorio Ecommerce de CAPECE |
+
 ## Por qué una página con catálogo no es lo mismo que una tienda online
 
 Tener fotos de productos y precios en una web informativa ayuda a que te encuentren, pero no permite que alguien complete una compra sin salir del sitio. Una tienda online real necesita resolver todo el recorrido: desde que el cliente agrega un producto al carrito, hasta que paga, recibe la confirmación y, finalmente, el producto llega a su destino.
