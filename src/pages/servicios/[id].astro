@@ -46,6 +46,9 @@ const jsonLd = [
           <span class="text-xs font-semibold uppercase tracking-widest text-blue">Servicio</span>
         </div>
         <h1 class="font-display max-w-3xl text-3xl font-bold leading-tight text-navy sm:text-4xl lg:text-5xl">{service.title}</h1>
+        {service.directAnswer && (
+          <p class="mt-6 max-w-3xl text-base font-medium leading-relaxed text-navy lg:text-lg">{service.directAnswer}</p>
+        )}
         {service.longDescription && (
           <p class="mt-6 max-w-3xl text-base leading-relaxed text-navy/70 lg:text-lg">{service.longDescription}</p>
         )}

@@ -13,6 +13,7 @@ export interface Service {
   image?: string;
   heroImage?: string;
   longDescription?: string;
+  directAnswer?: string;
   benefits?: ServiceBenefit[];
   technologies?: string[];
   useCases?: ServiceUseCase[];
