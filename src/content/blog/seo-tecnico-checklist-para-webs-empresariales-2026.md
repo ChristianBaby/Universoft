@@ -12,6 +12,8 @@ readTime: "8 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** El SEO técnico son las mejoras en la estructura de un sitio que facilitan su rastreo e indexación: metaetiquetas, encabezados, datos estructurados, sitemap, velocidad y adaptación móvil.
+
 ## El SEO que no se ve, pero decide todo lo demás
 
 Cuando se habla de SEO, la mayoría piensa primero en contenido: artículos, palabras clave, blogs. Pero antes de que el mejor contenido del mundo tenga oportunidad de posicionar, tu sitio debe cumplir una base técnica que le permita a Google rastrearlo, entenderlo e indexarlo correctamente.

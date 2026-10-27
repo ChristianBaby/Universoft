@@ -12,6 +12,8 @@ readTime: "6 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** El phishing es un intento de engañar a una persona, por correo o mensaje, para que entregue contraseñas o datos. Se identifica por la urgencia artificial, remitentes que no coinciden y enlaces que piden credenciales. Antes de actuar, verifica por otro canal.
+
 ## La puerta de entrada más común para un ciberataque
 
 No hace falta un atacante sofisticado para comprometer una empresa: basta con que un solo colaborador haga clic en el enlace equivocado. [Según ESET, en 2024 se detectaron en el Perú más de un millón de intentos únicos de phishing](https://gestion.pe/economia/empresas/pymes-peruanas-menos-del-25-invierte-en-ciberseguridad-pese-al-aumento-de-los-ciberataques-noticia/), la cifra más alta registrada hasta ahora. Y de acuerdo con su Security Report Latinoamérica 2026, menos del 25% de las pequeñas y medianas empresas peruanas destina presupuesto a ciberseguridad, lo que las deja particularmente expuestas.

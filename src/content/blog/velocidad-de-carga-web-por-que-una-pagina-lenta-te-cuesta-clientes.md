@@ -12,6 +12,8 @@ readTime: "6 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** Para mejorar la velocidad de una web, mide primero en PageSpeed Insights, optimiza imágenes y fuentes, difiere el JavaScript que no es crítico y usa caché y una red de distribución (CDN). Después vuelve a medir LCP, INP y CLS.
+
 ## Un visitante que se va antes de ver tu contenido
 
 La velocidad de carga no es solo un factor técnico que le importa a Google: es una de las primeras impresiones que recibe un visitante, y la recibe antes de leer una sola palabra de tu sitio. [Un estudio de Google encontró que la probabilidad de que un visitante móvil abandone la página aumenta 32% cuando el tiempo de carga pasa de 1 a 3 segundos](https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks/), y sigue subiendo mientras más tarda la página. En nuestro [checklist de SEO técnico](/blog/seo-tecnico-checklist-para-webs-empresariales-2026) mencionamos la velocidad como uno de los factores de posicionamiento; aquí profundizamos en por qué también es, antes que nada, un problema de negocio.

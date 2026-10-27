@@ -12,6 +12,8 @@ readTime: "8 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** Una auditoría de vulnerabilidades revisa sistemas, redes y aplicaciones para encontrar fallas antes que un atacante. Incluye escaneo de puertos, revisión de configuraciones, pruebas controladas y un informe con hallazgos priorizados por riesgo y recomendaciones.
+
 ## Conocer tus riesgos antes que un atacante
 
 La mayoría de las empresas no sabe exactamente qué tan expuesta está su infraestructura digital hasta que algo falla. Puertos abiertos que nadie recuerda haber dejado así, configuraciones por defecto que nunca se cambiaron, contraseñas reutilizadas en sistemas críticos: son el tipo de brechas que no se detectan en el trabajo diario, pero que un atacante encuentra con relativa facilidad.

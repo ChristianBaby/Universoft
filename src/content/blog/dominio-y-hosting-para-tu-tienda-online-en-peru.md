@@ -12,6 +12,8 @@ readTime: "7 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** Para una tienda online en Perú conviene un dominio .com o .pe registrado a nombre de tu empresa y un hosting cloud administrado, que escale en campañas. El precio importa menos que el soporte y la velocidad para tus compradores.
+
 Para vender en línea necesitas dos cosas antes que nada: un **dominio** (la dirección, como tutienda.com) y un **hosting** (el servidor donde vive tu sitio). Para la mayoría de tiendas pequeñas y medianas en Perú, lo que mejor funciona es un hosting cloud administrado sobre uno compartido genérico, combinado con un dominio `.com` o `.pe` registrado a tu nombre, nunca al de un tercero. El resto de este artículo explica por qué y qué mirar antes de decidir.
 
 ## Por qué esto importa justo ahora

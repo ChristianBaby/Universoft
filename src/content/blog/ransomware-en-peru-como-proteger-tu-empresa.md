@@ -11,6 +11,8 @@ readTime: "9 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** Para protegerte del ransomware, combina copias de seguridad verificadas fuera de la red, autenticación multifactor, parches al día y capacitación del equipo contra el phishing. Con eso reduces la probabilidad de un ataque exitoso y puedes recuperar la operación sin pagar.
+
 ## Una amenaza que no distingue tamaño de empresa
 
 El ransomware, también conocido como secuestro de datos, es un tipo de software malicioso que cifra los archivos de una empresa y exige un pago, generalmente en criptomonedas, a cambio de la clave para recuperarlos. En cuestión de minutos, una empresa puede perder acceso a sus bases de datos, documentos contables, sistemas de facturación y cualquier otro archivo almacenado en los equipos comprometidos.

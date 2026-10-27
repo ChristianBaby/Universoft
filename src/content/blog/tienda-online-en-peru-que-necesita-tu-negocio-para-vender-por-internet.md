@@ -12,6 +12,8 @@ readTime: "7 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** Una tienda online en Perú necesita catálogo organizado, una pasarela de pago confiable, inventario conectado, envíos con seguimiento y un diseño adaptado al celular, porque la mayoría de las compras se hace desde el teléfono.
+
 ## Un mercado que ya no es una apuesta, es una tendencia consolidada
 
 [El comercio electrónico en Perú movió cerca de US$ 15,600 millones en 2024, un crecimiento de 21.2% frente al año anterior, y el 55% de los peruanos (unos 18.7 millones de personas) compró por internet ese año](https://gestion.pe/economia/empresas/e-commerce-seis-de-cada-10-peruanos-ya-eligen-este-canal-para-sus-compras-online-noticia/), según cifras del Observatorio Ecommerce de CAPECE. La tendencia se sostuvo en 2025, con un crecimiento similar en el primer semestre. Para un negocio que todavía no vende en línea, estas cifras no son una curiosidad: son clientes que ya están comprando, simplemente en otro lugar.

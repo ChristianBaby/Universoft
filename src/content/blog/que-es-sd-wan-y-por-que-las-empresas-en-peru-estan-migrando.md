@@ -12,6 +12,8 @@ readTime: "8 min de lectura"
 draft: false
 reviewed: true
 ---
+**Respuesta corta:** SD-WAN es una red de área amplia administrada por software, que elige la mejor ruta para cada aplicación entre las sedes de una empresa, combinando enlaces de banda ancha, 4G/5G o MPLS desde un panel central.
+
 ## Una nueva forma de administrar la red empresarial
 
 Durante años, conectar las distintas sedes de una empresa significó depender de enlaces dedicados y costosos, como MPLS, administrados casi por completo por el proveedor de internet. Si algo fallaba o había que priorizar una aplicación crítica, las opciones eran limitadas y los tiempos de respuesta, lentos.
