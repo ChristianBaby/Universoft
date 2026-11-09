@@ -43,3 +43,19 @@ dist/
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# archivos de trabajo locales (no se suben)
+hyperframes/
+.atl/
+serve-check2.log
+.tmp-self-host-images.mjs
+public/images/LOGO_V2.png
+public/images/Logo_negro.png
+public/images/Logo_negro ariginal.png
+public/images/_logo_dark_cropped.png
+public/images/_logo_dark_transparent.png
+public/images/_logo_transparent_full.png
+docs/LOGO_V2.png
+docs/Logo_negro.png
+docs/Logo_negro ariginal.png
+docs/Post 4 5 — Blog Universoft@1x.png
