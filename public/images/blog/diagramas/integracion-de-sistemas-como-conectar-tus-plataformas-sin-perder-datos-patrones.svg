@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="titulo descripcion" font-family="Inter, Arial, sans-serif">
+  <title id="titulo">Conexión punto a punto frente a bus de integración</title>
+  <desc id="descripcion">Panel izquierdo: cuatro sistemas conectados entre sí directamente, seis enlaces en total. Panel derecho: cuatro sistemas conectados a un bus de integración central, cuatro enlaces.</desc>
+  <rect x="0" y="0" width="900" height="450" rx="12" fill="#ffffff"/>
+
+  <!-- Títulos de panel -->
+  <text x="235" y="70" text-anchor="middle" font-size="20" font-weight="700" fill="#0b1b4d">Punto a punto</text>
+  <text x="665" y="70" text-anchor="middle" font-size="20" font-weight="700" fill="#0b1b4d">Con bus de integración</text>
+  <line x1="450" y1="90" x2="450" y2="400" stroke="#f3f6fb" stroke-width="3" stroke-dasharray="8 6"/>
+
+  <!-- Panel izquierdo: enlaces punto a punto (dibujados antes que las cajas) -->
+  <g stroke="#2563eb" stroke-width="2.5" fill="none">
+    <line x1="125" y1="135" x2="355" y2="135"/>
+    <line x1="125" y1="355" x2="355" y2="355"/>
+    <line x1="125" y1="135" x2="125" y2="355"/>
+    <line x1="355" y1="135" x2="355" y2="355"/>
+    <line x1="125" y1="135" x2="355" y2="355"/>
+    <line x1="355" y1="135" x2="125" y2="355"/>
+  </g>
+  <g fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2">
+    <rect x="60" y="110" width="130" height="50" rx="12"/>
+    <rect x="290" y="110" width="130" height="50" rx="12"/>
+    <rect x="60" y="330" width="130" height="50" rx="12"/>
+    <rect x="290" y="330" width="130" height="50" rx="12"/>
+  </g>
+  <g font-size="16" font-weight="600" fill="#0b1b4d" text-anchor="middle">
+    <text x="125" y="140">Ventas</text>
+    <text x="355" y="140">Inventario</text>
+    <text x="125" y="360">Facturación</text>
+    <text x="355" y="360">Web</text>
+  </g>
+  <text x="235" y="420" text-anchor="middle" font-size="16" font-weight="700" fill="#0b1b4d">6 enlaces entre 4 sistemas</text>
+
+  <!-- Panel derecho: bus central -->
+  <g stroke="#2563eb" stroke-width="2.5" fill="none">
+    <line x1="550" y1="160" x2="550" y2="215"/>
+    <line x1="800" y1="160" x2="800" y2="215"/>
+    <line x1="550" y1="330" x2="550" y2="265"/>
+    <line x1="800" y1="330" x2="800" y2="265"/>
+  </g>
+  <rect x="490" y="215" width="360" height="50" rx="12" fill="#0b1b4d"/>
+  <text x="670" y="246" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">Bus de integración</text>
+
+  <g fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2">
+    <rect x="490" y="110" width="120" height="50" rx="12"/>
+    <rect x="740" y="110" width="120" height="50" rx="12"/>
+    <rect x="490" y="330" width="120" height="50" rx="12"/>
+    <rect x="740" y="330" width="120" height="50" rx="12"/>
+  </g>
+  <g font-size="16" font-weight="600" fill="#0b1b4d" text-anchor="middle">
+    <text x="550" y="140">Ventas</text>
+    <text x="800" y="140">Inventario</text>
+    <text x="550" y="360">Facturación</text>
+    <text x="800" y="360">Web</text>
+  </g>
+  <text x="665" y="420" text-anchor="middle" font-size="16" font-weight="700" fill="#0b1b4d">4 enlaces, un punto de control</text>
+</svg>

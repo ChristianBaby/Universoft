@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-label="Matriz de cuatro cuadrantes que cruza madurez tecnologica y relevancia para pymes, con las acciones: actuar ahora, observar y planificar, adoptar si hay caso claro, y vigilar">
+  <rect width="900" height="450" fill="#ffffff"/>
+  <text x="450" y="36" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="bold" fill="#0b1b4d">Qué hacer según madurez y relevancia</text>
+
+  <!-- Cuadrantes -->
+  <rect x="120" y="60" width="350" height="160" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="295" y="102" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="bold" fill="#0b1b4d">Observar y planificar</text>
+  <text x="295" y="140" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Impacto alto, madurez en curso</text>
+
+  <rect x="470" y="60" width="350" height="160" rx="12" fill="#fff8e8" stroke="#f5a524" stroke-width="3"/>
+  <text x="645" y="102" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="bold" fill="#0b1b4d">Actuar ahora</text>
+  <text x="645" y="140" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Impacto alto y tecnología lista</text>
+
+  <rect x="120" y="220" width="350" height="160" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="295" y="262" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="bold" fill="#0b1b4d">Vigilar</text>
+  <text x="295" y="300" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Impacto bajo por ahora</text>
+
+  <rect x="470" y="220" width="350" height="160" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="645" y="262" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="bold" fill="#0b1b4d">Adoptar si hay caso claro</text>
+  <text x="645" y="300" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Lista para usar, caso específico</text>
+
+  <!-- Ejes -->
+  <text x="110" y="82" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Alta</text>
+  <text x="110" y="372" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Baja</text>
+  <text x="60" y="230" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d" transform="rotate(-90 60 230)">Relevancia para pymes</text>
+  <text x="130" y="404" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Baja</text>
+  <text x="810" y="404" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Alta</text>
+  <text x="470" y="432" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Madurez tecnológica</text>
+</svg>

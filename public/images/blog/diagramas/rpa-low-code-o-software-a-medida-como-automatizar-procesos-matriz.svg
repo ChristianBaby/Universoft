@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="tMat dMat">
+  <title id="tMat">Matriz de volumen frente a complejidad para elegir la automatización</title>
+  <desc id="dMat">Matriz 2x2. Volumen alto y complejidad baja: RPA o low-code. Volumen alto y complejidad alta: software a medida. Volumen bajo y complejidad baja: plantilla o flujo sencillo. Volumen bajo y complejidad alta: revisar el proceso primero.</desc>
+  <rect x="0" y="0" width="900" height="500" rx="12" fill="#ffffff"/>
+
+  <rect x="154" y="54" width="292" height="182" rx="12" fill="#f3f6fb" stroke="#f5a524" stroke-width="3"/>
+  <text x="300" y="130" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="#0b1b4d">RPA o low-code</text>
+  <text x="300" y="162" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Candidato prioritario</text>
+
+  <rect x="458" y="54" width="292" height="182" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="604" y="130" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="#0b1b4d">Software a medida</text>
+  <text x="604" y="162" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Proceso central que crece</text>
+
+  <rect x="154" y="254" width="292" height="182" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="300" y="330" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="#0b1b4d">Plantilla o flujo sencillo</text>
+  <text x="300" y="362" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Poco volumen, reglas claras</text>
+
+  <rect x="458" y="254" width="292" height="182" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="604" y="330" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="#0b1b4d">Revisar el proceso</text>
+  <text x="604" y="362" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Documentar reglas primero</text>
+
+  <text x="130" y="145" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Alto</text>
+  <text x="130" y="345" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Bajo</text>
+  <text x="60" y="245" text-anchor="middle" transform="rotate(-90 60 245)" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">Volumen de ejecuciones</text>
+
+  <text x="200" y="468" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Baja</text>
+  <text x="700" y="468" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Alta</text>
+  <text x="450" y="496" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">Complejidad del proceso</text>
+</svg>

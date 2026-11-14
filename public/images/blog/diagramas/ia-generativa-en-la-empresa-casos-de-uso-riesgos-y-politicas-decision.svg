@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0b1b4d"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" rx="12" fill="#ffffff"/>
+
+  <!-- Inicio -->
+  <rect x="330" y="18" width="240" height="56" rx="12" fill="#0b1b4d"/>
+  <text x="450" y="52" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">¿Puedo usar IA con esto?</text>
+  <line x1="450" y1="74" x2="450" y2="110" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+
+  <!-- Pregunta 1 -->
+  <rect x="300" y="110" width="300" height="60" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="450" y="137" text-anchor="middle" font-size="16" font-weight="bold" fill="#0b1b4d">¿Contiene datos personales,</text>
+  <text x="450" y="158" text-anchor="middle" font-size="16" font-weight="bold" fill="#0b1b4d">financieros o secretos?</text>
+
+  <path d="M 380 170 L 380 192 L 210 192 L 210 215" fill="none" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <text x="352" y="188" text-anchor="middle" font-size="16" font-weight="bold" fill="#0b1b4d">Sí</text>
+  <path d="M 520 170 L 520 192 L 690 192 L 690 215" fill="none" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <text x="548" y="188" text-anchor="middle" font-size="16" font-weight="bold" fill="#0b1b4d">No</text>
+
+  <!-- Pregunta 2 (rama sensible) -->
+  <rect x="60" y="215" width="300" height="60" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="210" y="242" text-anchor="middle" font-size="16" font-weight="bold" fill="#0b1b4d">¿Hay una herramienta</text>
+  <text x="210" y="263" text-anchor="middle" font-size="16" font-weight="bold" fill="#0b1b4d">aprobada por la empresa?</text>
+
+  <!-- Pregunta 3 (rama no sensible) -->
+  <rect x="540" y="215" width="300" height="60" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="690" y="242" text-anchor="middle" font-size="16" font-weight="bold" fill="#0b1b4d">¿Una persona revisará</text>
+  <text x="690" y="263" text-anchor="middle" font-size="16" font-weight="bold" fill="#0b1b4d">el resultado antes de usarlo?</text>
+
+  <path d="M 120 275 L 115 320" fill="none" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <text x="90" y="300" text-anchor="end" font-size="16" font-weight="bold" fill="#0b1b4d">No</text>
+  <path d="M 300 275 L 325 320" fill="none" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <text x="300" y="300" text-anchor="start" font-size="16" font-weight="bold" fill="#0b1b4d">Sí</text>
+
+  <path d="M 560 275 L 565 320" fill="none" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <text x="560" y="300" text-anchor="end" font-size="16" font-weight="bold" fill="#0b1b4d">Sí</text>
+  <path d="M 820 275 L 785 320" fill="none" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <text x="820" y="300" text-anchor="start" font-size="16" font-weight="bold" fill="#0b1b4d">No</text>
+
+  <!-- Resultados -->
+  <rect x="20" y="320" width="190" height="60" rx="12" fill="#fef3dc" stroke="#f5a524" stroke-width="3"/>
+  <text x="115" y="345" text-anchor="middle" font-size="16" font-weight="bold" fill="#0b1b4d">No subir</text>
+  <text x="115" y="367" text-anchor="middle" font-size="16" fill="#0b1b4d">la información</text>
+
+  <rect x="230" y="320" width="190" height="60" rx="12" fill="#e8f1ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="325" y="345" text-anchor="middle" font-size="16" font-weight="bold" fill="#0b1b4d">Solo datos mínimos</text>
+  <text x="325" y="367" text-anchor="middle" font-size="16" fill="#0b1b4d">y anonimizados</text>
+
+  <rect x="470" y="320" width="190" height="60" rx="12" fill="#e8f1ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="565" y="345" text-anchor="middle" font-size="16" font-weight="bold" fill="#0b1b4d">Con revisión</text>
+  <text x="565" y="367" text-anchor="middle" font-size="16" fill="#0b1b4d">y registro del uso</text>
+
+  <rect x="690" y="320" width="190" height="60" rx="12" fill="#e8f1ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="785" y="345" text-anchor="middle" font-size="16" font-weight="bold" fill="#0b1b4d">Verificar antes</text>
+  <text x="785" y="367" text-anchor="middle" font-size="16" fill="#0b1b4d">de enviar o publicar</text>
+
+  <text x="450" y="420" text-anchor="middle" font-size="16" fill="#0b1b4d">Ante la duda, trata el dato como sensible y consulta.</text>
+</svg>

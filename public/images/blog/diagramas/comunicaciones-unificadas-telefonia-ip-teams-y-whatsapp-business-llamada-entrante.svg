@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-label="Flujo de una llamada entrante: se verifica el horario; dentro de horario suena la cola de agentes; fuera de horario pasa al buzon de voz">
+  <defs>
+    <marker id="flechaB" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect width="900" height="450" fill="#ffffff"/>
+  <text x="450" y="36" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="bold" fill="#0b1b4d">Llamada entrante con enrutamiento por horario</text>
+
+  <!-- Inicio -->
+  <rect x="30" y="180" width="170" height="70" rx="12" fill="#0b1b4d"/>
+  <text x="115" y="221" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">Llamada entrante</text>
+
+  <!-- Decisión -->
+  <rect x="250" y="170" width="190" height="90" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="345" y="208" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#0b1b4d">¿Dentro del</text>
+  <text x="345" y="234" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#0b1b4d">horario?</text>
+
+  <!-- Rama sí -->
+  <rect x="510" y="60" width="360" height="100" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="690" y="102" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="bold" fill="#0b1b4d">Cola de agentes</text>
+  <text x="690" y="134" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Sonido en teléfono y Teams</text>
+
+  <!-- Rama no -->
+  <rect x="510" y="290" width="360" height="100" rx="12" fill="#f3f6fb" stroke="#f5a524" stroke-width="2"/>
+  <text x="690" y="332" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="bold" fill="#0b1b4d">Buzón de voz</text>
+  <text x="690" y="364" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Mensaje y respuesta por WhatsApp</text>
+
+  <!-- Conexiones -->
+  <line x1="200" y1="215" x2="248" y2="215" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaB)"/>
+  <path d="M440,200 H475 V110 H508" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaB)"/>
+  <path d="M440,230 H475 V340 H508" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaB)"/>
+  <text x="470" y="96" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#2563eb">Sí</text>
+  <text x="470" y="330" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#b45309">No</text>
+
+  <text x="450" y="425" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">El horario se define por sede, número o tipo de llamada.</text>
+</svg>

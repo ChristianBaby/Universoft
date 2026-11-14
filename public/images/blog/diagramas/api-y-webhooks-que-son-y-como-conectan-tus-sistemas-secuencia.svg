@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="t3 d3">
+  <title id="t3">Secuencia de una petición API y de un webhook</title>
+  <desc id="d3">Diagrama de secuencia entre tu sistema y un servicio externo. Primero, tu sistema consulta con una petición API y recibe la respuesta. Después, el servicio envía un webhook con un evento y tu sistema responde con 200 OK.</desc>
+  <defs>
+    <marker id="fl3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0b1b4d"/>
+    </marker>
+    <marker id="fl3b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+
+  <!-- Encabezados de participantes -->
+  <rect x="100" y="30" width="200" height="50" rx="12" fill="#0b1b4d"/>
+  <text x="200" y="61" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">Tu sistema</text>
+  <rect x="600" y="30" width="200" height="50" rx="12" fill="#0b1b4d"/>
+  <text x="700" y="61" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">Servicio externo</text>
+
+  <!-- Líneas de vida -->
+  <line x1="200" y1="80" x2="200" y2="400" stroke="#0b1b4d" stroke-width="2" stroke-dasharray="6 6"/>
+  <line x1="700" y1="80" x2="700" y2="400" stroke="#0b1b4d" stroke-width="2" stroke-dasharray="6 6"/>
+
+  <!-- Parte 1: petición API -->
+  <text x="450" y="128" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#2563eb">1. Petición API: tu sistema consulta</text>
+  <line x1="204" y1="170" x2="696" y2="170" stroke="#0b1b4d" stroke-width="2.5" marker-end="url(#fl3)"/>
+  <text x="450" y="162" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">GET /pedidos/123</text>
+  <line x1="696" y1="210" x2="204" y2="210" stroke="#0b1b4d" stroke-width="2.5" stroke-dasharray="8 5" marker-end="url(#fl3)"/>
+  <text x="450" y="202" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">200 OK con los datos</text>
+
+  <!-- Separador -->
+  <line x1="40" y1="236" x2="860" y2="236" stroke="#f5a524" stroke-width="2"/>
+
+  <!-- Parte 2: webhook -->
+  <text x="450" y="272" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#2563eb">2. Webhook: el servicio avisa</text>
+  <line x1="696" y1="314" x2="204" y2="314" stroke="#2563eb" stroke-width="2.5" marker-end="url(#fl3b)"/>
+  <text x="450" y="306" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">POST evento pago.aprobado</text>
+  <line x1="204" y1="354" x2="696" y2="354" stroke="#2563eb" stroke-width="2.5" stroke-dasharray="8 5" marker-end="url(#fl3b)"/>
+  <text x="450" y="346" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">200 OK: evento recibido</text>
+
+  <text x="450" y="424" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Con webhook no hace falta consultar cada minuto</text>
+</svg>

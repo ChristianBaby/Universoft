@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-label="Arquitectura de comunicaciones unificadas: usuarios y canales conectados a una centralita en la nube, que se integra con el CRM y la red telefonica">
+  <defs>
+    <marker id="flechaA" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect width="900" height="450" fill="#ffffff"/>
+  <text x="450" y="36" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="bold" fill="#0b1b4d">Arquitectura de comunicaciones unificadas</text>
+
+  <!-- Canales de usuario -->
+  <rect x="40" y="70" width="220" height="60" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="150" y="106" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#0b1b4d">Teléfono IP</text>
+  <rect x="40" y="160" width="220" height="60" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="150" y="196" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#0b1b4d">App softphone</text>
+  <rect x="40" y="250" width="220" height="60" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="150" y="286" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#0b1b4d">Microsoft Teams</text>
+  <rect x="40" y="340" width="220" height="60" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="150" y="376" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#0b1b4d">WhatsApp Business</text>
+
+  <!-- Centralita en la nube -->
+  <rect x="340" y="60" width="220" height="330" rx="12" fill="#0b1b4d"/>
+  <text x="450" y="130" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">Centralita en la nube</text>
+  <text x="450" y="185" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" fill="#cfe3ff">Enrutamiento</text>
+  <text x="450" y="225" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" fill="#cfe3ff">Grabación</text>
+  <text x="450" y="265" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" fill="#cfe3ff">Reportes</text>
+
+  <!-- Sistemas externos -->
+  <rect x="640" y="70" width="220" height="60" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="750" y="106" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#0b1b4d">CRM</text>
+  <rect x="640" y="190" width="220" height="60" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="750" y="226" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" fill="#0b1b4d">Red telefónica (PSTN)</text>
+  <rect x="640" y="310" width="220" height="60" rx="12" fill="#f3f6fb" stroke="#f5a524" stroke-width="2"/>
+  <text x="750" y="346" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#0b1b4d">Clientes externos</text>
+
+  <!-- Conexiones entrada -->
+  <line x1="262" y1="100" x2="336" y2="100" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaA)"/>
+  <line x1="262" y1="190" x2="336" y2="190" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaA)"/>
+  <line x1="262" y1="280" x2="336" y2="280" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaA)"/>
+  <line x1="262" y1="370" x2="336" y2="370" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaA)"/>
+
+  <!-- Conexiones salida -->
+  <line x1="564" y1="100" x2="636" y2="100" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaA)"/>
+  <line x1="564" y1="220" x2="636" y2="220" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaA)"/>
+  <line x1="564" y1="340" x2="636" y2="340" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaA)"/>
+</svg>

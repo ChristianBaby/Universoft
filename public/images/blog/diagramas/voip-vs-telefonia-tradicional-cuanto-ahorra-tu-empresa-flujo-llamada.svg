@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="voip-t voip-d" font-family="Inter, Arial, sans-serif">
+  <title id="voip-t">Flujo de una llamada VoIP</title>
+  <desc id="voip-d">Cuatro cajas en fila: teléfono IP, centralita IP, proveedor SIP o internet y teléfono destino. Una flecha punteada muestra la señalización SIP por encima y una flecha continua doble muestra la voz en paquetes por debajo.</desc>
+  <defs>
+    <marker id="voip-ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#2563eb"/>
+    </marker>
+    <marker id="voip-an" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#0b1b4d"/>
+    </marker>
+  </defs>
+  <rect width="900" height="450" rx="12" fill="#ffffff"/>
+
+  <!-- Señalización SIP (arriba) -->
+  <line x1="115" y1="92" x2="805" y2="92" stroke="#0b1b4d" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#voip-an)"/>
+  <text x="460" y="72" text-anchor="middle" font-size="18" font-weight="bold" fill="#0b1b4d">Señalización SIP</text>
+
+  <!-- Cajas -->
+  <rect x="30" y="120" width="170" height="90" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="115" y="158" text-anchor="middle" font-size="18" font-weight="bold" fill="#0b1b4d">Teléfono IP</text>
+  <text x="115" y="184" text-anchor="middle" font-size="16" fill="#0b1b4d">o aplicación</text>
+
+  <rect x="260" y="120" width="170" height="90" rx="12" fill="#f3f6fb" stroke="#f5a524" stroke-width="4"/>
+  <text x="345" y="158" text-anchor="middle" font-size="18" font-weight="bold" fill="#0b1b4d">Centralita IP</text>
+  <text x="345" y="184" text-anchor="middle" font-size="16" fill="#0b1b4d">PBX local o nube</text>
+
+  <rect x="490" y="120" width="170" height="90" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="575" y="158" text-anchor="middle" font-size="18" font-weight="bold" fill="#0b1b4d">Proveedor SIP</text>
+  <text x="575" y="184" text-anchor="middle" font-size="16" fill="#0b1b4d">o internet</text>
+
+  <rect x="720" y="120" width="170" height="90" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="805" y="158" text-anchor="middle" font-size="18" font-weight="bold" fill="#0b1b4d">Teléfono destino</text>
+  <text x="805" y="184" text-anchor="middle" font-size="16" fill="#0b1b4d">o aplicación</text>
+
+  <!-- Voz en paquetes (abajo) -->
+  <line x1="115" y1="240" x2="805" y2="240" stroke="#2563eb" stroke-width="3" marker-start="url(#voip-ah)" marker-end="url(#voip-ah)"/>
+  <text x="460" y="268" text-anchor="middle" font-size="18" font-weight="bold" fill="#0b1b4d">Voz en paquetes RTP (ida y vuelta)</text>
+
+  <!-- Base de red -->
+  <rect x="30" y="310" width="860" height="100" rx="12" fill="#0b1b4d"/>
+  <text x="460" y="352" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">Tu red de datos e internet transportan ambos flujos</text>
+  <text x="460" y="384" text-anchor="middle" font-size="18" fill="#ffffff">La calidad de tu red define la calidad de la llamada</text>
+</svg>

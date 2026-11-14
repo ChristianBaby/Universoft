@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" role="img" aria-labelledby="tFlu dFlu">
+  <title id="tFlu">Flujo para decidir entre RPA, low-code y software a medida</title>
+  <desc id="dFlu">Flujo de decisión. Un proceso con reglas no claras se estandariza primero. Con reglas claras, si el volumen es bajo se usa una plantilla. Con volumen alto y una integración disponible, software a medida o low-code. Sin integración, RPA sobre la interfaz.</desc>
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0b1b4d"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="430" rx="12" fill="#ffffff"/>
+
+  <rect x="20" y="150" width="120" height="70" rx="12" fill="#2563eb"/>
+  <text x="80" y="180" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">Proceso</text>
+  <text x="80" y="202" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">identificado</text>
+
+  <path d="M240,130 L315,185 L240,240 L165,185 Z" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="240" y="180" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">¿Reglas</text>
+  <text x="240" y="202" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">claras?</text>
+
+  <path d="M430,130 L505,185 L430,240 L355,185 Z" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="430" y="180" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">¿Volumen</text>
+  <text x="430" y="202" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">alto?</text>
+
+  <path d="M620,130 L695,185 L620,240 L545,185 Z" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="620" y="180" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">¿API o</text>
+  <text x="620" y="202" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">integración?</text>
+
+  <rect x="740" y="150" width="140" height="70" rx="12" fill="#f5a524"/>
+  <text x="810" y="180" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Low-code o</text>
+  <text x="810" y="202" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">a medida</text>
+
+  <rect x="165" y="330" width="150" height="70" rx="12" fill="#38a9f5"/>
+  <text x="240" y="360" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Estandarizar</text>
+  <text x="240" y="382" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">el proceso</text>
+
+  <rect x="355" y="330" width="150" height="70" rx="12" fill="#38a9f5"/>
+  <text x="430" y="360" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Plantilla o</text>
+  <text x="430" y="382" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">flujo sencillo</text>
+
+  <rect x="535" y="330" width="170" height="70" rx="12" fill="#38a9f5"/>
+  <text x="620" y="360" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">RPA sobre</text>
+  <text x="620" y="382" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">la interfaz</text>
+
+  <path d="M140,185 L155,185" stroke="#0b1b4d" stroke-width="2" fill="none" marker-end="url(#ar)"/>
+  <path d="M315,185 L345,185" stroke="#0b1b4d" stroke-width="2" fill="none" marker-end="url(#ar)"/>
+  <text x="330" y="176" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Sí</text>
+  <path d="M505,185 L535,185" stroke="#0b1b4d" stroke-width="2" fill="none" marker-end="url(#ar)"/>
+  <text x="520" y="176" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Sí</text>
+  <path d="M695,185 L740,185" stroke="#0b1b4d" stroke-width="2" fill="none" marker-end="url(#ar)"/>
+  <text x="717" y="176" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Sí</text>
+
+  <path d="M240,240 L240,330" stroke="#0b1b4d" stroke-width="2" fill="none" marker-end="url(#ar)"/>
+  <text x="252" y="290" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">No</text>
+  <path d="M430,240 L430,330" stroke="#0b1b4d" stroke-width="2" fill="none" marker-end="url(#ar)"/>
+  <text x="442" y="290" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">No</text>
+  <path d="M620,240 L620,330" stroke="#0b1b4d" stroke-width="2" fill="none" marker-end="url(#ar)"/>
+  <text x="632" y="290" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">No</text>
+</svg>

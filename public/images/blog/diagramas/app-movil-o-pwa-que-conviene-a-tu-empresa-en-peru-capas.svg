@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="900" height="450" role="img" aria-labelledby="t4 d4">
+  <title id="t4">Comparación de capas: app nativa frente a PWA</title>
+  <desc id="d4">Dos columnas apiladas. App nativa: código, componentes del sistema, sistema operativo y tienda. PWA: código web, service worker, navegador y sistema operativo.</desc>
+  <rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+  <text x="240" y="70" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">App nativa o multiplataforma</text>
+  <text x="660" y="70" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">PWA</text>
+  <rect x="60" y="100" width="360" height="56" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="240" y="134" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Tu código: interfaz y lógica</text>
+  <rect x="60" y="170" width="360" height="56" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="240" y="204" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Componentes de cada sistema</text>
+  <rect x="60" y="240" width="360" height="56" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="240" y="274" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Sistema operativo Android o iOS</text>
+  <rect x="60" y="310" width="360" height="56" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="240" y="344" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Tienda de aplicaciones</text>
+  <rect x="480" y="100" width="360" height="56" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="660" y="134" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Tu código web: interfaz</text>
+  <rect x="480" y="170" width="360" height="56" rx="12" fill="#2563eb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="660" y="204" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">Service worker: caché y push</text>
+  <rect x="480" y="240" width="360" height="56" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="660" y="274" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Navegador del dispositivo</text>
+  <rect x="480" y="310" width="360" height="56" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="660" y="344" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Sistema operativo Android o iOS</text>
+  <text x="450" y="415" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">La PWA depende del navegador; la app, del sistema y de la tienda</text>
+</svg>

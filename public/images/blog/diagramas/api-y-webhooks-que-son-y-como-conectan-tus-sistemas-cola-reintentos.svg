@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="t4 d4">
+  <title id="t4">Arquitectura de integración con cola y reintentos</title>
+  <desc id="d4">Flujo de un webhook desde el servicio externo hasta el sistema interno. El endpoint valida la firma y responde rápido, los eventos pasan por una cola, un procesador idempotente los aplica al sistema interno, y los fallos vuelven a la cola con reintento.</desc>
+  <defs>
+    <marker id="fl4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0b1b4d"/>
+    </marker>
+    <marker id="fl4a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#f5a524"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+
+  <!-- Fila principal -->
+  <rect x="20" y="110" width="150" height="110" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="95" y="158" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0b1b4d">Servicio</text>
+  <text x="95" y="182" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0b1b4d">externo</text>
+
+  <rect x="210" y="110" width="160" height="110" rx="12" fill="#2563eb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="290" y="150" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">Endpoint</text>
+  <text x="290" y="174" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">valida firma</text>
+  <text x="290" y="198" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">responde 2xx</text>
+
+  <rect x="410" y="110" width="130" height="110" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="475" y="158" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0b1b4d">Cola de</text>
+  <text x="475" y="182" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0b1b4d">eventos</text>
+
+  <rect x="580" y="110" width="140" height="110" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="650" y="150" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0b1b4d">Procesador</text>
+  <text x="650" y="174" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">sin duplicar</text>
+  <text x="650" y="198" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">eventos</text>
+
+  <rect x="760" y="110" width="120" height="110" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="820" y="158" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0b1b4d">Sistema</text>
+  <text x="820" y="182" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0b1b4d">interno</text>
+
+  <!-- Flechas principales -->
+  <line x1="172" y1="165" x2="206" y2="165" stroke="#0b1b4d" stroke-width="2.5" marker-end="url(#fl4)"/>
+  <line x1="372" y1="165" x2="406" y2="165" stroke="#0b1b4d" stroke-width="2.5" marker-end="url(#fl4)"/>
+  <line x1="542" y1="165" x2="576" y2="165" stroke="#0b1b4d" stroke-width="2.5" marker-end="url(#fl4)"/>
+  <line x1="722" y1="165" x2="756" y2="165" stroke="#0b1b4d" stroke-width="2.5" marker-end="url(#fl4)"/>
+
+  <!-- Ciclo de reintento -->
+  <line x1="650" y1="222" x2="650" y2="296" stroke="#f5a524" stroke-width="2.5" marker-end="url(#fl4a)"/>
+  <rect x="540" y="300" width="220" height="70" rx="12" fill="#ffffff" stroke="#f5a524" stroke-width="2.5"/>
+  <text x="650" y="330" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0b1b4d">Si falla: reintento</text>
+  <text x="650" y="354" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">con espera creciente</text>
+  <line x1="540" y1="335" x2="462" y2="226" stroke="#f5a524" stroke-width="2.5" stroke-dasharray="8 5" marker-end="url(#fl4a)"/>
+
+  <!-- Registro de fallidos -->
+  <rect x="200" y="300" width="250" height="70" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="325" y="330" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0b1b4d">Registro de fallidos</text>
+  <text x="325" y="354" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">para revisión manual</text>
+  <line x1="540" y1="335" x2="452" y2="335" stroke="#0b1b4d" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#fl4)"/>
+
+  <text x="450" y="425" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">El endpoint responde rápido; el procesamiento ocurre después</text>
+</svg>

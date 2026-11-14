@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" role="img" aria-labelledby="tResp dResp">
+  <title id="tResp">Modelo de responsabilidad compartida en la nube</title>
+  <desc id="dResp">Dos bandas. La superior, seguridad del proveedor: centro de datos, red física y plataforma. La inferior, seguridad del cliente: datos, identidades y configuración.</desc>
+  <rect x="0" y="0" width="900" height="460" rx="12" fill="#ffffff"/>
+  <text x="40" y="40" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0b1b4d">Modelo de responsabilidad compartida</text>
+
+  <rect x="60" y="70" width="780" height="170" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="1.5"/>
+  <text x="90" y="108" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="#0b1b4d">Seguridad del proveedor (de la nube)</text>
+  <rect x="90" y="130" width="230" height="75" rx="12" fill="#ffffff" stroke="#38a9f5" stroke-width="2"/>
+  <text x="205" y="162" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Centro de datos</text>
+  <text x="205" y="186" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">y seguridad física</text>
+  <rect x="345" y="130" width="230" height="75" rx="12" fill="#ffffff" stroke="#38a9f5" stroke-width="2"/>
+  <text x="460" y="162" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Red física</text>
+  <text x="460" y="186" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">y hardware</text>
+  <rect x="600" y="130" width="230" height="75" rx="12" fill="#ffffff" stroke="#38a9f5" stroke-width="2"/>
+  <text x="715" y="162" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Hipervisor</text>
+  <text x="715" y="186" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">y plataforma</text>
+
+  <rect x="60" y="260" width="780" height="170" rx="12" fill="#0b1b4d"/>
+  <text x="90" y="298" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Seguridad del cliente (tu responsabilidad)</text>
+  <rect x="90" y="320" width="230" height="75" rx="12" fill="#2563eb"/>
+  <text x="205" y="352" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">Datos y su</text>
+  <text x="205" y="376" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">clasificación</text>
+  <rect x="345" y="320" width="230" height="75" rx="12" fill="#2563eb"/>
+  <text x="460" y="352" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">Identidades, accesos</text>
+  <text x="460" y="376" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">y autenticación MFA</text>
+  <rect x="600" y="320" width="230" height="75" rx="12" fill="#2563eb"/>
+  <text x="715" y="352" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">Configuración</text>
+  <text x="715" y="376" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">y dispositivos</text>
+
+  <text x="60" y="450" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Esquema simplificado. El detalle varía según el servicio (IaaS, PaaS o SaaS).</text>
+</svg>

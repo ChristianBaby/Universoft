@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="900" height="450" role="img" aria-labelledby="t3 d3">
+  <title id="t3">Árbol de decisión: app o PWA</title>
+  <desc id="d3">Primera pregunta: necesitas hardware o trabajo sin señal. Si sí, nativa o multiplataforma. Si no, segunda pregunta: publicar en tiendas. Si sí, multiplataforma; si no, PWA.</desc>
+  <defs>
+    <marker id="flecha2" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0b1b4d"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+  <rect x="300" y="40" width="300" height="80" rx="12" fill="#0b1b4d"/>
+  <text x="450" y="75" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">¿Necesitas hardware</text>
+  <text x="450" y="100" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">o trabajo sin señal?</text>
+  <line x1="380" y1="120" x2="190" y2="168" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha2)"/>
+  <text x="262" y="134" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#0b1b4d">Sí</text>
+  <line x1="520" y1="120" x2="690" y2="168" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha2)"/>
+  <text x="628" y="134" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#0b1b4d">No</text>
+  <rect x="60" y="168" width="260" height="80" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="190" y="202" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#0b1b4d">Nativa o</text>
+  <text x="190" y="228" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#0b1b4d">multiplataforma</text>
+  <rect x="540" y="168" width="300" height="80" rx="12" fill="#0b1b4d"/>
+  <text x="690" y="202" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">¿Necesitas publicar</text>
+  <text x="690" y="228" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">en tiendas?</text>
+  <line x1="630" y1="248" x2="540" y2="308" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha2)"/>
+  <text x="572" y="284" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#0b1b4d">Sí</text>
+  <line x1="750" y1="248" x2="760" y2="308" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha2)"/>
+  <text x="772" y="284" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#0b1b4d">No</text>
+  <rect x="440" y="308" width="200" height="70" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="540" y="350" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">Multiplataforma</text>
+  <rect x="660" y="308" width="200" height="70" rx="12" fill="#2563eb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="760" y="350" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">PWA</text>
+  <text x="450" y="420" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Orientación inicial: cada caso necesita su lista de funciones</text>
+</svg>

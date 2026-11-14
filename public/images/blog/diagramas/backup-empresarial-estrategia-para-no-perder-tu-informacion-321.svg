@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Regla 3-2-1 de backup</title>
+  <desc id="descripcion">Tres tarjetas que muestran la regla 3-2-1: tres copias, dos tipos de soporte y una copia fuera del sitio.</desc>
+  <defs>
+    <marker id="flecha" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0b1b4d"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+  <text x="450" y="58" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#0b1b4d">Regla 3-2-1 de respaldo</text>
+
+  <rect x="40" y="100" width="240" height="250" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="3"/>
+  <text x="160" y="160" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#0b1b4d">3 copias</text>
+  <text x="160" y="205" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#0b1b4d">Original + 2 respaldos</text>
+  <text x="160" y="250" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#0b1b4d">Una pérdida no es total</text>
+
+  <rect x="330" y="100" width="240" height="250" rx="12" fill="#f3f6fb" stroke="#38a9f5" stroke-width="3"/>
+  <text x="450" y="160" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#0b1b4d">2 soportes</text>
+  <text x="450" y="205" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#0b1b4d">Disco local + nube</text>
+  <text x="450" y="250" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#0b1b4d">Una falla no afecta ambos</text>
+
+  <rect x="620" y="100" width="240" height="250" rx="12" fill="#f3f6fb" stroke="#f5a524" stroke-width="3"/>
+  <text x="740" y="160" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#0b1b4d">1 fuera del sitio</text>
+  <text x="740" y="205" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#0b1b4d">Copia en otra ubicación</text>
+  <text x="740" y="250" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#0b1b4d">Resiste incendio o robo</text>
+
+  <line x1="282" y1="225" x2="326" y2="225" stroke="#0b1b4d" stroke-width="3" marker-end="url(#flecha)"/>
+  <line x1="572" y1="225" x2="616" y2="225" stroke="#0b1b4d" stroke-width="3" marker-end="url(#flecha)"/>
+
+  <text x="450" y="395" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#0b1b4d">Ejemplo: servidor (original) + disco local + copia en la nube</text>
+</svg>

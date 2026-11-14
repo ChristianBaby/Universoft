@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="tituloSvg descSvg">
+  <title id="tituloSvg">Capas de un sistema de gestión para operadores turísticos</title>
+  <desc id="descSvg">Tres capas: canales de venta, núcleo de reservas y cupos, y operación con guías, proveedores y facturación.</desc>
+  <defs>
+    <marker id="flecha" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+
+  <!-- Capa 1: canales de venta -->
+  <text x="60" y="36" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#2563eb">Canales de venta</text>
+  <rect x="60" y="46" width="240" height="72" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="180" y="89" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">Web propia</text>
+  <rect x="330" y="46" width="240" height="72" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="450" y="89" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">OTA</text>
+  <rect x="600" y="46" width="240" height="72" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="720" y="89" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">WhatsApp y correo</text>
+
+  <line x1="450" y1="118" x2="450" y2="158" stroke="#2563eb" stroke-width="2" marker-end="url(#flecha)"/>
+
+  <!-- Capa 2: núcleo -->
+  <text x="60" y="166" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#2563eb">Núcleo del sistema</text>
+  <rect x="60" y="176" width="240" height="72" rx="12" fill="#f5a524" fill-opacity="0.18" stroke="#f5a524" stroke-width="3"/>
+  <text x="180" y="219" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">Reservas y cupos</text>
+  <rect x="330" y="176" width="240" height="72" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="450" y="219" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">Itinerarios</text>
+  <rect x="600" y="176" width="240" height="72" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="720" y="219" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">Disponibilidad</text>
+
+  <line x1="450" y1="248" x2="450" y2="288" stroke="#2563eb" stroke-width="2" marker-end="url(#flecha)"/>
+
+  <!-- Capa 3: operación -->
+  <text x="60" y="296" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#2563eb">Operación y administración</text>
+  <rect x="60" y="306" width="240" height="72" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="180" y="349" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">Guías y vehículos</text>
+  <rect x="330" y="306" width="240" height="72" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="450" y="349" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">Proveedores</text>
+  <rect x="600" y="306" width="240" height="72" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="720" y="349" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">Facturación y pagos</text>
+
+  <text x="450" y="415" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Los canales alimentan un único registro de reservas y cupos.</text>
+</svg>

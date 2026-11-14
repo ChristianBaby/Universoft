@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0b1b4d"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" rx="12" fill="#ffffff"/>
+
+  <!-- Paso 1 -->
+  <rect x="21" y="120" width="150" height="110" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="96" y="152" text-anchor="middle" font-size="16" font-weight="bold" fill="#0b1b4d">1. Describe</text>
+  <text x="96" y="174" text-anchor="middle" font-size="16" fill="#0b1b4d">la tarea</text>
+  <text x="96" y="196" text-anchor="middle" font-size="16" fill="#0b1b4d">y su objetivo</text>
+
+  <!-- Paso 2 -->
+  <rect x="200" y="120" width="150" height="110" rx="12" fill="#fef3dc" stroke="#f5a524" stroke-width="3"/>
+  <text x="275" y="152" text-anchor="middle" font-size="16" font-weight="bold" fill="#0b1b4d">2. Clasifica</text>
+  <text x="275" y="174" text-anchor="middle" font-size="16" fill="#0b1b4d">el dato</text>
+  <text x="275" y="196" text-anchor="middle" font-size="16" fill="#0b1b4d">antes de usarlo</text>
+
+  <!-- Paso 3 -->
+  <rect x="379" y="120" width="150" height="110" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="454" y="152" text-anchor="middle" font-size="16" font-weight="bold" fill="#0b1b4d">3. Usa una</text>
+  <text x="454" y="174" text-anchor="middle" font-size="16" fill="#0b1b4d">herramienta</text>
+  <text x="454" y="196" text-anchor="middle" font-size="16" fill="#0b1b4d">aprobada</text>
+
+  <!-- Paso 4 -->
+  <rect x="558" y="120" width="150" height="110" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="633" y="152" text-anchor="middle" font-size="16" font-weight="bold" fill="#0b1b4d">4. Revisa la</text>
+  <text x="633" y="174" text-anchor="middle" font-size="16" fill="#0b1b4d">salida antes</text>
+  <text x="633" y="196" text-anchor="middle" font-size="16" fill="#0b1b4d">de usarla</text>
+
+  <!-- Paso 5 -->
+  <rect x="737" y="120" width="150" height="110" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="812" y="152" text-anchor="middle" font-size="16" font-weight="bold" fill="#0b1b4d">5. Registra</text>
+  <text x="812" y="174" text-anchor="middle" font-size="16" fill="#0b1b4d">el uso y</text>
+  <text x="812" y="196" text-anchor="middle" font-size="16" fill="#0b1b4d">el responsable</text>
+
+  <line x1="171" y1="175" x2="200" y2="175" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <line x1="350" y1="175" x2="379" y2="175" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <line x1="529" y1="175" x2="558" y2="175" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <line x1="708" y1="175" x2="737" y2="175" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+
+  <!-- Regla de corte -->
+  <rect x="200" y="280" width="500" height="70" rx="12" fill="#0b1b4d"/>
+  <text x="450" y="310" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">Si el dato es sensible y no hay</text>
+  <text x="450" y="334" text-anchor="middle" font-size="17" fill="#ffffff">herramienta aprobada, se detiene el proceso.</text>
+  <line x1="275" y1="230" x2="275" y2="280" stroke="#f5a524" stroke-width="2" stroke-dasharray="6 4"/>
+
+  <text x="450" y="405" text-anchor="middle" font-size="16" fill="#0b1b4d">El paso 5 alimenta la revisión periódica de la política interna.</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="sdwan-t sdwan-d" font-family="Inter, Arial, sans-serif">
+  <title id="sdwan-t">Arquitectura SD-WAN por capas</title>
+  <desc id="sdwan-d">Un orquestador central en la parte superior envía políticas por línea punteada a tres sedes con equipo edge. Cada sede envía su tráfico con línea continua hacia una franja de enlaces: internet, 4G/5G o MPLS.</desc>
+  <defs>
+    <marker id="sdwan-an" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#0b1b4d"/>
+    </marker>
+  </defs>
+  <rect width="900" height="450" rx="12" fill="#ffffff"/>
+
+  <!-- Plano de control: orquestador -->
+  <rect x="230" y="30" width="440" height="80" rx="12" fill="#0b1b4d"/>
+  <text x="450" y="63" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">Orquestador central</text>
+  <text x="450" y="91" text-anchor="middle" font-size="16" fill="#ffffff">Define políticas desde un panel</text>
+
+  <!-- Enlaces de control (punteados) -->
+  <line x1="450" y1="110" x2="150" y2="186" stroke="#0b1b4d" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#sdwan-an)"/>
+  <line x1="450" y1="110" x2="450" y2="186" stroke="#0b1b4d" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#sdwan-an)"/>
+  <line x1="450" y1="110" x2="750" y2="186" stroke="#0b1b4d" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#sdwan-an)"/>
+
+  <!-- Sedes con equipo edge -->
+  <rect x="40" y="190" width="220" height="80" rx="12" fill="#f3f6fb" stroke="#f5a524" stroke-width="4"/>
+  <text x="150" y="222" text-anchor="middle" font-size="18" font-weight="bold" fill="#0b1b4d">Sede principal</text>
+  <text x="150" y="250" text-anchor="middle" font-size="16" fill="#0b1b4d">Equipo edge</text>
+
+  <rect x="340" y="190" width="220" height="80" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="450" y="222" text-anchor="middle" font-size="18" font-weight="bold" fill="#0b1b4d">Sucursal 1</text>
+  <text x="450" y="250" text-anchor="middle" font-size="16" fill="#0b1b4d">Equipo edge</text>
+
+  <rect x="640" y="190" width="220" height="80" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="750" y="222" text-anchor="middle" font-size="18" font-weight="bold" fill="#0b1b4d">Sucursal 2</text>
+  <text x="750" y="250" text-anchor="middle" font-size="16" fill="#0b1b4d">Equipo edge</text>
+
+  <!-- Plano de datos: cada sede hacia los enlaces -->
+  <line x1="150" y1="270" x2="150" y2="332" stroke="#2563eb" stroke-width="3"/>
+  <line x1="450" y1="270" x2="450" y2="332" stroke="#2563eb" stroke-width="3"/>
+  <line x1="750" y1="270" x2="750" y2="332" stroke="#2563eb" stroke-width="3"/>
+
+  <!-- Franja de enlaces -->
+  <rect x="30" y="335" width="840" height="75" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="450" y="368" text-anchor="middle" font-size="18" font-weight="bold" fill="#0b1b4d">Enlaces: internet, 4G/5G o MPLS</text>
+  <text x="450" y="394" text-anchor="middle" font-size="16" fill="#0b1b4d">El tráfico toma la mejor ruta disponible</text>
+
+  <!-- Leyenda -->
+  <line x1="40" y1="432" x2="90" y2="432" stroke="#0b1b4d" stroke-width="2.5" stroke-dasharray="8 6"/>
+  <text x="100" y="438" font-size="16" fill="#0b1b4d">Plano de control</text>
+  <line x1="350" y1="432" x2="400" y2="432" stroke="#2563eb" stroke-width="3"/>
+  <text x="410" y="438" font-size="16" fill="#0b1b4d">Plano de datos</text>
+</svg>

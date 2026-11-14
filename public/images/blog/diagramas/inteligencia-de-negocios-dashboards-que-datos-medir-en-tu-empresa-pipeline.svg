@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="900" height="450" role="img" aria-labelledby="t1 d1">
+  <title id="t1">Pipeline de datos</title>
+  <desc id="d1">Cinco cajas en secuencia: fuentes, integración, almacén, modelo y dashboard, unidas por flechas.</desc>
+  <defs>
+    <marker id="flecha" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0b1b4d"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+  <text x="450" y="70" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#0b1b4d">Del dato origen a la decisión</text>
+  <rect x="50" y="170" width="140" height="100" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="120" y="210" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">Fuentes</text>
+  <text x="120" y="240" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Sistemas y web</text>
+  <rect x="215" y="170" width="140" height="100" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="285" y="210" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">Integración</text>
+  <text x="285" y="240" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Limpieza</text>
+  <rect x="380" y="170" width="140" height="100" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="450" y="210" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">Almacén</text>
+  <text x="450" y="240" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Datos unidos</text>
+  <rect x="545" y="170" width="140" height="100" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="615" y="210" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">Modelo</text>
+  <text x="615" y="240" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">KPI definidos</text>
+  <rect x="710" y="170" width="140" height="100" rx="12" fill="#2563eb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="780" y="210" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Dashboard</text>
+  <text x="780" y="240" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">Decisiones</text>
+  <line x1="192" y1="220" x2="212" y2="220" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <line x1="357" y1="220" x2="377" y2="220" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <line x1="522" y1="220" x2="542" y2="220" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <line x1="687" y1="220" x2="707" y2="220" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <rect x="50" y="330" width="800" height="50" rx="12" fill="#fef6e7" stroke="#f5a524" stroke-width="2"/>
+  <text x="450" y="361" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">La calidad se revisa en la integración, no al final</text>
+</svg>

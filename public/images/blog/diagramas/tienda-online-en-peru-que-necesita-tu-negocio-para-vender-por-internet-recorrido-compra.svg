@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="tituloSvg descSvg">
+  <title id="tituloSvg">Recorrido de una compra en una tienda online</title>
+  <desc id="descSvg">Seis pasos conectados: catálogo, carrito y pago, confirmación, inventario, envío y postventa.</desc>
+  <defs>
+    <marker id="flecha" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+
+  <!-- Fila 1 (izquierda a derecha) -->
+  <rect x="60" y="60" width="240" height="110" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="180" y="105" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">1. Catálogo</text>
+  <text x="180" y="135" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Fichas y buscador</text>
+
+  <rect x="330" y="60" width="240" height="110" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="450" y="105" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">2. Carrito y pago</text>
+  <text x="450" y="135" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Pasarela confirma</text>
+
+  <rect x="600" y="60" width="240" height="110" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="720" y="105" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">3. Confirmación</text>
+  <text x="720" y="135" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Correo y comprobante</text>
+
+  <line x1="302" y1="115" x2="328" y2="115" stroke="#2563eb" stroke-width="2" marker-end="url(#flecha)"/>
+  <line x1="572" y1="115" x2="598" y2="115" stroke="#2563eb" stroke-width="2" marker-end="url(#flecha)"/>
+
+  <!-- Bajada de la fila 1 a la fila 2 -->
+  <line x1="720" y1="172" x2="720" y2="258" stroke="#2563eb" stroke-width="2" marker-end="url(#flecha)"/>
+
+  <!-- Fila 2 (derecha a izquierda) -->
+  <rect x="600" y="260" width="240" height="110" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="720" y="305" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">4. Inventario</text>
+  <text x="720" y="335" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Stock descontado</text>
+
+  <rect x="330" y="260" width="240" height="110" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="450" y="305" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">5. Envío</text>
+  <text x="450" y="335" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Costo y seguimiento</text>
+
+  <rect x="60" y="260" width="240" height="110" rx="12" fill="#f5a524" fill-opacity="0.18" stroke="#f5a524" stroke-width="2"/>
+  <text x="180" y="305" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">6. Postventa</text>
+  <text x="180" y="335" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Cambios y reclamos</text>
+
+  <line x1="598" y1="315" x2="572" y2="315" stroke="#2563eb" stroke-width="2" marker-end="url(#flecha)"/>
+  <line x1="328" y1="315" x2="302" y2="315" stroke="#2563eb" stroke-width="2" marker-end="url(#flecha)"/>
+
+  <text x="450" y="415" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Cada paso debe pasar sus datos al siguiente sin reingreso manual.</text>
+</svg>
