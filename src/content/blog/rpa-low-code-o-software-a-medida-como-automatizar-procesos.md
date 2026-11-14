@@ -9,8 +9,8 @@ cover: "/images/blog/rpa-low-code-o-software-a-medida-como-automatizar-procesos-
 coverAlt: "Ilustración de bloques modulares sobre una cinta transportadora con engranajes, símbolo de automatización de procesos"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "10 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 **Respuesta corta:** La automatización de procesos reemplaza tareas repetitivas y basadas en reglas por flujos que se ejecutan con poca intervención humana. Las tres opciones más comunes son RPA (robots que operan sobre las pantallas de tus sistemas), low-code (plataformas para construir aplicaciones con poco código) y software a medida (un sistema diseñado para tu operación). RPA sirve para automatizar rápido sobre sistemas que no puedes cambiar, low-code para procesos internos con reglas claras, y software a medida cuando el proceso es central y necesita crecer con tu negocio.
 

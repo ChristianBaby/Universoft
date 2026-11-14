@@ -9,8 +9,8 @@ cover: "/images/blog/zero-trust-y-autenticacion-multifactor-guia-para-pymes-cove
 coverAlt: "Ilustración de un candado rodeado de anillos de verificación, símbolo de seguridad Zero Trust"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta

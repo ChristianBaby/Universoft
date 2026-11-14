@@ -9,8 +9,8 @@ cover: "/images/blog/comunicaciones-unificadas-telefonia-ip-teams-y-whatsapp-bus
 coverAlt: "Ilustración de globos de chat, teléfono y ondas de señal que convergen en un centro, símbolo de comunicaciones unificadas"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta

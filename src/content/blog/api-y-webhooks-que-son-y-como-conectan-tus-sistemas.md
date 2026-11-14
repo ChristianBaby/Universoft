@@ -9,8 +9,8 @@ cover: "/images/blog/api-y-webhooks-que-son-y-como-conectan-tus-sistemas-cover.w
 coverAlt: "Ilustración de dos sistemas conectados por un puente de luz con paquetes de datos, símbolo de una API"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta

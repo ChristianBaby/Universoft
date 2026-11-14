@@ -9,8 +9,8 @@ cover: "/images/blog/computacion-en-la-nube-aws-azure-google-cloud-como-elegir-c
 coverAlt: "Ilustración de una nube conectada a servidores, símbolo de computación en la nube"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "10 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 **Respuesta corta:** La computación en la nube consiste en usar servidores, plataformas y aplicaciones a través de internet, en general pagando según lo que consumes. Para elegir entre AWS, Azure y Google Cloud conviene empezar por el tipo de servicio que necesitas (IaaS, PaaS o SaaS), las herramientas que ya usa tu equipo, la región donde están tus usuarios y cuánto control quieres sobre la infraestructura. Ningún proveedor es el mejor en todos los casos; la decisión depende de tu empresa.
 

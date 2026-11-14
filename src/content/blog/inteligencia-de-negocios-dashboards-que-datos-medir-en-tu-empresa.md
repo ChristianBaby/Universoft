@@ -9,8 +9,8 @@ cover: "/images/blog/inteligencia-de-negocios-dashboards-que-datos-medir-en-tu-e
 coverAlt: "Ilustración de un panel con barras y línea de tendencia ascendente, símbolo de inteligencia de negocios"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta

@@ -9,8 +9,8 @@ cover: "/images/blog/ia-generativa-en-la-empresa-casos-de-uso-riesgos-y-politica
 coverAlt: "Ilustración de una red neuronal protegida por un escudo translúcido, símbolo de IA generativa segura"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta

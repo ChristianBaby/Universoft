@@ -9,8 +9,8 @@ cover: "/images/blog/app-movil-o-pwa-que-conviene-a-tu-empresa-en-peru-cover.web
 coverAlt: "Ilustración de un smartphone con tarjetas de interfaz flotantes, símbolo de aplicaciones móviles"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta

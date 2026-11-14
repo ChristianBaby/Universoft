@@ -9,8 +9,8 @@ cover: "/images/blog/agentes-de-ia-para-empresas-que-son-y-como-aplicarlos-en-un
 coverAlt: "Ilustración de un agente de IA en una esfera luminosa conectado a herramientas como engranaje, documento y chat"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta

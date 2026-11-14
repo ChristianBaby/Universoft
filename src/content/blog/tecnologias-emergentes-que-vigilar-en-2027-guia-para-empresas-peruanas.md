@@ -9,8 +9,8 @@ cover: "/images/blog/tecnologias-emergentes-que-vigilar-en-2027-guia-para-empres
 coverAlt: "Ilustración de un horizonte luminoso con anillos concéntricos y partículas, símbolo de tecnologías emergentes"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta
