@@ -6,7 +6,7 @@ publishedAt: 2026-11-14
 updatedAt: 2026-11-14
 category: "Ciberseguridad"
 cover: "/images/blog/zero-trust-y-autenticacion-multifactor-guia-para-pymes-cover.webp"
-coverAlt: "Candado dorado de combinación sobre un teclado de computadora, junto a tarjetas"
+coverAlt: "Ilustración de un candado rodeado de anillos de verificación, símbolo de seguridad Zero Trust"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
 draft: true

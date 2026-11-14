@@ -6,7 +6,7 @@ publishedAt: 2026-08-06
 updatedAt: 2026-11-14
 category: "Web"
 cover: "/images/blog/tienda-online-en-peru-que-necesita-tu-negocio-para-vender-por-internet-cover.webp"
-coverAlt: "Persona realizando una compra en línea desde su laptop"
+coverAlt: "Ilustración de un carrito de compras con paquetes flotantes, símbolo de una tienda online"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
 draft: false

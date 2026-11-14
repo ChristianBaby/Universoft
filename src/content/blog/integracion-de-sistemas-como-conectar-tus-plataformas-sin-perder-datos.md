@@ -6,7 +6,7 @@ publishedAt: 2026-06-25
 updatedAt: 2026-11-14
 category: "Software"
 cover: "/images/blog/integracion-de-sistemas-como-conectar-tus-plataformas-sin-perder-datos-cover.webp"
-coverAlt: "Pantallas con código y diagramas de conexión entre sistemas"
+coverAlt: "Ilustración de piezas de rompecabezas que se unen con conectores de luz, símbolo de integración de sistemas"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "10 min de lectura"
 draft: false

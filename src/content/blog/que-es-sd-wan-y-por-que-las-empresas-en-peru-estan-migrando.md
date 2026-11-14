@@ -6,7 +6,7 @@ publishedAt: 2025-07-03
 updatedAt: 2026-11-14
 category: "Telecomunicaciones"
 cover: "/images/blog/que-es-sd-wan-y-por-que-las-empresas-en-peru-estan-migrando-cover.webp"
-coverAlt: "Centro de datos con servidores y cableado de red"
+coverAlt: "Ilustración de sucursales conectadas por múltiples rutas sobre un mapa mundial, símbolo de SD-WAN"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "10 min de lectura"
 draft: false

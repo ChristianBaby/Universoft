@@ -6,7 +6,7 @@ publishedAt: 2026-11-14
 updatedAt: 2026-11-14
 category: "Software"
 cover: "/images/blog/rpa-low-code-o-software-a-medida-como-automatizar-procesos-cover.webp"
-coverAlt: "Mano escribiendo en un portátil con una tabla de datos en la pantalla"
+coverAlt: "Ilustración de bloques modulares sobre una cinta transportadora con engranajes, símbolo de automatización de procesos"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "10 min de lectura"
 draft: true

@@ -6,7 +6,7 @@ publishedAt: 2026-11-14
 updatedAt: 2026-11-14
 category: "Software"
 cover: "/images/blog/api-y-webhooks-que-son-y-como-conectan-tus-sistemas-cover.webp"
-coverAlt: "Servidores con cables de red conectados y luces verdes encendidas"
+coverAlt: "Ilustración de dos sistemas conectados por un puente de luz con paquetes de datos, símbolo de una API"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
 draft: true

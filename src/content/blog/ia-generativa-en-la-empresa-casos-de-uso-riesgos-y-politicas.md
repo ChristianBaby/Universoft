@@ -6,7 +6,7 @@ publishedAt: 2026-11-14
 updatedAt: 2026-11-14
 category: "Software"
 cover: "/images/blog/ia-generativa-en-la-empresa-casos-de-uso-riesgos-y-politicas-cover.webp"
-coverAlt: "Dos personas revisando un documento frente a una laptop en una oficina"
+coverAlt: "Ilustración de una red neuronal protegida por un escudo translúcido, símbolo de IA generativa segura"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
 draft: true

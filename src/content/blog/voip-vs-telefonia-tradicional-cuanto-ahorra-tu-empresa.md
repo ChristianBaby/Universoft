@@ -6,7 +6,7 @@ publishedAt: 2025-06-19
 updatedAt: 2026-11-14
 category: "Telecomunicaciones"
 cover: "/images/blog/voip-vs-telefonia-tradicional-cuanto-ahorra-tu-empresa-cover.webp"
-coverAlt: "Persona realizando una llamada telefónica de oficina por VoIP"
+coverAlt: "Ilustración de un teléfono con ondas de sonido y paquetes de datos, símbolo de telefonía IP"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
 draft: false

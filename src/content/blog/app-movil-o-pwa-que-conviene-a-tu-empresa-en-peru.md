@@ -6,7 +6,7 @@ publishedAt: 2026-11-14
 updatedAt: 2026-11-14
 category: "Plataformas"
 cover: "/images/blog/app-movil-o-pwa-que-conviene-a-tu-empresa-en-peru-cover.webp"
-coverAlt: "Mano sosteniendo un celular con líneas de código en la pantalla"
+coverAlt: "Ilustración de un smartphone con tarjetas de interfaz flotantes, símbolo de aplicaciones móviles"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
 draft: true

@@ -6,7 +6,7 @@ publishedAt: 2026-06-11
 updatedAt: 2026-11-14
 category: "Software"
 cover: "/images/blog/crm-a-medida-vs-hubspot-salesforce-cuando-conviene-cada-uno-cover.webp"
-coverAlt: "Persona revisando un panel de ventas y clientes en su computadora"
+coverAlt: "Ilustración de un centro conectado a perfiles de clientes, símbolo de un sistema CRM"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "12 min de lectura"
 draft: false

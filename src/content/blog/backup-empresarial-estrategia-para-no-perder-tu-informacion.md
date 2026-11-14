@@ -6,7 +6,7 @@ publishedAt: 2026-05-14
 updatedAt: 2026-11-14
 category: "Ciberseguridad"
 cover: "/images/blog/backup-empresarial-estrategia-para-no-perder-tu-informacion-cover.webp"
-coverAlt: "Servidores de almacenamiento de datos en un centro de cómputo"
+coverAlt: "Ilustración de un escudo sobre capas de datos copiadas, símbolo de respaldo y protección de información"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
 draft: false

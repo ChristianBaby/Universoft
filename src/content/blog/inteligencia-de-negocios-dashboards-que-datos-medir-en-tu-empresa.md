@@ -6,7 +6,7 @@ publishedAt: 2026-11-14
 updatedAt: 2026-11-14
 category: "Software"
 cover: "/images/blog/inteligencia-de-negocios-dashboards-que-datos-medir-en-tu-empresa-cover.webp"
-coverAlt: "Pantalla de analítica con gráficos de líneas y tarjetas de indicadores desenfocadas"
+coverAlt: "Ilustración de un panel con barras y línea de tendencia ascendente, símbolo de inteligencia de negocios"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
 draft: true

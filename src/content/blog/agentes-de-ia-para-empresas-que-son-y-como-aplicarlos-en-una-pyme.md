@@ -6,7 +6,7 @@ publishedAt: 2026-11-14
 updatedAt: 2026-11-14
 category: "Software"
 cover: "/images/blog/agentes-de-ia-para-empresas-que-son-y-como-aplicarlos-en-una-pyme-cover.webp"
-coverAlt: "Mano robótica que se acerca a una mano humana sobre un fondo azul"
+coverAlt: "Ilustración de un agente de IA en una esfera luminosa conectado a herramientas como engranaje, documento y chat"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
 draft: true

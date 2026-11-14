@@ -6,7 +6,7 @@ publishedAt: 2026-11-14
 updatedAt: 2026-11-14
 category: "Software"
 cover: "/images/blog/tecnologias-emergentes-que-vigilar-en-2027-guia-para-empresas-peruanas-cover.webp"
-coverAlt: "Puntos azules luminosos que forman una onda sobre fondo oscuro, símbolo de tecnologías digitales emergentes"
+coverAlt: "Ilustración de un horizonte luminoso con anillos concéntricos y partículas, símbolo de tecnologías emergentes"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
 draft: true

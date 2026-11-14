@@ -6,7 +6,7 @@ publishedAt: 2025-09-11
 updatedAt: 2026-11-14
 category: "Plataformas"
 cover: "/images/blog/erp-a-medida-vs-software-generico-cuando-conviene-cada-uno-cover.webp"
-coverAlt: "Equipo revisando dashboards de un sistema ERP en varias pantallas"
+coverAlt: "Ilustración de un cubo formado por módulos entrelazados, símbolo de un sistema ERP"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "11 min de lectura"
 draft: false

@@ -6,7 +6,7 @@ publishedAt: 2026-11-14
 updatedAt: 2026-11-14
 category: "Plataformas"
 cover: "/images/blog/computacion-en-la-nube-aws-azure-google-cloud-como-elegir-cover.webp"
-coverAlt: "Pasillo de infraestructura de un centro de datos con racks metálicos"
+coverAlt: "Ilustración de una nube conectada a servidores, símbolo de computación en la nube"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "10 min de lectura"
 draft: true

@@ -6,7 +6,7 @@ publishedAt: 2026-03-19
 updatedAt: 2026-11-14
 category: "Turismo"
 cover: "/images/blog/sistema-de-gestion-para-operadores-turisticos-cover.webp"
-coverAlt: "Equipo planificando itinerarios turísticos con notas en una pizarra"
+coverAlt: "Ilustración de montañas con una ruta, marcadores de ubicación y calendarios, símbolo de gestión de operaciones turísticas"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
 draft: false

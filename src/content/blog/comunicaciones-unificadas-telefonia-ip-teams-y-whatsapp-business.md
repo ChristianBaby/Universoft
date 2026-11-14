@@ -6,7 +6,7 @@ publishedAt: 2026-11-14
 updatedAt: 2026-11-14
 category: "Telecomunicaciones"
 cover: "/images/blog/comunicaciones-unificadas-telefonia-ip-teams-y-whatsapp-business-cover.webp"
-coverAlt: "Dos personas con diademas de atención al cliente trabajando frente a sus equipos de cómputo"
+coverAlt: "Ilustración de globos de chat, teléfono y ondas de señal que convergen en un centro, símbolo de comunicaciones unificadas"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
 draft: true
