@@ -9,8 +9,8 @@ cover: "/images/blog/plataformas-virtuales-de-aprendizaje-lms-moodle-a-medida-o-
 coverAlt: "Ilustración de un birrete, un libro abierto y un monitor con módulos de curso, símbolo de plataforma de aprendizaje en línea"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "10 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta

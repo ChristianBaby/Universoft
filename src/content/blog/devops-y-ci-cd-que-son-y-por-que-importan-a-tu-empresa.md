@@ -9,8 +9,8 @@ cover: "/images/blog/devops-y-ci-cd-que-son-y-por-que-importan-a-tu-empresa-cove
 coverAlt: "Ilustración de un bucle infinito de luz con etapas de un pipeline, símbolo de DevOps y entrega continua"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "10 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta

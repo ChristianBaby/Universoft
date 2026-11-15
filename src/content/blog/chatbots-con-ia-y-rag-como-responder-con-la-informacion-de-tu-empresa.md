@@ -9,8 +9,8 @@ cover: "/images/blog/chatbots-con-ia-y-rag-como-responder-con-la-informacion-de-
 coverAlt: "Ilustración de un globo de chat conectado a documentos y puntos vectoriales, símbolo de un chatbot con IA y recuperación de información"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta

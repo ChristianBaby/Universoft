@@ -9,8 +9,8 @@ cover: "/images/blog/geo-vs-seo-como-optimizar-para-buscadores-y-motores-de-ia-c
 coverAlt: "Ilustración de una lupa y un globo de chat con destello unidos por un puente de luz, símbolo de SEO y GEO"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 ## Respuesta corta
 

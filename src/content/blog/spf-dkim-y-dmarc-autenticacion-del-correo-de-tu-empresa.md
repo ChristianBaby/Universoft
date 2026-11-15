@@ -9,8 +9,8 @@ cover: "/images/blog/spf-dkim-y-dmarc-autenticacion-del-correo-de-tu-empresa-cov
 coverAlt: "Ilustración de un sobre con un sello de verificación y una llave, símbolo de autenticación del correo"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta

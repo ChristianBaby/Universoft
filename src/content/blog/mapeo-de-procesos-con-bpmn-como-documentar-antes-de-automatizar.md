@@ -9,8 +9,8 @@ cover: "/images/blog/mapeo-de-procesos-con-bpmn-como-documentar-antes-de-automat
 coverAlt: "Ilustración de un diagrama de flujo con círculos, tareas y rombos de decisión, símbolo de mapeo de procesos"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "10 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta

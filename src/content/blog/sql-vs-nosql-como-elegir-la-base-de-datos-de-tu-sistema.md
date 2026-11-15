@@ -9,8 +9,8 @@ cover: "/images/blog/sql-vs-nosql-como-elegir-la-base-de-datos-de-tu-sistema-cov
 coverAlt: "Ilustración de una tabla estructurada junto a tarjetas de documentos y nodos, símbolo de bases de datos SQL y NoSQL"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "10 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta

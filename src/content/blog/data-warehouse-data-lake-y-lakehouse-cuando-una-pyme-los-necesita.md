@@ -9,8 +9,8 @@ cover: "/images/blog/data-warehouse-data-lake-y-lakehouse-cuando-una-pyme-los-ne
 coverAlt: "Ilustración de un lago de flujos de luz que alimenta un almacén de estantes ordenados, símbolo de data lake y data warehouse"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta

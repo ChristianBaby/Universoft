@@ -9,8 +9,8 @@ cover: "/images/blog/plan-de-respuesta-a-incidentes-de-ciberseguridad-en-7-pasos
 coverAlt: "Ilustración de un ciclo de siete nodos alrededor de una baliza de alerta, símbolo de respuesta a incidentes"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "10 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta

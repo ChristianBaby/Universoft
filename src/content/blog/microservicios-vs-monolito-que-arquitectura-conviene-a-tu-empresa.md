@@ -9,8 +9,8 @@ cover: "/images/blog/microservicios-vs-monolito-que-arquitectura-conviene-a-tu-e
 coverAlt: "Ilustración de un bloque grande frente a muchos cubos pequeños conectados, símbolo de monolito contra microservicios"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta

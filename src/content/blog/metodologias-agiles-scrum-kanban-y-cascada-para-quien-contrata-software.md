@@ -9,8 +9,8 @@ cover: "/images/blog/metodologias-agiles-scrum-kanban-y-cascada-para-quien-contr
 coverAlt: "Ilustración de un ciclo de sprint con tarjetas que avanzan por columnas, símbolo de metodologías ágiles"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "10 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta

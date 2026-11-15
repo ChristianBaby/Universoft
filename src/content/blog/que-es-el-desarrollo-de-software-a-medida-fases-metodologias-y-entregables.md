@@ -9,8 +9,8 @@ cover: "/images/blog/que-es-el-desarrollo-de-software-a-medida-fases-metodologia
 coverAlt: "Ilustración de bloques de código que se ensamblan en una aplicación a medida sobre una cuadrícula de planos, símbolo de desarrollo de software a medida"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "10 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta

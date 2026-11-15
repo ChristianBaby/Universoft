@@ -9,8 +9,8 @@ cover: "/images/blog/datos-estructurados-schema-org-json-ld-que-marcar-en-tu-sit
 coverAlt: "Ilustración de una página web con llaves y etiquetas conectadas a un grafo de nodos, símbolo de datos estructurados"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "10 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 ## Respuesta corta
 

@@ -9,8 +9,8 @@ cover: "/images/blog/internet-empresarial-en-zonas-remotas-del-peru-fibra-radioe
 coverAlt: "Ilustración de montañas con un satélite y una torre de radio que envían señal a un refugio, símbolo de internet en zonas remotas"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "10 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta

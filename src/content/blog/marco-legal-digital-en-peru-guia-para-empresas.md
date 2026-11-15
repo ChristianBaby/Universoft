@@ -9,8 +9,8 @@ cover: "/images/blog/marco-legal-digital-en-peru-guia-para-empresas-cover.webp"
 coverAlt: "Ilustración de una balanza sobre un circuito y hojas de documentos, símbolo del marco legal digital"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 ## Respuesta corta
 

@@ -9,8 +9,8 @@ cover: "/images/blog/rediseno-web-sin-perder-seo-guia-de-migracion-y-redireccion
 coverAlt: "Ilustración de una página antigua que se transforma en una nueva con una flecha de redirección, símbolo de rediseño web"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "10 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 ## Respuesta corta
 

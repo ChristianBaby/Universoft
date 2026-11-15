@@ -9,8 +9,8 @@ cover: "/images/blog/que-es-un-mvp-y-como-validar-una-idea-de-software-cover.web
 coverAlt: "Ilustración de un cubo prototipo sobre una plataforma con flechas de retroalimentación y una lupa, símbolo de producto mínimo viable"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "9 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta

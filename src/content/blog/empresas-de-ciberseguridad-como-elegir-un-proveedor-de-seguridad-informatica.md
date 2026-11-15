@@ -9,8 +9,8 @@ cover: "/images/blog/empresas-de-ciberseguridad-como-elegir-un-proveedor-de-segu
 coverAlt: "Ilustración de un escudo con un radar sobre una red de nodos, símbolo de un proveedor de ciberseguridad"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "10 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta

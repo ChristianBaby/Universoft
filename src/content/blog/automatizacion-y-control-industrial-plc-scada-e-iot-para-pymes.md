@@ -9,8 +9,8 @@ cover: "/images/blog/automatizacion-y-control-industrial-plc-scada-e-iot-para-py
 coverAlt: "Ilustración de un brazo robótico, engranajes y un panel de control sobre una cinta, símbolo de automatización industrial"
 author: "Christian Pumaccahua Cusihuaman"
 readTime: "11 min de lectura"
-draft: true
-reviewed: false
+draft: false
+reviewed: true
 ---
 
 ## Respuesta corta
