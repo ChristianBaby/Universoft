@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="900" height="450" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+  <text x="450" y="42" text-anchor="middle" font-size="22" font-weight="700" fill="#0b1b4d">Ciclo de medición mensual</text>
+
+  <rect x="110" y="80" width="270" height="70" rx="12" fill="#0b1b4d"/>
+  <text x="245" y="122" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">1. Definir 20 consultas</text>
+
+  <rect x="520" y="80" width="270" height="70" rx="12" fill="#0b1b4d"/>
+  <text x="655" y="122" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">2. Probar en cada motor</text>
+
+  <rect x="520" y="300" width="270" height="70" rx="12" fill="#0b1b4d"/>
+  <text x="655" y="342" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">3. Registrar menciones</text>
+
+  <rect x="110" y="300" width="270" height="70" rx="12" fill="#f5a524"/>
+  <text x="245" y="342" text-anchor="middle" font-size="17" font-weight="700" fill="#0b1b4d">4. Ajustar el contenido</text>
+
+  <line x1="380" y1="115" x2="518" y2="115" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="655" y1="152" x2="655" y2="298" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="518" y1="335" x2="382" y2="335" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="245" y1="298" x2="245" y2="152" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+
+  <rect x="350" y="200" width="200" height="50" rx="12" fill="#f3f6fb" stroke="#38a9f5" stroke-width="2"/>
+  <text x="450" y="231" text-anchor="middle" font-size="16" fill="#0b1b4d">Revisar Search Console</text>
+
+  <text x="450" y="412" text-anchor="middle" font-size="16" fill="#0b1b4d">Cruza los resultados con el informe de Bing y con la competencia.</text>
+</svg>

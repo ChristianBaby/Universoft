@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0b1b4d"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" rx="12" fill="#ffffff"/>
+  <text x="450" y="50" text-anchor="middle" font-size="22" font-weight="bold" fill="#0b1b4d">Línea de tiempo de una migración</text>
+
+  <line x1="60" y1="220" x2="840" y2="220" stroke="#0b1b4d" stroke-width="3" marker-end="url(#flecha)"/>
+
+  <!-- Hitos: encima -->
+  <circle cx="110" cy="220" r="11" fill="#2563eb"/>
+  <text x="110" y="165" text-anchor="middle" font-size="17" font-weight="bold" fill="#0b1b4d">1. Inventario</text>
+  <text x="110" y="190" text-anchor="middle" font-size="16" fill="#0b1b4d">Lista de URLs</text>
+
+  <circle cx="450" cy="220" r="11" fill="#2563eb"/>
+  <text x="450" y="165" text-anchor="middle" font-size="17" font-weight="bold" fill="#0b1b4d">3. Pruebas</text>
+  <text x="450" y="190" text-anchor="middle" font-size="16" fill="#0b1b4d">En entorno de prueba</text>
+
+  <circle cx="760" cy="220" r="11" fill="#2563eb"/>
+  <text x="760" y="165" text-anchor="middle" font-size="17" font-weight="bold" fill="#0b1b4d">5. Monitoreo</text>
+  <text x="760" y="190" text-anchor="middle" font-size="16" fill="#0b1b4d">Semanas 1 a 4</text>
+
+  <!-- Hitos: debajo -->
+  <circle cx="280" cy="220" r="11" fill="#2563eb"/>
+  <text x="280" y="262" text-anchor="middle" font-size="17" font-weight="bold" fill="#0b1b4d">2. Mapa 301</text>
+  <text x="280" y="287" text-anchor="middle" font-size="16" fill="#0b1b4d">URL vieja a nueva</text>
+
+  <circle cx="620" cy="220" r="11" fill="#f5a524"/>
+  <text x="620" y="262" text-anchor="middle" font-size="17" font-weight="bold" fill="#0b1b4d">4. Lanzamiento</text>
+  <text x="620" y="287" text-anchor="middle" font-size="16" fill="#0b1b4d">Día del cambio</text>
+
+  <text x="450" y="380" text-anchor="middle" font-size="17" fill="#0b1b4d">Plazo de referencia: 3 a 6 semanas para un sitio informativo</text>
+</svg>

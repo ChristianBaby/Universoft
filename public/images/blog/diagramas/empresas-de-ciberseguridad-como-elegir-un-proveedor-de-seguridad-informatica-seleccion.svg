@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="t2 d2">
+  <title id="t2">Proceso de selección de un proveedor de ciberseguridad</title>
+  <desc id="d2">Cinco pasos en secuencia: definir necesidad, pedir propuestas comparables, verificar certificaciones, revisar alcance y NDA, decidir por escrito.</desc>
+  <defs>
+    <marker id="flecha2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="16" text-anchor="middle">
+    <!-- Flechas entre pasos -->
+    <g stroke="#2563eb" stroke-width="3" fill="none" marker-end="url(#flecha2)">
+      <line x1="172" y1="180" x2="193" y2="180"/>
+      <line x1="347" y1="180" x2="368" y2="180"/>
+      <line x1="522" y1="180" x2="543" y2="180"/>
+      <line x1="697" y1="180" x2="718" y2="180"/>
+    </g>
+
+    <!-- Paso 1 -->
+    <rect x="22" y="120" width="150" height="120" rx="12" fill="#0b1b4d"/>
+    <text x="97" y="165" fill="#ffffff" font-weight="bold">1. Definir</text>
+    <text x="97" y="190" fill="#ffffff">necesidad</text>
+    <text x="97" y="215" fill="#ffffff">y alcance</text>
+
+    <!-- Paso 2 -->
+    <rect x="193" y="120" width="154" height="120" rx="12" fill="#2563eb"/>
+    <text x="270" y="165" fill="#ffffff" font-weight="bold">2. Pedir</text>
+    <text x="270" y="190" fill="#ffffff">propuestas</text>
+    <text x="270" y="215" fill="#ffffff">comparables</text>
+
+    <!-- Paso 3 -->
+    <rect x="368" y="120" width="154" height="120" rx="12" fill="#2563eb"/>
+    <text x="445" y="165" fill="#ffffff" font-weight="bold">3. Verificar</text>
+    <text x="445" y="190" fill="#ffffff">certificaciones</text>
+    <text x="445" y="215" fill="#ffffff">y referencias</text>
+
+    <!-- Paso 4 -->
+    <rect x="543" y="120" width="154" height="120" rx="12" fill="#2563eb"/>
+    <text x="620" y="165" fill="#ffffff" font-weight="bold">4. Revisar</text>
+    <text x="620" y="190" fill="#ffffff">alcance</text>
+    <text x="620" y="215" fill="#ffffff">y NDA</text>
+
+    <!-- Paso 5 -->
+    <rect x="718" y="120" width="160" height="120" rx="12" fill="#0b1b4d"/>
+    <text x="798" y="165" fill="#ffffff" font-weight="bold">5. Decidir</text>
+    <text x="798" y="190" fill="#ffffff">con contrato</text>
+    <text x="798" y="215" fill="#ffffff">firmado</text>
+
+    <!-- Nota -->
+    <rect x="150" y="300" width="600" height="70" rx="12" fill="#f3f6fb" stroke="#f5a524" stroke-width="3"/>
+    <text x="450" y="333" fill="#0b1b4d" font-weight="bold">Sin alcance escrito no hay comparación válida</text>
+    <text x="450" y="357" fill="#0b1b4d">Pide la misma información a todos los proveedores</text>
+  </g>
+</svg>

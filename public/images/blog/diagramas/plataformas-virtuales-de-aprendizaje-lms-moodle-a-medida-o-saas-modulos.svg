@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="t1 d1" font-family="Inter, Arial, sans-serif">
+  <title id="t1">Módulos de un LMS</title>
+  <desc id="d1">Un núcleo de cursos y usuarios se conecta con ocho módulos: cursos y contenidos, matrículas, evaluaciones, videoconferencia, integraciones, certificados, seguimiento y pagos.</desc>
+  <rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+  <g stroke="#38a9f5" stroke-width="3" fill="none">
+    <line x1="450" y1="230" x2="150" y2="85"/>
+    <line x1="450" y1="230" x2="450" y2="85"/>
+    <line x1="450" y1="230" x2="750" y2="85"/>
+    <line x1="450" y1="230" x2="150" y2="225"/>
+    <line x1="450" y1="230" x2="750" y2="225"/>
+    <line x1="450" y1="230" x2="150" y2="365"/>
+    <line x1="450" y1="230" x2="450" y2="365"/>
+    <line x1="450" y1="230" x2="750" y2="365"/>
+  </g>
+  <g fill="#f3f6fb" stroke="#2563eb" stroke-width="2">
+    <rect x="30" y="50" width="240" height="70" rx="12"/>
+    <rect x="330" y="50" width="240" height="70" rx="12"/>
+    <rect x="630" y="50" width="240" height="70" rx="12"/>
+    <rect x="30" y="190" width="240" height="70" rx="12"/>
+    <rect x="630" y="190" width="240" height="70" rx="12" stroke="#f5a524" stroke-width="3"/>
+    <rect x="30" y="330" width="240" height="70" rx="12"/>
+    <rect x="330" y="330" width="240" height="70" rx="12"/>
+    <rect x="630" y="330" width="240" height="70" rx="12"/>
+  </g>
+  <rect x="330" y="190" width="240" height="80" rx="12" fill="#0b1b4d"/>
+  <g fill="#0b1b4d" font-size="18" font-weight="600" text-anchor="middle">
+    <text x="150" y="92">Cursos y contenidos</text>
+    <text x="450" y="92">Matrículas y usuarios</text>
+    <text x="750" y="92">Evaluaciones y notas</text>
+    <text x="150" y="232">Videoconferencia</text>
+    <text x="750" y="222">Integraciones</text>
+    <text x="750" y="246" font-size="16" font-weight="400">SCORM, xAPI, LTI</text>
+    <text x="150" y="372">Certificados</text>
+    <text x="450" y="372">Seguimiento y reportes</text>
+    <text x="750" y="372">Pagos y facturación</text>
+  </g>
+  <text x="450" y="222" fill="#ffffff" font-size="24" font-weight="700" text-anchor="middle">LMS</text>
+  <text x="450" y="250" fill="#ffffff" font-size="16" text-anchor="middle">cursos y usuarios</text>
+</svg>

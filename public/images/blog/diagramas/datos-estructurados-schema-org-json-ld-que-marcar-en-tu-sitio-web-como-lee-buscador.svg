@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0b1b4d"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" rx="12" fill="#ffffff"/>
+  <text x="450" y="46" text-anchor="middle" font-size="22" font-weight="bold" fill="#0b1b4d">Cómo lee un buscador tu página</text>
+
+  <!-- Panel izquierdo: sin datos estructurados -->
+  <rect x="40" y="70" width="400" height="350" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="240" y="106" text-anchor="middle" font-size="18" font-weight="bold" fill="#0b1b4d">Sin datos estructurados</text>
+  <rect x="70" y="130" width="340" height="56" rx="12" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="240" y="164" text-anchor="middle" font-size="16" fill="#0b1b4d">Lee el texto y los títulos</text>
+  <path d="M 240 186 L 240 214" fill="none" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <rect x="70" y="214" width="340" height="56" rx="12" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="240" y="248" text-anchor="middle" font-size="16" fill="#0b1b4d">Adivina el tipo de negocio</text>
+  <path d="M 240 270 L 240 298" fill="none" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <rect x="70" y="298" width="340" height="56" rx="12" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="240" y="332" text-anchor="middle" font-size="16" fill="#0b1b4d">Resultado poco claro</text>
+  <text x="240" y="394" text-anchor="middle" font-size="16" font-style="italic" fill="#0b1b4d">Lectura por inferencia</text>
+
+  <!-- Panel derecho: con datos estructurados -->
+  <rect x="460" y="70" width="400" height="350" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="660" y="106" text-anchor="middle" font-size="18" font-weight="bold" fill="#0b1b4d">Con datos estructurados</text>
+  <rect x="490" y="130" width="340" height="56" rx="12" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="660" y="164" text-anchor="middle" font-size="16" fill="#0b1b4d">Lee el texto de la página</text>
+  <path d="M 660 186 L 660 214" fill="none" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <rect x="490" y="214" width="340" height="56" rx="12" fill="#ffffff" stroke="#f5a524" stroke-width="3"/>
+  <text x="660" y="248" text-anchor="middle" font-size="16" fill="#0b1b4d">Lee el bloque JSON-LD</text>
+  <path d="M 660 270 L 660 298" fill="none" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <rect x="490" y="298" width="340" height="56" rx="12" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="660" y="332" text-anchor="middle" font-size="16" fill="#0b1b4d">Entidad clara y verificable</text>
+  <text x="660" y="394" text-anchor="middle" font-size="16" font-style="italic" fill="#0b1b4d">Lectura explícita</text>
+</svg>

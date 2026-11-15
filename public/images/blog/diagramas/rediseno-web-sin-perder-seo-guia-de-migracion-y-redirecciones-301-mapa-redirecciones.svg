@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" rx="12" fill="#ffffff"/>
+  <text x="450" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#0b1b4d">Mapa de redirecciones 301</text>
+
+  <text x="180" y="92" text-anchor="middle" font-size="18" font-weight="bold" fill="#0b1b4d">URL antigua</text>
+  <text x="720" y="92" text-anchor="middle" font-size="18" font-weight="bold" fill="#0b1b4d">URL nueva</text>
+
+  <!-- Fila 1 -->
+  <rect x="40" y="110" width="280" height="52" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="180" y="142" text-anchor="middle" font-size="16" fill="#0b1b4d">/servicios.html</text>
+  <line x1="320" y1="136" x2="580" y2="136" stroke="#2563eb" stroke-width="2.5" marker-end="url(#flecha)"/>
+  <text x="450" y="128" text-anchor="middle" font-size="16" font-weight="bold" fill="#2563eb">301</text>
+  <rect x="580" y="110" width="280" height="52" rx="12" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="720" y="142" text-anchor="middle" font-size="16" fill="#0b1b4d">/servicios</text>
+
+  <!-- Fila 2 -->
+  <rect x="40" y="186" width="280" height="52" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="180" y="218" text-anchor="middle" font-size="16" fill="#0b1b4d">/nosotros.php</text>
+  <line x1="320" y1="212" x2="580" y2="212" stroke="#2563eb" stroke-width="2.5" marker-end="url(#flecha)"/>
+  <text x="450" y="204" text-anchor="middle" font-size="16" font-weight="bold" fill="#2563eb">301</text>
+  <rect x="580" y="186" width="280" height="52" rx="12" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="720" y="218" text-anchor="middle" font-size="16" fill="#0b1b4d">/nosotros</text>
+
+  <!-- Fila 3 -->
+  <rect x="40" y="262" width="280" height="52" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="180" y="294" text-anchor="middle" font-size="16" fill="#0b1b4d">/blog/post-2019</text>
+  <line x1="320" y1="288" x2="580" y2="288" stroke="#2563eb" stroke-width="2.5" marker-end="url(#flecha)"/>
+  <text x="450" y="280" text-anchor="middle" font-size="16" font-weight="bold" fill="#2563eb">301</text>
+  <rect x="580" y="262" width="280" height="52" rx="12" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="720" y="294" text-anchor="middle" font-size="16" fill="#0b1b4d">/blog/guia-de-seo</text>
+
+  <!-- Fila 4 -->
+  <rect x="40" y="338" width="280" height="52" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="180" y="370" text-anchor="middle" font-size="16" fill="#0b1b4d">/tienda-antigua</text>
+  <line x1="320" y1="364" x2="580" y2="364" stroke="#2563eb" stroke-width="2.5" marker-end="url(#flecha)"/>
+  <text x="450" y="356" text-anchor="middle" font-size="16" font-weight="bold" fill="#2563eb">301</text>
+  <rect x="580" y="338" width="280" height="52" rx="12" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="720" y="370" text-anchor="middle" font-size="16" fill="#0b1b4d">/tienda-online</text>
+
+  <text x="450" y="425" text-anchor="middle" font-size="16" fill="#0b1b4d">Cada URL antigua con visitas o enlaces apunta a una sola URL nueva</text>
+</svg>

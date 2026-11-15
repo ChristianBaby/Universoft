@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-labelledby="tFlu dFlu">
+  <title id="tFlu">Flujo de datos desde el sensor hasta el dashboard</title>
+  <desc id="dFlu">Cinco pasos en fila. Un sensor de nivel mide la variable. El PLC procesa la señal. Un protocolo como OPC UA o MQTT transporta el dato. Un servidor o gateway lo recibe y lo almacena. Un dashboard muestra los indicadores a la persona que decide.</desc>
+  <defs>
+    <marker id="arFlu" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0b1b4d"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="300" rx="12" fill="#ffffff"/>
+
+  <rect x="20" y="100" width="150" height="80" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="95" y="134" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Sensor</text>
+  <text x="95" y="158" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">de nivel</text>
+
+  <rect x="195" y="100" width="150" height="80" rx="12" fill="#f5a524"/>
+  <text x="270" y="134" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">PLC</text>
+  <text x="270" y="158" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">procesa datos</text>
+
+  <rect x="370" y="100" width="150" height="80" rx="12" fill="#38a9f5"/>
+  <text x="445" y="134" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Protocolo</text>
+  <text x="445" y="158" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">OPC UA / MQTT</text>
+
+  <rect x="545" y="100" width="150" height="80" rx="12" fill="#2563eb"/>
+  <text x="620" y="134" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">Servidor o</text>
+  <text x="620" y="158" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">gateway</text>
+
+  <rect x="720" y="100" width="150" height="80" rx="12" fill="#0b1b4d"/>
+  <text x="795" y="134" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">Dashboard</text>
+  <text x="795" y="158" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">indicadores</text>
+
+  <path d="M174,140 L191,140" stroke="#0b1b4d" stroke-width="2" fill="none" marker-end="url(#arFlu)"/>
+  <path d="M349,140 L366,140" stroke="#0b1b4d" stroke-width="2" fill="none" marker-end="url(#arFlu)"/>
+  <path d="M524,140 L541,140" stroke="#0b1b4d" stroke-width="2" fill="none" marker-end="url(#arFlu)"/>
+  <path d="M699,140 L716,140" stroke="#0b1b4d" stroke-width="2" fill="none" marker-end="url(#arFlu)"/>
+
+  <text x="95" y="222" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Mide</text>
+  <text x="270" y="222" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Decide localmente</text>
+  <text x="445" y="222" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Transporta</text>
+  <text x="620" y="222" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Almacena</text>
+  <text x="795" y="222" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Muestra</text>
+</svg>

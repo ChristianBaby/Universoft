@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="tArq dArq">
+  <title id="tArq">Arquitectura de control industrial por niveles</title>
+  <desc id="dArq">Cinco niveles apilados. Nivel 0, sensores y actuadores del proceso. Nivel 1, controladores PLC. Nivel 2, supervisión con SCADA y HMI. Nivel 3, MES con órdenes y trazabilidad de planta. Nivel 4, sistemas de gestión como ERP. Las flechas indican que los datos suben hacia la gestión empresarial.</desc>
+  <defs>
+    <marker id="arArq" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0b1b4d"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" rx="12" fill="#ffffff"/>
+
+  <text x="40" y="36" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Nivel 4 · Empresa</text>
+  <rect x="250" y="50" width="400" height="56" rx="12" fill="#0b1b4d"/>
+  <text x="450" y="85" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">ERP, CRM y facturación</text>
+
+  <text x="40" y="114" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Nivel 3 · Planta</text>
+  <rect x="250" y="128" width="400" height="56" rx="12" fill="#2563eb"/>
+  <text x="450" y="163" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">MES: órdenes y trazabilidad</text>
+
+  <text x="40" y="192" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Nivel 2 · Supervisión</text>
+  <rect x="250" y="206" width="400" height="56" rx="12" fill="#38a9f5"/>
+  <text x="450" y="241" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">SCADA y HMI: pantallas y alarmas</text>
+
+  <text x="40" y="270" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Nivel 1 · Control</text>
+  <rect x="250" y="284" width="400" height="56" rx="12" fill="#f5a524"/>
+  <text x="450" y="319" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">PLC: lógica y control en tiempo real</text>
+
+  <text x="40" y="348" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Nivel 0 · Proceso</text>
+  <rect x="250" y="362" width="400" height="56" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="450" y="397" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Sensores y actuadores</text>
+
+  <path d="M450,362 L450,340" stroke="#0b1b4d" stroke-width="2" fill="none" marker-end="url(#arArq)"/>
+  <path d="M450,284 L450,262" stroke="#0b1b4d" stroke-width="2" fill="none" marker-end="url(#arArq)"/>
+  <path d="M450,206 L450,184" stroke="#0b1b4d" stroke-width="2" fill="none" marker-end="url(#arArq)"/>
+  <path d="M450,128 L450,106" stroke="#0b1b4d" stroke-width="2" fill="none" marker-end="url(#arArq)"/>
+</svg>

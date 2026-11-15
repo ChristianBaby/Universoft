@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="t4 d4" font-family="Inter, Arial, sans-serif">
+  <title id="t4">Rutas de la señal: fibra, radioenlace y satélite</title>
+  <desc id="d4">Tres filas muestran la ruta de la señal desde una sede: por fibra terrestre, por radioenlace entre antenas en torre y por satélite con estación terrena.</desc>
+  <defs>
+    <marker id="arr-b" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0b1b4d"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+  <g font-size="20" font-weight="700" fill="#0b1b4d">
+    <text x="30" y="90">Fibra</text>
+    <text x="30" y="225">Radioenlace</text>
+    <text x="30" y="360">Satélite</text>
+  </g>
+  <g font-size="16" fill="#2563eb">
+    <text x="30" y="115">Ruta terrestre</text>
+    <text x="30" y="250">Ruta de microondas</text>
+    <text x="30" y="385">Ruta orbital</text>
+  </g>
+  <g stroke="#0b1b4d" stroke-width="2.5" marker-end="url(#arr-b)">
+    <line x1="320" y1="85" x2="358" y2="85"/>
+    <line x1="510" y1="85" x2="548" y2="85"/>
+    <line x1="700" y1="85" x2="738" y2="85"/>
+    <line x1="320" y1="220" x2="358" y2="220"/>
+    <line x1="510" y1="220" x2="548" y2="220"/>
+    <line x1="700" y1="220" x2="738" y2="220"/>
+    <line x1="320" y1="355" x2="358" y2="355"/>
+    <line x1="510" y1="355" x2="548" y2="355"/>
+    <line x1="700" y1="355" x2="738" y2="355"/>
+  </g>
+  <g fill="#f3f6fb" stroke="#2563eb" stroke-width="2">
+    <rect x="170" y="50" width="150" height="70" rx="12"/>
+    <rect x="360" y="50" width="150" height="70" rx="12"/>
+    <rect x="550" y="50" width="150" height="70" rx="12"/>
+    <rect x="740" y="50" width="150" height="70" rx="12"/>
+    <rect x="170" y="185" width="150" height="70" rx="12"/>
+    <rect x="360" y="185" width="150" height="70" rx="12"/>
+    <rect x="550" y="185" width="150" height="70" rx="12"/>
+    <rect x="740" y="185" width="150" height="70" rx="12"/>
+    <rect x="170" y="320" width="150" height="70" rx="12"/>
+    <rect x="360" y="320" width="150" height="70" rx="12"/>
+    <rect x="550" y="320" width="150" height="70" rx="12"/>
+    <rect x="740" y="320" width="150" height="70" rx="12"/>
+  </g>
+  <g fill="#0b1b4d" font-size="16" font-weight="600" text-anchor="middle">
+    <text x="245" y="92">Sede</text>
+    <text x="435" y="92">Tendido de fibra</text>
+    <text x="625" y="92">Red del operador</text>
+    <text x="815" y="92">Internet</text>
+    <text x="245" y="227">Sede</text>
+    <text x="435" y="227">Antena de sede</text>
+    <text x="625" y="227">Antena de torre</text>
+    <text x="815" y="227">Internet</text>
+    <text x="245" y="362">Sede</text>
+    <text x="435" y="362">Antena de sede</text>
+    <text x="625" y="362">Satélite</text>
+    <text x="815" y="362">Estación terrena</text>
+  </g>
+</svg>

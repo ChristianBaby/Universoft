@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="900" height="450" font-family="Inter, Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+  <text x="450" y="42" text-anchor="middle" font-size="22" font-weight="700" fill="#0b1b4d">Embudo de visibilidad</text>
+
+  <rect x="100" y="70" width="700" height="60" rx="12" fill="#0b1b4d"/>
+  <text x="450" y="106" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">1. Rastreo: el bot puede leer la web</text>
+
+  <rect x="170" y="150" width="560" height="60" rx="12" fill="#1e3a8a"/>
+  <text x="450" y="186" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">2. Indexación: la página está registrada</text>
+
+  <rect x="240" y="230" width="420" height="60" rx="12" fill="#2563eb"/>
+  <text x="450" y="266" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">3. Elegible: texto accesible</text>
+
+  <rect x="310" y="310" width="280" height="60" rx="12" fill="#f5a524"/>
+  <text x="450" y="346" text-anchor="middle" font-size="17" font-weight="700" fill="#0b1b4d">4. Cita en la IA</text>
+
+  <text x="450" y="412" text-anchor="middle" font-size="16" fill="#0b1b4d">Si una etapa falla, la cita final no ocurre.</text>
+</svg>

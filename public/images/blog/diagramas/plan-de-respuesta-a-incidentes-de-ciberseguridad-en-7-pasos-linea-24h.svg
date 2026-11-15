@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="t4 d4">
+  <title id="t4">Línea de tiempo de las primeras 24 horas de un incidente</title>
+  <desc id="d4">Línea de tiempo con cuatro hitos en las primeras 24 horas: detectar y registrar, contener y avisar, evaluar el alcance y preparar la comunicación.</desc>
+  <defs>
+    <marker id="flecha4" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0b1b4d"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+  <text x="450" y="50" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="bold" fill="#0b1b4d">Primeras 24 horas tras detectar un incidente</text>
+
+  <path d="M40,225 H860" fill="none" stroke="#0b1b4d" stroke-width="4" marker-end="url(#flecha4)"/>
+
+  <line x1="110" y1="180" x2="110" y2="225" stroke="#0b1b4d" stroke-width="2"/>
+  <line x1="330" y1="270" x2="330" y2="225" stroke="#0b1b4d" stroke-width="2"/>
+  <line x1="550" y1="180" x2="550" y2="225" stroke="#0b1b4d" stroke-width="2"/>
+  <line x1="770" y1="270" x2="770" y2="225" stroke="#0b1b4d" stroke-width="2"/>
+
+  <circle cx="110" cy="225" r="14" fill="#2563eb" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="330" cy="225" r="14" fill="#2563eb" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="550" cy="225" r="14" fill="#2563eb" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="770" cy="225" r="14" fill="#f5a524" stroke="#ffffff" stroke-width="3"/>
+
+  <rect x="10" y="110" width="200" height="70" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="110" y="138" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#0b1b4d">Hora 0</text>
+  <text x="110" y="165" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Detectar y registrar</text>
+
+  <rect x="230" y="270" width="200" height="70" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="330" y="298" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#0b1b4d">Hora 1</text>
+  <text x="330" y="325" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Contener y avisar</text>
+
+  <rect x="450" y="110" width="200" height="70" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="550" y="138" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#0b1b4d">Hora 4</text>
+  <text x="550" y="165" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Evaluar el alcance</text>
+
+  <rect x="670" y="270" width="200" height="70" rx="12" fill="#0b1b4d" stroke="#f5a524" stroke-width="3"/>
+  <text x="770" y="298" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">Hora 24</text>
+  <text x="770" y="325" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">Plan de comunicación</text>
+
+  <text x="450" y="400" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Tiempos orientativos: ajústalos al tamaño y a los riesgos de tu empresa.</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="tModelo dModelo">
+  <title id="tModelo">Mismo pedido en modelo relacional y en modelo documental</title>
+  <desc id="dModelo">Izquierda: un pedido se reparte en tablas de clientes, pedidos, líneas de pedido y productos, unidas por identificadores. Derecha: el mismo pedido se guarda como un solo documento con el cliente y la lista de líneas anidada.</desc>
+  <defs>
+    <marker id="flechaModelo" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0b1b4d"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" rx="12" fill="#ffffff"/>
+  <text x="40" y="40" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0b1b4d">Mismo pedido, dos modelos de datos</text>
+
+  <rect x="30" y="64" width="400" height="340" rx="12" fill="#f3f6fb"/>
+  <text x="230" y="100" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">Relacional (SQL)</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#0b1b4d">
+    <rect x="60" y="120" width="340" height="44" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="230" y="148">Clientes</text>
+    <rect x="60" y="194" width="340" height="44" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="230" y="222">Pedidos</text>
+    <rect x="60" y="268" width="340" height="44" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="230" y="296">Líneas de pedido</text>
+    <rect x="60" y="342" width="340" height="44" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="230" y="370">Productos</text>
+  </g>
+  <g stroke="#0b1b4d" stroke-width="2" fill="none" marker-end="url(#flechaModelo)">
+    <line x1="230" y1="164" x2="230" y2="192"/>
+    <line x1="230" y1="238" x2="230" y2="266"/>
+    <line x1="230" y1="312" x2="230" y2="340"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">
+    <text x="244" y="183">id_cliente</text>
+    <text x="244" y="257">id_pedido</text>
+    <text x="244" y="331">id_producto</text>
+  </g>
+
+  <rect x="470" y="64" width="400" height="340" rx="12" fill="#f3f6fb"/>
+  <text x="670" y="100" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">Documental (NoSQL)</text>
+  <rect x="500" y="124" width="340" height="260" rx="12" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <g font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">
+    <text x="524" y="162" font-size="18" font-weight="700">pedido</text>
+    <text x="524" y="200">cliente: nombre y contacto</text>
+    <text x="524" y="240">líneas:</text>
+    <text x="544" y="272">• producto y cantidad</text>
+    <text x="544" y="302">• producto y cantidad</text>
+    <text x="524" y="342">fecha y total</text>
+  </g>
+
+  <text x="450" y="436" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">SQL reparte los datos en tablas; NoSQL los agrupa en documentos.</text>
+</svg>

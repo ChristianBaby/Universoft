@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="900" height="450" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+  <text x="450" y="42" text-anchor="middle" font-size="22" font-weight="700" fill="#0b1b4d">Flujo de tratamiento de datos personales</text>
+
+  <rect x="25" y="90" width="150" height="70" rx="12" fill="#0b1b4d"/>
+  <text x="100" y="120" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">1. Recolección</text>
+  <text x="100" y="142" text-anchor="middle" font-size="16" fill="#ffffff">con consentimiento</text>
+
+  <rect x="200" y="90" width="150" height="70" rx="12" fill="#0b1b4d"/>
+  <text x="275" y="120" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">2. Almacenamiento</text>
+  <text x="275" y="142" text-anchor="middle" font-size="16" fill="#ffffff">con medidas de seguridad</text>
+
+  <rect x="375" y="90" width="150" height="70" rx="12" fill="#0b1b4d"/>
+  <text x="450" y="120" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">3. Uso</text>
+  <text x="450" y="142" text-anchor="middle" font-size="16" fill="#ffffff">solo la finalidad</text>
+
+  <rect x="550" y="90" width="150" height="70" rx="12" fill="#0b1b4d"/>
+  <text x="625" y="120" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">4. Terceros</text>
+  <text x="625" y="142" text-anchor="middle" font-size="16" fill="#ffffff">y derechos ARCO</text>
+
+  <rect x="725" y="90" width="150" height="70" rx="12" fill="#0b1b4d"/>
+  <text x="800" y="120" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">5. Eliminación</text>
+  <text x="800" y="142" text-anchor="middle" font-size="16" fill="#ffffff">cuando ya no aplica</text>
+
+  <line x1="175" y1="125" x2="198" y2="125" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="350" y1="125" x2="373" y2="125" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="525" y1="125" x2="548" y2="125" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="700" y1="125" x2="723" y2="125" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+
+  <rect x="25" y="190" width="150" height="110" rx="12" fill="#f3f6fb" stroke="#38a9f5" stroke-width="2"/>
+  <text x="100" y="222" text-anchor="middle" font-size="16" fill="#0b1b4d">Autorización</text>
+  <text x="100" y="244" text-anchor="middle" font-size="16" fill="#0b1b4d">informada y</text>
+  <text x="100" y="266" text-anchor="middle" font-size="16" fill="#0b1b4d">expresa</text>
+
+  <rect x="200" y="190" width="150" height="110" rx="12" fill="#f3f6fb" stroke="#38a9f5" stroke-width="2"/>
+  <text x="275" y="222" text-anchor="middle" font-size="16" fill="#0b1b4d">Accesos controlados</text>
+  <text x="275" y="244" text-anchor="middle" font-size="16" fill="#0b1b4d">y respaldo</text>
+  <text x="275" y="266" text-anchor="middle" font-size="16" fill="#0b1b4d">verificado</text>
+
+  <rect x="375" y="190" width="150" height="110" rx="12" fill="#f3f6fb" stroke="#38a9f5" stroke-width="2"/>
+  <text x="450" y="222" text-anchor="middle" font-size="16" fill="#0b1b4d">Sin cambiar</text>
+  <text x="450" y="244" text-anchor="middle" font-size="16" fill="#0b1b4d">la finalidad</text>
+  <text x="450" y="266" text-anchor="middle" font-size="16" fill="#0b1b4d">informada</text>
+
+  <rect x="550" y="190" width="150" height="110" rx="12" fill="#f3f6fb" stroke="#38a9f5" stroke-width="2"/>
+  <text x="625" y="222" text-anchor="middle" font-size="16" fill="#0b1b4d">Proveedores</text>
+  <text x="625" y="244" text-anchor="middle" font-size="16" fill="#0b1b4d">documentados</text>
+  <text x="625" y="266" text-anchor="middle" font-size="16" fill="#0b1b4d">y proceso ARCO</text>
+
+  <rect x="725" y="190" width="150" height="110" rx="12" fill="#f3f6fb" stroke="#38a9f5" stroke-width="2"/>
+  <text x="800" y="222" text-anchor="middle" font-size="16" fill="#0b1b4d">Borrado o</text>
+  <text x="800" y="244" text-anchor="middle" font-size="16" fill="#0b1b4d">bloqueo según</text>
+  <text x="800" y="266" text-anchor="middle" font-size="16" fill="#0b1b4d">el caso</text>
+
+  <rect x="25" y="340" width="850" height="50" rx="12" fill="#f5a524" opacity="0.25"/>
+  <text x="450" y="371" text-anchor="middle" font-size="17" font-weight="700" fill="#0b1b4d">Registro documentado de cada etapa: quién, qué y cuándo</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="tNoSQL dNoSQL">
+  <title id="tNoSQL">Tipos de bases NoSQL y decisión rápida</title>
+  <desc id="dNoSQL">Cuatro tipos de bases NoSQL: clave-valor, documentos, columnas y grafos, cada uno con un uso típico y un ejemplo. Debajo, una decisión simplificada: si necesitas transacciones entre tablas, conviene una base SQL; si no, evalúa una base NoSQL según el tipo de dato.</desc>
+  <rect x="0" y="0" width="900" height="450" rx="12" fill="#ffffff"/>
+  <text x="40" y="40" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0b1b4d">Tipos de bases NoSQL</text>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="16" text-anchor="middle">
+    <rect x="25" y="64" width="205" height="150" rx="12" fill="#f3f6fb"/>
+    <rect x="25" y="64" width="205" height="48" rx="12" fill="#2563eb"/>
+    <text x="127" y="95" font-size="18" font-weight="700" fill="#ffffff">Clave-valor</text>
+    <text x="127" y="140" fill="#0b1b4d">Caché y sesiones</text>
+    <text x="127" y="166" fill="#0b1b4d">Acceso por clave</text>
+    <text x="127" y="200" font-weight="700" fill="#2563eb">Ej.: Redis</text>
+
+    <rect x="240" y="64" width="205" height="150" rx="12" fill="#f3f6fb"/>
+    <rect x="240" y="64" width="205" height="48" rx="12" fill="#2563eb"/>
+    <text x="342" y="95" font-size="18" font-weight="700" fill="#ffffff">Documentos</text>
+    <text x="342" y="140" fill="#0b1b4d">Catálogos y perfiles</text>
+    <text x="342" y="166" fill="#0b1b4d">Formato tipo JSON</text>
+    <text x="342" y="200" font-weight="700" fill="#2563eb">Ej.: MongoDB</text>
+
+    <rect x="455" y="64" width="205" height="150" rx="12" fill="#f3f6fb"/>
+    <rect x="455" y="64" width="205" height="48" rx="12" fill="#2563eb"/>
+    <text x="557" y="95" font-size="18" font-weight="700" fill="#ffffff">Columnas</text>
+    <text x="557" y="140" fill="#0b1b4d">Grandes volúmenes</text>
+    <text x="557" y="166" fill="#0b1b4d">Consultas predecibles</text>
+    <text x="557" y="200" font-weight="700" fill="#2563eb">Ej.: Cassandra</text>
+
+    <rect x="670" y="64" width="205" height="150" rx="12" fill="#f3f6fb"/>
+    <rect x="670" y="64" width="205" height="48" rx="12" fill="#2563eb"/>
+    <text x="772" y="95" font-size="18" font-weight="700" fill="#ffffff">Grafos</text>
+    <text x="772" y="140" fill="#0b1b4d">Relaciones y redes</text>
+    <text x="772" y="166" fill="#0b1b4d">Nodos y conexiones</text>
+    <text x="772" y="200" font-weight="700" fill="#2563eb">Ej.: Neo4j</text>
+  </g>
+
+  <rect x="225" y="250" width="450" height="52" rx="12" fill="#0b1b4d"/>
+  <text x="450" y="282" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">¿Necesitas transacciones entre tablas?</text>
+
+  <g stroke="#0b1b4d" stroke-width="2" fill="none">
+    <path d="M 380 302 L 230 348" marker-end="url(#flechaNoSQL)"/>
+    <path d="M 520 302 L 670 348" marker-end="url(#flechaNoSQL)"/>
+  </g>
+  <defs>
+    <marker id="flechaNoSQL" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0b1b4d"/>
+    </marker>
+  </defs>
+  <g font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#0b1b4d">
+    <text x="292" y="330">Sí</text>
+    <text x="608" y="330">No</text>
+  </g>
+
+  <rect x="40" y="350" width="380" height="72" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <rect x="480" y="350" width="380" height="72" rx="12" fill="#f3f6fb" stroke="#f5a524" stroke-width="3"/>
+  <g font-family="Inter, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#0b1b4d">
+    <text x="230" y="382" font-size="18" font-weight="700">Base relacional (SQL)</text>
+    <text x="230" y="408">Ej.: PostgreSQL</text>
+    <text x="670" y="382" font-size="18" font-weight="700">Evalúa una base NoSQL</text>
+    <text x="670" y="408">Según el tipo de dato</text>
+  </g>
+</svg>

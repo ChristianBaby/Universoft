@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="900" height="450" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <marker id="flecha" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0b1b4d"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" rx="12" fill="#ffffff"/>
+
+  <!-- Fila 1 -->
+  <rect x="20" y="80" width="190" height="84" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="115" y="115" text-anchor="middle" font-size="18" font-weight="bold" fill="#0b1b4d">Usuario</text>
+  <text x="115" y="141" text-anchor="middle" font-size="16" fill="#0b1b4d">autenticado</text>
+
+  <rect x="240" y="80" width="190" height="84" rx="12" fill="#2563eb"/>
+  <text x="335" y="115" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">Aplicación de chat</text>
+  <text x="335" y="141" text-anchor="middle" font-size="16" fill="#ffffff">recibe la pregunta</text>
+
+  <rect x="460" y="80" width="190" height="84" rx="12" fill="#0b1b4d" stroke="#f5a524" stroke-width="3"/>
+  <text x="555" y="115" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">Control de permisos</text>
+  <text x="555" y="141" text-anchor="middle" font-size="16" fill="#ffffff">identidad y rol</text>
+
+  <rect x="680" y="80" width="190" height="84" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="775" y="115" text-anchor="middle" font-size="18" font-weight="bold" fill="#0b1b4d">Modelo de lenguaje</text>
+  <text x="775" y="141" text-anchor="middle" font-size="16" fill="#0b1b4d">solo ve lo permitido</text>
+
+  <line x1="210" y1="122" x2="240" y2="122" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <line x1="430" y1="122" x2="460" y2="122" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <line x1="650" y1="122" x2="680" y2="122" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+
+  <!-- Fila 2 -->
+  <rect x="20" y="270" width="190" height="84" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="115" y="305" text-anchor="middle" font-size="18" font-weight="bold" fill="#0b1b4d">Documentos</text>
+  <text x="115" y="331" text-anchor="middle" font-size="16" fill="#0b1b4d">de la empresa</text>
+
+  <rect x="460" y="270" width="190" height="84" rx="12" fill="#2563eb"/>
+  <text x="555" y="305" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">Índice con</text>
+  <text x="555" y="331" text-anchor="middle" font-size="16" fill="#ffffff">etiquetas de acceso</text>
+
+  <rect x="680" y="270" width="190" height="84" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="775" y="305" text-anchor="middle" font-size="18" font-weight="bold" fill="#0b1b4d">Registro de</text>
+  <text x="775" y="331" text-anchor="middle" font-size="16" fill="#0b1b4d">auditoría</text>
+
+  <line x1="210" y1="312" x2="460" y2="312" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <line x1="555" y1="164" x2="555" y2="270" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <line x1="630" y1="164" x2="740" y2="270" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+
+  <!-- Nota -->
+  <rect x="20" y="385" width="850" height="44" rx="12" fill="#f3f6fb"/>
+  <text x="445" y="412" text-anchor="middle" font-size="16" fill="#0b1b4d">Filtrar antes de recuperar: el modelo nunca recibe fragmentos no autorizados.</text>
+</svg>

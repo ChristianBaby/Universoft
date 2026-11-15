@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0b1b4d"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" rx="12" fill="#ffffff"/>
+  <text x="450" y="56" text-anchor="middle" font-size="22" font-weight="bold" fill="#0b1b4d">Del marcado a la validación</text>
+
+  <!-- Pasos -->
+  <rect x="21" y="120" width="180" height="120" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="111" y="165" text-anchor="middle" font-size="17" font-weight="bold" fill="#0b1b4d">1. Definir</text>
+  <text x="111" y="191" text-anchor="middle" font-size="16" fill="#0b1b4d">tipos de datos</text>
+
+  <rect x="247" y="120" width="180" height="120" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="337" y="165" text-anchor="middle" font-size="17" font-weight="bold" fill="#0b1b4d">2. Escribir</text>
+  <text x="337" y="191" text-anchor="middle" font-size="16" fill="#0b1b4d">el bloque JSON-LD</text>
+
+  <rect x="473" y="120" width="180" height="120" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="563" y="165" text-anchor="middle" font-size="17" font-weight="bold" fill="#0b1b4d">3. Publicar y</text>
+  <text x="563" y="191" text-anchor="middle" font-size="16" fill="#0b1b4d">probar la página</text>
+
+  <rect x="699" y="120" width="180" height="120" rx="12" fill="#f3f6fb" stroke="#f5a524" stroke-width="3"/>
+  <text x="789" y="165" text-anchor="middle" font-size="17" font-weight="bold" fill="#0b1b4d">4. Revisar</text>
+  <text x="789" y="191" text-anchor="middle" font-size="16" fill="#0b1b4d">en Search Console</text>
+
+  <!-- Flechas entre pasos -->
+  <path d="M 201 180 L 247 180" fill="none" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <path d="M 427 180 L 473 180" fill="none" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <path d="M 653 180 L 699 180" fill="none" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+
+  <!-- Ciclo de corrección -->
+  <path d="M 563 240 L 563 300 L 337 300 L 337 242" fill="none" stroke="#f5a524" stroke-width="2.5" marker-end="url(#flecha)"/>
+  <text x="450" y="332" text-anchor="middle" font-size="16" fill="#0b1b4d">Si hay errores, corrige y vuelve a probar</text>
+
+  <text x="450" y="394" text-anchor="middle" font-size="18" font-weight="bold" fill="#0b1b4d">Marca solo lo que el visitante puede ver</text>
+</svg>

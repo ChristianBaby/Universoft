@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="t2 d2">
+  <title id="t2">Línea de tiempo del despliegue de DMARC</title>
+  <desc id="d2">Despliegue gradual de DMARC en cuatro fases: monitorear con p=none, corregir remitentes, pasar a cuarentena y, al final, rechazar los correos no autenticados.</desc>
+  <defs>
+    <marker id="flecha2" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+  <text x="450" y="60" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="bold" fill="#0b1b4d">Despliegue gradual de DMARC</text>
+
+  <path d="M40,150 H850" fill="none" stroke="#2563eb" stroke-width="4" marker-end="url(#flecha2)"/>
+
+  <circle cx="130" cy="150" r="14" fill="#2563eb" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="350" cy="150" r="14" fill="#2563eb" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="570" cy="150" r="14" fill="#2563eb" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="790" cy="150" r="14" fill="#f5a524" stroke="#ffffff" stroke-width="3"/>
+
+  <text x="130" y="110" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="bold" fill="#0b1b4d">Fase 1</text>
+  <text x="350" y="110" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="bold" fill="#0b1b4d">Fase 2</text>
+  <text x="570" y="110" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="bold" fill="#0b1b4d">Fase 3</text>
+  <text x="790" y="110" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="bold" fill="#0b1b4d">Fase 4</text>
+
+  <line x1="130" y1="164" x2="130" y2="200" stroke="#0b1b4d" stroke-width="2"/>
+  <line x1="350" y1="164" x2="350" y2="200" stroke="#0b1b4d" stroke-width="2"/>
+  <line x1="570" y1="164" x2="570" y2="200" stroke="#0b1b4d" stroke-width="2"/>
+  <line x1="790" y1="164" x2="790" y2="200" stroke="#0b1b4d" stroke-width="2"/>
+
+  <rect x="35" y="200" width="190" height="130" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="130" y="235" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#0b1b4d">Monitorear</text>
+  <text x="130" y="265" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">p=none</text>
+  <text x="130" y="293" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Revisar informes</text>
+
+  <rect x="255" y="200" width="190" height="130" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="350" y="235" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#0b1b4d">Corregir</text>
+  <text x="350" y="265" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">SPF y DKIM</text>
+  <text x="350" y="293" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Alinear remitentes</text>
+
+  <rect x="475" y="200" width="190" height="130" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="570" y="235" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#0b1b4d">Cuarentena</text>
+  <text x="570" y="265" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">p=quarantine</text>
+  <text x="570" y="293" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Vigilar el spam</text>
+
+  <rect x="695" y="200" width="190" height="130" rx="12" fill="#0b1b4d" stroke="#f5a524" stroke-width="3"/>
+  <text x="790" y="235" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">Rechazar</text>
+  <text x="790" y="265" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">p=reject</text>
+  <text x="790" y="293" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">Operación estable</text>
+
+  <text x="450" y="390" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Avanzar a la siguiente fase solo cuando los informes no muestren remitentes legítimos fallando.</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="t3 d3">
+  <title id="t3">Ciclo de respuesta a incidentes en siete pasos</title>
+  <desc id="d3">Siete pasos en círculo: preparar, detectar, contener, erradicar, recuperar, comunicar y aprender. Al final, el aprendizaje alimenta la preparación del siguiente ciclo.</desc>
+  <rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="bold" fill="#0b1b4d">Ciclo de respuesta a incidentes</text>
+
+  <ellipse cx="450" cy="250" rx="300" ry="150" fill="none" stroke="#38a9f5" stroke-width="3" stroke-dasharray="8 6"/>
+
+  <rect x="370" y="75" width="160" height="50" rx="12" fill="#0b1b4d"/>
+  <text x="450" y="106" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">1 Preparar</text>
+
+  <rect x="604" y="132" width="160" height="50" rx="12" fill="#2563eb"/>
+  <text x="684" y="163" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">2 Detectar</text>
+
+  <rect x="670" y="258" width="160" height="50" rx="12" fill="#2563eb"/>
+  <text x="750" y="289" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">3 Contener</text>
+
+  <rect x="500" y="360" width="160" height="50" rx="12" fill="#2563eb"/>
+  <text x="580" y="391" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">4 Erradicar</text>
+
+  <rect x="240" y="360" width="160" height="50" rx="12" fill="#2563eb"/>
+  <text x="320" y="391" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">5 Recuperar</text>
+
+  <rect x="78" y="258" width="160" height="50" rx="12" fill="#2563eb"/>
+  <text x="158" y="289" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">6 Comunicar</text>
+
+  <rect x="136" y="132" width="160" height="50" rx="12" fill="#f5a524"/>
+  <text x="216" y="163" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#0b1b4d">7 Aprender</text>
+
+  <text x="450" y="246" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="bold" fill="#0b1b4d">Mejora continua</text>
+  <text x="450" y="274" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Lo aprendido vuelve a preparar</text>
+</svg>

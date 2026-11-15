@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="tCiclo dCiclo">
+  <title id="tCiclo">Ciclo de vida del desarrollo a medida por fases</title>
+  <desc id="dCiclo">Seis fases en línea: descubrimiento, diseño, desarrollo, pruebas, despliegue y soporte. Una flecha de retorno desde soporte hacia diseño indica que los cambios vuelven a la etapa de diseño.</desc>
+  <defs>
+    <marker id="flechaCiclo" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" rx="12" fill="#ffffff"/>
+  <text x="40" y="50" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#0b1b4d">Ciclo de vida por fases</text>
+
+  <rect x="21" y="150" width="118" height="100" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="80" y="185" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#2563eb">Fase 1</text>
+  <text x="80" y="220" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#0b1b4d">Descubrimiento</text>
+
+  <rect x="169" y="150" width="118" height="100" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="228" y="185" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#2563eb">Fase 2</text>
+  <text x="228" y="220" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#0b1b4d">Diseño</text>
+
+  <rect x="317" y="150" width="118" height="100" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="376" y="185" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#2563eb">Fase 3</text>
+  <text x="376" y="220" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#0b1b4d">Desarrollo</text>
+
+  <rect x="465" y="150" width="118" height="100" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="524" y="185" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#2563eb">Fase 4</text>
+  <text x="524" y="220" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#0b1b4d">Pruebas</text>
+
+  <rect x="613" y="150" width="118" height="100" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="672" y="185" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#2563eb">Fase 5</text>
+  <text x="672" y="220" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#0b1b4d">Despliegue</text>
+
+  <rect x="761" y="150" width="118" height="100" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="820" y="185" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#2563eb">Fase 6</text>
+  <text x="820" y="220" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#0b1b4d">Soporte</text>
+
+  <line x1="141" y1="200" x2="166" y2="200" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaCiclo)"/>
+  <line x1="289" y1="200" x2="314" y2="200" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaCiclo)"/>
+  <line x1="437" y1="200" x2="462" y2="200" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaCiclo)"/>
+  <line x1="585" y1="200" x2="610" y2="200" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaCiclo)"/>
+  <line x1="733" y1="200" x2="758" y2="200" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaCiclo)"/>
+
+  <path d="M820 250 L820 325 L228 325 L228 254" fill="none" stroke="#f5a524" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#flechaCiclo)"/>
+  <text x="524" y="355" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#0b1b4d">Cambios vuelven a diseño</text>
+  <text x="40" y="410" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Las fases pueden repetirse por entregas cortas.</text>
+</svg>

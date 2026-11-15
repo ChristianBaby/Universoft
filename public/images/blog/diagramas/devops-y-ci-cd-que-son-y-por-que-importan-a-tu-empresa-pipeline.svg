@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="tPipe dPipe">
+  <title id="tPipe">Pipeline CI/CD con entornos y promoción</title>
+  <desc id="dPipe">Cinco etapas en línea: código, pruebas automáticas, construcción, despliegue y monitoreo, con una flecha de retroalimentación desde monitoreo hacia código. Debajo, tres entornos (desarrollo, pruebas y producción) conectados por una promoción aprobada. La entrega continua requiere aprobación humana para producción; el despliegue continuo no.</desc>
+  <defs>
+    <marker id="flechaPipe" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0b1b4d"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" rx="12" fill="#ffffff"/>
+  <text x="40" y="40" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0b1b4d">Pipeline CI/CD</text>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle">
+    <rect x="30" y="64" width="140" height="64" rx="12" fill="#2563eb"/>
+    <text x="100" y="102" fill="#ffffff">Código</text>
+    <rect x="205" y="64" width="140" height="64" rx="12" fill="#2563eb"/>
+    <text x="275" y="90" fill="#ffffff">Pruebas</text>
+    <text x="275" y="110" fill="#ffffff">automáticas</text>
+    <rect x="380" y="64" width="140" height="64" rx="12" fill="#2563eb"/>
+    <text x="450" y="102" fill="#ffffff">Construcción</text>
+    <rect x="555" y="64" width="140" height="64" rx="12" fill="#2563eb"/>
+    <text x="625" y="102" fill="#ffffff">Despliegue</text>
+    <rect x="730" y="64" width="140" height="64" rx="12" fill="#f5a524"/>
+    <text x="800" y="102" fill="#0b1b4d">Monitoreo</text>
+  </g>
+
+  <g stroke="#0b1b4d" stroke-width="2" fill="none" marker-end="url(#flechaPipe)">
+    <line x1="170" y1="96" x2="203" y2="96"/>
+    <line x1="345" y1="96" x2="378" y2="96"/>
+    <line x1="520" y1="96" x2="553" y2="96"/>
+    <line x1="695" y1="96" x2="728" y2="96"/>
+    <path d="M 800 128 L 800 158 L 100 158 L 100 130"/>
+  </g>
+  <text x="450" y="182" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Retroalimentación al equipo</text>
+
+  <text x="40" y="236" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="#0b1b4d">Entornos y promoción</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="16" text-anchor="middle">
+    <rect x="50" y="250" width="200" height="64" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+    <text x="150" y="278" font-weight="700" fill="#0b1b4d">Desarrollo</text>
+    <text x="150" y="300" fill="#0b1b4d">Programar y probar</text>
+    <rect x="350" y="250" width="200" height="64" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+    <text x="450" y="278" font-weight="700" fill="#0b1b4d">Pruebas</text>
+    <text x="450" y="300" fill="#0b1b4d">Validar el conjunto</text>
+    <rect x="650" y="250" width="200" height="64" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+    <text x="750" y="278" font-weight="700" fill="#0b1b4d">Producción</text>
+    <text x="750" y="300" fill="#0b1b4d">Usuarios reales</text>
+    <text x="300" y="274" fill="#0b1b4d">aprueba</text>
+    <text x="600" y="274" fill="#0b1b4d">aprueba</text>
+  </g>
+  <g stroke="#0b1b4d" stroke-width="2" fill="none" marker-end="url(#flechaPipe)">
+    <line x1="250" y1="282" x2="348" y2="282"/>
+    <line x1="550" y1="282" x2="648" y2="282"/>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">
+    <text x="50" y="352">Entrega continua: una persona aprueba la salida a producción.</text>
+    <text x="50" y="386">Despliegue continuo: la publicación ocurre sin aprobación humana.</text>
+  </g>
+</svg>

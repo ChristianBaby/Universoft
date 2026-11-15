@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="tFlujos dFlujos">
+  <title id="tFlujos">Comparación del flujo de trabajo en cascada, Kanban y Scrum</title>
+  <desc id="dFlujos">Tres filas: en cascada, cinco fases seguidas una tras otra; en Kanban, cuatro columnas de tablero por las que avanza el trabajo; en Scrum, tres pasos repetidos en sprints de un mes o menos.</desc>
+  <defs>
+    <marker id="flechaFlujos" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" rx="12" fill="#ffffff"/>
+  <text x="40" y="40" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#0b1b4d">Cómo fluye el trabajo en cada enfoque</text>
+
+  <text x="40" y="80" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">Cascada: una fase tras otra</text>
+  <rect x="40" y="95" width="150" height="56" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="115" y="129" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Requisitos</text>
+  <rect x="212" y="95" width="150" height="56" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="287" y="129" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Diseño</text>
+  <rect x="384" y="95" width="150" height="56" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="459" y="129" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Desarrollo</text>
+  <rect x="556" y="95" width="150" height="56" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="631" y="129" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Pruebas</text>
+  <rect x="728" y="95" width="150" height="56" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="803" y="129" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Entrega</text>
+  <line x1="192" y1="123" x2="210" y2="123" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaFlujos)"/>
+  <line x1="364" y1="123" x2="382" y2="123" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaFlujos)"/>
+  <line x1="536" y1="123" x2="554" y2="123" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaFlujos)"/>
+  <line x1="708" y1="123" x2="726" y2="123" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaFlujos)"/>
+
+  <text x="40" y="195" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">Kanban: el trabajo fluye por columnas</text>
+  <rect x="40" y="210" width="190" height="56" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="135" y="244" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Por hacer</text>
+  <rect x="254" y="210" width="190" height="56" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="349" y="244" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">En curso</text>
+  <rect x="468" y="210" width="190" height="56" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="563" y="244" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Revisión</text>
+  <rect x="682" y="210" width="190" height="56" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="777" y="244" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Terminado</text>
+  <line x1="232" y1="238" x2="252" y2="238" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaFlujos)"/>
+  <line x1="446" y1="238" x2="466" y2="238" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaFlujos)"/>
+  <line x1="660" y1="238" x2="680" y2="238" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaFlujos)"/>
+  <text x="40" y="290" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Cada columna tiene un límite de trabajo en curso (WIP).</text>
+
+  <text x="40" y="335" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0b1b4d">Scrum: sprints cortos y entregas revisables</text>
+  <rect x="40" y="350" width="240" height="56" rx="12" fill="#f3f6fb" stroke="#f5a524" stroke-width="3"/>
+  <text x="160" y="384" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Planificar el Sprint</text>
+  <rect x="330" y="350" width="240" height="56" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="450" y="384" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Sprint: máximo un mes</text>
+  <rect x="620" y="350" width="240" height="56" rx="12" fill="#f3f6fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="740" y="384" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Revisión y retrospectiva</text>
+  <line x1="282" y1="378" x2="328" y2="378" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaFlujos)"/>
+  <line x1="572" y1="378" x2="618" y2="378" stroke="#2563eb" stroke-width="2" marker-end="url(#flechaFlujos)"/>
+  <text x="40" y="432" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0b1b4d">Los tres enfoques pueden combinarse; el diagrama muestra el flujo básico.</text>
+</svg>

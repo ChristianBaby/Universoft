@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="900" height="450" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0b1b4d"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+  <!-- Cuadrantes -->
+  <rect x="150" y="30" width="335" height="180" rx="12" fill="#f5a524" fill-opacity="0.18" stroke="#f5a524" stroke-width="2"/>
+  <rect x="485" y="30" width="335" height="180" rx="12" fill="#f3f6fb" stroke="#38a9f5" stroke-width="2"/>
+  <rect x="150" y="210" width="335" height="180" rx="12" fill="#f3f6fb" stroke="#38a9f5" stroke-width="2"/>
+  <rect x="485" y="210" width="335" height="180" rx="12" fill="#f3f6fb" stroke="#38a9f5" stroke-width="2"/>
+  <!-- Títulos de cuadrantes -->
+  <text x="317" y="75" text-anchor="middle" font-size="20" font-weight="700" fill="#0b1b4d">Hacer primero</text>
+  <text x="317" y="105" text-anchor="middle" font-size="16" fill="#0b1b4d">Alto impacto, bajo esfuerzo</text>
+  <text x="652" y="75" text-anchor="middle" font-size="20" font-weight="700" fill="#0b1b4d">Planear</text>
+  <text x="652" y="105" text-anchor="middle" font-size="16" fill="#0b1b4d">Alto impacto, alto esfuerzo</text>
+  <text x="317" y="255" text-anchor="middle" font-size="20" font-weight="700" fill="#0b1b4d">Hacer si hay tiempo</text>
+  <text x="317" y="285" text-anchor="middle" font-size="16" fill="#0b1b4d">Bajo impacto, bajo esfuerzo</text>
+  <text x="652" y="255" text-anchor="middle" font-size="20" font-weight="700" fill="#0b1b4d">Descartar</text>
+  <text x="652" y="285" text-anchor="middle" font-size="16" fill="#0b1b4d">Bajo impacto, alto esfuerzo</text>
+  <!-- Ejes -->
+  <line x1="130" y1="390" x2="850" y2="390" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <line x1="130" y1="410" x2="130" y2="20" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <text x="490" y="425" text-anchor="middle" font-size="18" fill="#0b1b4d">Esfuerzo de construcción</text>
+  <text x="0" y="0" transform="translate(40 225) rotate(-90)" text-anchor="middle" font-size="18" fill="#0b1b4d">Impacto en el negocio</text>
+  <text x="140" y="405" text-anchor="end" font-size="16" fill="#0b1b4d">Bajo</text>
+  <text x="845" y="405" text-anchor="end" font-size="16" fill="#0b1b4d">Alto</text>
+  <!-- Destacado -->
+  <rect x="170" y="130" width="110" height="36" rx="8" fill="#ffffff" stroke="#f5a524" stroke-width="2"/>
+  <text x="225" y="154" text-anchor="middle" font-size="16" font-weight="700" fill="#0b1b4d">Prioridad</text>
+</svg>

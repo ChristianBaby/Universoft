@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="900" height="450" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <marker id="flecha" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0b1b4d"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" rx="12" fill="#ffffff"/>
+
+  <!-- Carril ETL -->
+  <text x="30" y="60" font-size="18" font-weight="bold" fill="#0b1b4d">ETL: transformar antes de cargar</text>
+  <rect x="30" y="75" width="180" height="64" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="120" y="113" text-anchor="middle" font-size="16" fill="#0b1b4d">Origen de datos</text>
+  <rect x="240" y="75" width="180" height="64" rx="12" fill="#f5a524"/>
+  <text x="330" y="113" text-anchor="middle" font-size="16" fill="#0b1b4d">Transformar fuera</text>
+  <rect x="450" y="75" width="180" height="64" rx="12" fill="#2563eb"/>
+  <text x="540" y="113" text-anchor="middle" font-size="16" fill="#ffffff">Cargar al almacén</text>
+  <rect x="660" y="75" width="180" height="64" rx="12" fill="#0b1b4d"/>
+  <text x="750" y="113" text-anchor="middle" font-size="16" fill="#ffffff">Analizar</text>
+  <line x1="210" y1="107" x2="240" y2="107" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <line x1="420" y1="107" x2="450" y2="107" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <line x1="630" y1="107" x2="660" y2="107" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+
+  <!-- Carril ELT -->
+  <text x="30" y="200" font-size="18" font-weight="bold" fill="#0b1b4d">ELT: cargar y luego transformar</text>
+  <rect x="30" y="215" width="180" height="64" rx="12" fill="#f3f6fb" stroke="#0b1b4d" stroke-width="2"/>
+  <text x="120" y="253" text-anchor="middle" font-size="16" fill="#0b1b4d">Origen de datos</text>
+  <rect x="240" y="215" width="180" height="64" rx="12" fill="#2563eb"/>
+  <text x="330" y="253" text-anchor="middle" font-size="16" fill="#ffffff">Cargar datos crudos</text>
+  <rect x="450" y="215" width="180" height="64" rx="12" fill="#f5a524"/>
+  <text x="540" y="240" text-anchor="middle" font-size="16" fill="#0b1b4d">Transformar</text>
+  <text x="540" y="262" text-anchor="middle" font-size="16" fill="#0b1b4d">dentro del almacén</text>
+  <rect x="660" y="215" width="180" height="64" rx="12" fill="#0b1b4d"/>
+  <text x="750" y="253" text-anchor="middle" font-size="16" fill="#ffffff">Analizar</text>
+  <line x1="210" y1="247" x2="240" y2="247" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <line x1="420" y1="247" x2="450" y2="247" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+  <line x1="630" y1="247" x2="660" y2="247" stroke="#0b1b4d" stroke-width="2" marker-end="url(#flecha)"/>
+
+  <!-- Nota -->
+  <rect x="30" y="360" width="810" height="50" rx="12" fill="#f3f6fb"/>
+  <text x="450" y="391" text-anchor="middle" font-size="16" fill="#0b1b4d">En ELT, el almacén hace el trabajo de transformación: su capacidad de cómputo importa.</text>
+</svg>
