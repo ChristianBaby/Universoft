@@ -36,7 +36,7 @@ const jsonLd = [
   <main>
     <section class="bg-white pb-20 pt-32">
       <div class="mx-auto max-w-7xl px-6">
-        <a href="/servicios" class="mb-8 inline-flex items-center gap-2 text-sm font-medium text-navy/60 transition-colors hover:text-navy">
+        <a href="/servicios" class="mb-8 inline-flex items-center gap-2 text-sm font-medium text-navy/75 transition-colors hover:text-navy">
           <Icon name="arrow-left" size={16} /> Todos los servicios
         </a>
         <div class="mb-6 flex items-center gap-4">
@@ -52,7 +52,7 @@ const jsonLd = [
         {service.longDescription && (
           <p class="mt-6 max-w-3xl text-base leading-relaxed text-navy/70 lg:text-lg">{service.longDescription}</p>
         )}
-        <p class="mt-6 text-sm font-semibold text-navy">Inversión desde {STARTING_PRICE} <span class="font-normal text-navy/60">· cada proyecto se cotiza según su alcance</span></p>
+        <p class="mt-6 text-sm font-semibold text-navy">Inversión desde {STARTING_PRICE} <span class="font-normal text-navy/75">· cada proyecto se cotiza según su alcance</span></p>
         <div class="mt-8">
           <Button href="/contacto" class="px-8 py-4 text-base">Solicita una cotización</Button>
         </div>
@@ -73,7 +73,7 @@ const jsonLd = [
                   <Icon name={iconSlug(benefit.icon)} size={22} />
                 </div>
                 <h3 class="font-display text-lg font-bold text-navy">{benefit.title}</h3>
-                <p class="mt-2 text-sm leading-relaxed text-navy/60">{benefit.description}</p>
+                <p class="mt-2 text-sm leading-relaxed text-navy/75">{benefit.description}</p>
               </li>
             ))}
           </ul>
@@ -96,7 +96,7 @@ const jsonLd = [
                 </span>
                 <div>
                   <h3 class="font-display text-base font-bold text-navy">{useCase.title}</h3>
-                  <p class="mt-1.5 text-sm leading-relaxed text-navy/60">{useCase.description}</p>
+                  <p class="mt-1.5 text-sm leading-relaxed text-navy/75">{useCase.description}</p>
                 </div>
               </li>
             ))}
@@ -136,7 +136,7 @@ const jsonLd = [
                   <span class="shrink-0 text-navy/40 transition-transform group-open:rotate-180"><Icon name="chevron-down" size={18} /></span>
                 </summary>
                 <div class="px-6 pb-5">
-                  <p class="text-sm leading-relaxed text-navy/60">{item.answer}</p>
+                  <p class="text-sm leading-relaxed text-navy/75">{item.answer}</p>
                 </div>
               </details>
             ))}
@@ -159,11 +159,11 @@ const jsonLd = [
                   href={`/blog/${post.id}`}
                   class="reveal block h-full rounded-2xl border border-navy/10 bg-white p-6 shadow-sm transition-all hover:border-blue/30 hover:shadow-lg"
                 >
-                  <time datetime={post.data.publishedAt.toISOString().slice(0, 10)} class="text-xs font-medium text-navy/50">
+                  <time datetime={post.data.publishedAt.toISOString().slice(0, 10)} class="text-xs font-medium text-navy/75">
                     {formatDate(post.data.publishedAt)}
                   </time>
                   <h3 class="font-display mt-2 text-lg font-bold text-navy">{post.data.title}</h3>
-                  <p class="mt-2 text-sm leading-relaxed text-navy/60">{post.data.description}</p>
+                  <p class="mt-2 text-sm leading-relaxed text-navy/75">{post.data.description}</p>
                 </a>
               </li>
             ))}
